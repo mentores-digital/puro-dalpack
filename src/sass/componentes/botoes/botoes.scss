@@ -1,0 +1,35 @@
+@mixin botao-primario {
+
+    border-radius   : 10px;
+    background-color: $corPrimaria;
+    border          : 1px solid $corPrimaria;
+    color           : $branco;
+
+    @include transition;
+
+    font-family: $fonteBase;
+}
+
+@mixin botao-primario-hover {
+    background-color: darken($corPrimaria, 30%);
+    border          : 1px solid darken($corPrimaria, 30%);
+}
+
+@mixin botao-secundario {
+
+    border-radius   : 10px;
+    background-color: $branco;
+    border          : 1px solid $corPrimaria;
+    color           : $branco;
+
+    @include transition;
+
+    font-family: $fonteBase;
+
+}
+
+@mixin botao-secundario-hover {
+
+    border: 4px solid $corPrimaria;
+
+}

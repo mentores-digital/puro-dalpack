@@ -1,0 +1,90 @@
+// ESSE ARQUIVO COMPLEMENTA O LOCALIZADO NO RESET.CSS. AQUI É UM SEGUNDO PASSO DE RESET, QUE NÃO PRECISA FICAR NO PAINEL DA LOJA INTEGRADA
+*,
+*::before,
+*::after {
+    -webkit-tap-highlight-color: $extremelyDark;
+}
+
+html * {
+    font-family: $fonteBase !important;
+}
+
+body {
+    background : #fff;
+    font-family: $fonteBase;
+    color      : $extremelyDark;
+    font-size  : $fonteSize;
+
+    /**
+	 * Resets
+	 **/
+
+    p,
+    form {
+        margin: 0;
+    }
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    &.no-scroll {
+        overflow: hidden;
+    }
+
+    @media (min-width: 1410px) {
+        .conteiner {
+            max-width: 1410px !important;
+        }
+
+        .row>.span1 {
+            width: 90px;
+        }
+
+        .row>.span2 {
+            width: 210px;
+        }
+
+        .row>.span3 {
+            width: 330px;
+        }
+
+        .row>.span4 {
+            width: 450px;
+        }
+
+        .row>.span5 {
+            width: 570px;
+        }
+
+        .row>.span6 {
+            width: 690px;
+        }
+
+        .row>.span7 {
+            width: 810px;
+        }
+
+        .row>.span8 {
+            width: 930px;
+        }
+
+        .row>.span9 {
+            width: 1050px;
+        }
+
+        .row>.span10 {
+            width: 1170px;
+        }
+
+        .row>.span11 {
+            width: 1290px;
+        }
+
+        .row>.span12 {
+            width: 1410px;
+        }
+    }
+}

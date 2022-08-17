@@ -1,0 +1,58 @@
+#breadcrumbs {
+    width  : 100%;
+    padding: 0 0 30px;
+
+    ol {
+        width  : 100%;
+        margin : 0px;
+        padding: 0px;
+
+        display       : flex;
+        flex-direction: row;
+
+        align-items    : center;
+        justify-content: flex-start;
+
+        li {
+            padding: 10px;
+
+            a {
+                font-size: .8rem;
+                color    : $preto;
+
+                @include transition;
+
+                &:hover {
+                    color: $corPrimaria;
+                }
+
+                &.active {
+                    font-weight: 500;
+                }
+            }
+
+            &::after {
+                content: "\F054";
+
+                margin-left: 10px;
+                font-family: 'FontAwesome-v4';
+                color      : $corSecundaria;
+
+                font-weight: 400;
+                font-size  : 10px;
+            }
+
+            &:last-child {
+                &::after {
+                    content: "";
+                }
+            }
+        }
+    }
+}
+
+.pagina-pagina {
+    #breadcrumbs ol li a {
+        color: $branco;
+    }
+}

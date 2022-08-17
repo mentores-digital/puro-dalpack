@@ -1,0 +1,110 @@
+.nav-superior-conteiner{
+
+  .carrinho{
+    border: 0;
+    margin-left: 10px;
+    margin-bottom: 3px;
+
+    a {
+
+      i {
+        background: transparent;
+        line-height: 0;
+
+        &::before {
+          content: $iconCarrinho;
+        }
+      }
+
+      strong{
+        position: absolute;
+        font-family: $fonteBase;
+        font-size: 12px;
+        font-weight: bold;
+
+        color: $branco;
+        background: $qtdItensCarrinho;
+        border-radius: 50px;
+        padding: 6px;
+        margin: 0;
+        line-height: 8px;
+      }
+
+      span {
+        display: none;
+
+      }
+    }
+  }
+  .carrinho-interno-ajax{
+
+    .carrinho-interno{
+      z-index: 99999999;
+
+      background: white;
+      border-radius: 10px;
+      border-top: 2px solid $corPrimaria;
+
+      ul li {
+        display: flex;
+        align-items: center;
+
+        .preco-produto {
+          order: 3;
+          margin-left: 7px;
+          margin-right: 7px;
+          strong{
+            font-family: $fonteBase;
+            color: $corSecundaria;
+            font-size: 17px !important;
+            font-weight: bold !important;
+          }
+        }
+        a.nome-produto{
+          font-family: $fonteBase !important;
+          color: $corSecundaria !important;
+          font-size: 12px !important;
+          font-weight: bold !important;
+        }
+
+      }
+      .carrinho-rodape {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .carrinho-info .carrino-total{
+          display: flex;
+          flex-direction: column;
+          
+          strong{
+            font-family: $fonteBase !important;
+            color: $corSecundaria !important;
+            font-size: 17px !important;
+            font-weight: bold !important;
+          }
+        }
+
+        span i{
+          display: none;
+        }
+        a.botao{
+          background: $corPrimaria;
+          border-radius: 10px;
+          color: $branco;
+          padding: 12px 20px;
+
+          &::after{
+            display: none;
+          }
+
+          i{
+            display: none;
+          }
+        }
+
+      }
+    }
+
+  }
+}

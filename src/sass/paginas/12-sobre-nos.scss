@@ -1,0 +1,102 @@
+.pagina-pagina {
+    .caixa-sombreada {
+        padding   : 0px;
+        box-shadow: none;
+    }
+
+    #banner-sobre-nos {
+        position: relative;
+        margin  : 0px 0px 70px 0px;
+
+        #breadcrumbs {
+            position: absolute;
+            top     : 10px;
+            left    : 100px;
+        }
+
+        h1 {
+            position   : absolute;
+            color      : white;
+            font-family: $fonteBase;
+
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+}
+
+#sobre-nos {
+
+    .introducao-sobre-nos {
+        text-align : center;
+        line-height: 25px;
+        padding    : 0px 150px;
+
+        h2 {
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 992px) {
+            padding: 0 10%;
+        }
+    }
+
+    .secao-um-sobre-nos {
+        margin-top     : 60px;
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+
+        @media (max-width: 992px) {
+            display: block;
+            text-align: center;
+        }
+
+
+        div {
+            width  : 40%;
+            padding: 0px 0 0 60px;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            @media (max-width: 992px) {
+                padding: 0;
+                margin: 30px auto;
+                width: 80%;
+            }
+        }
+    }
+
+    .secao-dois-sobre-nos {
+        margin-top     : 60px;
+        margin-bottom: 60px;
+        display        : flex;
+        justify-content: space-between;
+        align-items    : center;
+        flex-direction : row-reverse;
+
+        @media (max-width: 992px) {
+            display: block;
+            text-align: center;
+        }
+
+        div {
+            width  : 40%;
+            padding: 0px 60px 0 0;
+
+            h2 {
+                margin-bottom: 20px;
+            }
+
+            @media (max-width: 992px) {
+                padding: 0;
+                margin: 30px auto;
+                width: 80%;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,74 @@
+.item-painel-0 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.produto .conteiner-imagem img {
+    border-radius: 10px;
+}
+
+#carouselImagem .elastislide-carousel ul li a span img {
+    width: 80px !important;
+}
+
+div#envio {
+    display: flex;
+    margin-top: 200px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 12px;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+        width: 40px !important;
+        height: 40px;
+    }
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+        padding: 5px;
+        text-align: left;
+    }
+}
+
+.label-success,
+.badge-success {
+    background-color: $extremelyDark70;
+    width: 75px;
+}
+
+#carouselImagem .flex-direction-nav a.flex-next {
+    background: url('https://cdn.awsli.com.br/2384/2384993/arquivos/Icon-Carousel-Arrow_2.png') 0px 0;
+    background-repeat: no-repeat;
+    transform: scale(0.6);
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    height: 80px;
+    width: 80px;
+    right: -40px;
+}
+
+#carouselImagem .flex-direction-nav a.flex-prev {
+    background: url('https://cdn.awsli.com.br/2384/2384993/arquivos/Icon-Carousel-Arrow_2.png') 0px 0;
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    margin-top: -10px;
+    transform: scale(0.6);
+    max-width: 100%;
+    position: absolute;
+    top: 40%;
+    height: 80px;
+    width: 80px;
+    right: -40px;
+}
+
+a#veja-info {
+    margin-top: 30px;
+    font-size: 13px;
+}

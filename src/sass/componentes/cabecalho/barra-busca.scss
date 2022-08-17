@@ -1,0 +1,42 @@
+// Variáveis do Input da barra de busca
+$raioBordaBarraBusca     : 10px;
+$espessuraBordaBarraBusca: 1px;
+$corBordaBarraBusca      : $bordaBarraBusca;
+$corBackgroundBarraBusca : $branco;
+$boxShadowBarraBusca     : 0px,
+5px,
+10px,
+$inputBoxShadowColor;
+$alturaBarraBusca              : 65px;
+$larguraBarraBusca             : 450px;
+$corPlaceholderBarraBusca      : $extremelyDark;
+$opacidadePlaceholderBarraBusca: 0.5;
+$posicaoBarraBusca             : relative;
+$paddingBarraBusca             : 65px;
+
+// * NÃO ALTERAR OS MIXINS, APENAS AS VARIÁVEIS
+@mixin inputBarraBuscaNavSuperior() {
+    border-radius   : $raioBordaBarraBusca;
+    border          : $espessuraBordaBarraBusca, solid, $corBordaBarraBusca;
+    background-color: $corBackgroundBarraBusca;
+    box-shadow      : $boxShadowBarraBusca;
+    height          : $alturaBarraBusca;
+    width           : $larguraBarraBusca;
+    margin          : 0px;
+    @media(max-width:992px){
+    border          : $espessuraBordaBarraBusca, solid, $preto;
+        
+    }
+
+    &::placeholder {
+        color  : $corPlaceholderBarraBusca;
+        opacity: $opacidadePlaceholderBarraBusca;
+    }
+
+    &[type="text"] {
+        padding-left: $paddingBarraBusca;
+        box-shadow: none;
+    }
+
+
+}

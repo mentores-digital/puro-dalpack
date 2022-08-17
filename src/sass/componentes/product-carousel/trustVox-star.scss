@@ -1,0 +1,24 @@
+.stars {
+  min-height: 38px;
+  display: none;
+
+  .trustvox-stars {
+    padding: 10px 0 5px;
+
+    .ts-shelf-container {
+      > div {
+        display: flex;
+        flex-direction: row;
+
+        align-items: center;
+        justify-content: flex-start;
+
+        > span {
+          margin-left: 5px;
+          top: 0;
+          left: 0;
+        }
+      }
+    }
+  }
+}

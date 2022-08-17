@@ -1,0 +1,148 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// INICIO MENU SUPERIOR 
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+.menu.superior {
+    // Corrigir container
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: transparent;
+    border-top: 1px solid #D5D5DB66;
+    border-bottom: 2px solid $bordaMenuSuperior;
+    position: relative;
+
+    a#link-ver-todos {
+        text-decoration: underline;
+        color: $branco;
+        font-size: 12px;
+        padding: 20px;
+        margin-top: 35px;
+    }
+
+    #mega-menu {
+        display: none;
+
+        .ul-mega-menu {
+            background-color: white;
+            border-radius: 0px 0px 10px 10px;
+            box-shadow: 2px 0px 3px lightgray;
+            height: 600px;
+
+            li {
+                width: 200px;
+                line-height: 45px;
+                font-size: 12px;
+                font-weight: 600;
+
+                &:hover {
+                    background-color: #EBDFDB !important;
+                    border-left: 2px solid $corPrimaria;
+                }
+            }
+        }
+
+        .ul-um {
+            border-radius: 0px 0px 0px 10px !important;
+        }
+
+        .ul-dois {
+            border-radius: 0px !important;
+        }
+
+        .ul-tres {
+            border-radius: 0px 0px 10px 0px !important;
+        }
+    }
+
+    // Itens NAV
+    .nivel-um {
+        height: 48px;
+        display: block;
+        z-index: 100;
+
+
+
+        >li {
+            border: none;
+            z-index: 110;
+
+
+            strong {
+                font-size: 16px;
+                font-weight: 600;
+                color: $fonteCabecalho;
+            }
+
+            i {
+                display: none;
+            }
+
+        }
+    }
+
+    .nivel-um> :nth-last-child(1) strong {
+        color: $corPrimaria;
+    }
+
+    &>ul>li>a>strong {
+        font-family: $fonteBase;
+    }
+
+
+    ul.nivel-um li {
+        padding: 0 30px;
+
+    }
+
+    ul.nivel-dois {
+        background-color: $fundoMenuNivelDois;
+        border-radius: 0px 0px 10px 10px;
+        min-width: 200px;
+
+        li {
+            padding: 0px;
+            border: none;
+
+            a {
+                line-height: 45px;
+                font-size: 14px;
+                font-weight: bold;
+                padding: 0px 20px;
+                color: $fonteMenuNivelDois;
+            }
+
+            &:hover {
+                background-color: $branco !important;
+                border-left: 2px solid $corPrimaria;
+
+                a {
+                    color: $hoverMenuNivelDois;
+                }
+            }
+        }
+    }
+
+
+    ul.nivel-um li:hover {
+        background-color: $corLiHover;
+
+        strong {
+            color: $corPrimaria !important;
+        }
+    }
+
+    #mega-menu-conteiner {
+        position: absolute;
+        top: 50px;
+
+        li {
+            line-height: 40px;
+            font-weight: 500;
+
+            &:hover {
+                background: #EBDFDB;
+                border-left: 2px solid $corPrimaria;
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.icone-favorito,
+.icone-favorito-2 {
+  width: 29px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  z-index: 10000;
+  opacity: 1;
+}
+
+.pagina-categoria .product-list article {
+  position: relative;
+}
+
+.favorite-conteiner:hover img {
+  opacity: 1;
+  @include transition;
+  // filter: invert(0%) sepia(99%) saturate(1%) hue-rotate(268deg) brightness(103%) contrast(100%);
+  width: 34px;
+}
+
+@media (max-width: 768px) {
+  .pagina-produto.icone-favorito,
+  .icone-favorito-2 {
+    right: 50px;
+  }
+}

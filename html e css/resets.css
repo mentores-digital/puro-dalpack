@@ -1,0 +1,36 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    outline: none !important;
+}
+
+body {
+    width: 100vw;
+    max-width: 100vw;
+
+    margin: 0;
+    padding: 0;
+
+    /* Reset para aguardar carregamento das alterações */
+    opacity: 0;
+
+    overflow-x: hidden;
+    overflow-y: visible;
+    line-height: 1.2em;
+    letter-spacing: normal;
+
+    font-weight: 400;
+    max-width: 100%;
+
+    position: relative;
+
+    -webkit-text-size-adjust: none;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: colorBasescale;
+    text-rendering: optimizeLegibility;
+}

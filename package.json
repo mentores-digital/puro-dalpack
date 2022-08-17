@@ -1,0 +1,40 @@
+{
+  "name": "tadah",
+  "version": "1.0.0",
+  "main": "/wp-content/themes/tadah/src/react/app.js",
+  "repository": "https://vento-kustom@bitbucket.org/agenciatadah/site-portfolio-tadah.git",
+  "author": "Vento Macedo",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp",
+    "build": "NODE_ENV=production gulp production"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "browser-sync": "^2.27.10",
+    "font-awesome": "^4.7.0",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-if": "^3.0.0",
+    "gulp-notify": "^3.2.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^2.0.0",
+    "i": "^0.3.6",
+    "npm": "^6.13.1"
+  },
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "fs": "^0.0.1-security",
+    "gulp-htmlmin": "^5.0.1",
+    "gutil": "^1.6.4",
+    "vinyl-ftp": "^0.6.1"
+  }
+}

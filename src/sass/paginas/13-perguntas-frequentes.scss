@@ -1,0 +1,73 @@
+#banner-perguntas-frequentes {
+    position: relative;
+
+    #breadcrumbs {
+        position: absolute;
+        top     : 10px;
+        left    : 100px;
+    }
+
+    h1 {
+        position   : absolute;
+        color      : white;
+        font-family: $fonteBase;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+#perguntas-frequentes {
+    font-family: $fonteBase;
+
+    h2 {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .btn-link {
+        color: #2B2A2A;
+        font-size: 18px;
+        font-weight: 600;
+        text-decoration: none;
+
+        position: relative;
+        z-index: 2;
+        background: transparent;
+
+        width: 100%;
+        text-align: left;
+    }
+    
+    .card {
+        border       : 1px solid #D5D5DB66;
+        padding      : 15px;
+        border-radius: 10px;
+        margin-bottom: 10px;
+
+        position: relative;
+
+        &::after{
+            content: "";
+            background-image: url('https://cdn.awsli.com.br/2357/2357658/arquivos/icon-dropdown-arrow.png');
+            background-size: cover;
+            position: absolute;
+            height: 17px;
+            width: 17px;
+            right: 48px;
+            top: 35px;
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+
+    }
+
+    .card-body {
+        padding   : 20px;
+        border-top: 1px solid #D5D5DB66;
+        line-height: 25px;
+        font-size: 16px;
+    }
+}

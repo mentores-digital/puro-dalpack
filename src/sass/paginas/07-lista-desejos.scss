@@ -1,0 +1,185 @@
+.pagina-favorito-listar {
+  i {
+    // filter: invert(52%) sepia(73%) saturate(680%) hue-rotate(170deg) brightness(96%) contrast(92%);
+  }
+
+  // Menu lateral esquerdo
+  .conta-menu {
+    box-shadow: none;
+    border: none;
+    padding-top: 0;
+
+    .nome-usuario {
+      i {
+        display: none;
+      }
+
+      &::before {
+        content: "Bem vindo(a)";
+        text-align: left;
+        font: normal normal normal 12px/21px $fonteBase;
+        letter-spacing: 0px;
+        color: #25262c;
+      }
+
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font: normal normal bold 14px/21px $fonteBase;
+      letter-spacing: 0px;
+      color: #25262c;
+      border: 1px solid $corPrimaria;
+      border-radius: 10px;
+      padding: 10px 15px;
+    }
+
+    .menu-simples {
+      i.icon-user {
+        &::before {
+          content: $iconMinhaConta;
+        }
+      }
+
+      i.icon-logout {
+        &::before {
+          content: $iconLogout;
+        }
+      }
+
+      i {
+        width: 45px;
+      }
+
+      i.icon-unlock-alt {
+        &::before {
+          content: $iconAlterarSenha;
+        }
+      }
+
+      i.icon-list-alt {
+        &::before {
+          content: $iconMeusPedidos;
+        }
+      }
+
+      i.icon-star {
+        &::before {
+          content: $iconListaDesejos;
+        }
+      }
+
+      li.divisor {
+        display: none;
+      }
+
+      li {
+        a {
+          padding: 15px;
+          background: none;
+          border-radius: 10px;
+          font: normal normal bold 14px/13px $fonteBase;
+          letter-spacing: 0px;
+          color: #292929;
+          opacity: 1;
+          transition: all 0.3s ease-in-out;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          &:hover {
+            background: $corSecundaria;
+            color: white;
+            i {
+              &::before {
+                filter: brightness(0) saturate(100%) invert(100%) sepia(40%) saturate(2%) hue-rotate(165deg) brightness(103%) contrast(101%) !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .abas-conteudo.borda-alpha {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+
+    > div {
+      border: none;
+      box-shadow: none;
+      padding: 0;
+    }
+  }
+
+  ul.abas-conta.borda-alpha {
+    display: none;
+  }
+
+  // Página favoritos
+
+  .meus-favoritos h3 small {
+    display: none;
+  }
+
+  .meus-favoritos h3 {
+    font: normal normal bold 30px/46px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+  }
+
+  table.table {
+    border-collapse: collapse;
+  }
+
+  table.table * {
+    border: none;
+  }
+
+  table.table tbody tr td:nth-child(2) a {
+    font: normal normal bold 16px/20px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+  }
+
+  table.table tbody tr {
+    border-bottom: 1px solid $corPrimaria;
+    padding-bottom: 18px;
+    height: 110px;
+  }
+
+  ul.text-center.caixa-info {
+    // background:  0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    box-shadow: none;
+    border: none;
+    padding: 50px;
+    margin-top: 40px;
+  }
+
+  ul.text-center.caixa-info input {
+    box-shadow: none;
+    height: 50px;
+    background: #fff;
+    border: 2px solid $corPrimaria;
+    border-radius: 10px;
+    margin-bottom: 25px;
+  }
+
+  ul.text-center.caixa-info h5 {
+    font: normal normal bold 18px/27px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+    margin-bottom: 25px;
+  }
+
+  @media (max-width: 991px) {
+    .meus-favoritos h3 {
+      text-align: center;
+    }
+
+    ul.text-center.caixa-info {
+      padding: 20px;
+    }
+  }
+}

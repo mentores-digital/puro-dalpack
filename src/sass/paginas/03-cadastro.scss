@@ -1,0 +1,358 @@
+.pagina-cadastro {
+  .control-group.erro .checkbox,
+  .control-group.erro .radio,
+  .control-group.erro input,
+  .control-group.erro select,
+  .control-group.erro textarea {
+    color: $corPrimaria;
+  }
+
+  #corpo {
+    background: #f3f3f4 !important;
+  }
+
+  #corpo > .conteiner {
+    background: none !important;
+  }
+
+  .cabecalho-interno .titulo small {
+    display: none !important;
+  }
+
+  #barraNewsletter {
+    display: none;
+  }
+
+  #corpo {
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 0;
+
+    .cabecalho-interno {
+      &.row-fluid {
+        //display: none;
+        text-align: center;
+      }
+
+      h1.titulo {
+        font-family: $fonteBase;
+        font-weight: bold;
+        font-size: 30px;
+
+        color: #292929;
+      }
+    }
+
+    border: 2px solid #e1a92b;
+
+    .formulario-cadastro-cliente {
+      position: relative;
+      border-radius: 5px;
+      padding: 30px 15px;
+
+      //box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.6);
+      /*&:before {
+				content: "";
+				display: block;
+				position: absolute;
+				top: -22.5px;
+				left: calc(50% - 22.5px);
+				width: 55px;
+				height: 55px;
+				background-image: url("https://cdn.awsli.com.br/682/682958/arquivos/mario-blue.png");
+				background-position: center;
+				background-size: cover;
+			}*/
+      .dados-acesso {
+        background-color: transparent;
+
+        legend {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          justify-content: left;
+        }
+      }
+
+      .dados-pessoais {
+        background-color: transparent;
+
+        legend {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          width: 100%;
+          justify-content: left;
+          /*&            :before {
+						content                      : "";
+						display                      : block;
+						width                        : 30px;
+						height                       : 30px;
+						background-image             : url("https://cdn.awsli.com.br/682/682958/arquivos/login-2.png");
+						background-repeat            : no-repeat;
+						background-position          : center;
+						background-size              : cover;
+						margin-right                 : 10px;
+						background-image             : url("https://cdn.awsli.com.br/682/682958/arquivos/address.png");
+					}*/
+        }
+
+        .span6 {
+          width: 100%;
+          margin: 0;
+
+          .control-group {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            width: 100%;
+            float: left;
+            margin: 0 7.5px;
+
+            .controls {
+              position: relative;
+              margin: 0;
+              margin-bottom: 15px;
+
+              span.help-inline {
+                position: absolute;
+                top: -23px;
+                left: 30px;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 12px;
+                line-height: 15px;
+                text-align: right;
+
+                a {
+                  color: $corPrimaria;
+
+                  font-family: $fonteBase;
+                  text-decoration: underline;
+
+                  i {
+                    color: $corPrimaria;
+                  }
+                }
+              }
+            }
+
+            label {
+              text-align: left;
+            }
+          }
+        }
+      }
+
+      .tipo-cadastro {
+        background-color: transparent;
+
+        legend {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          position: relative;
+          justify-content: left;
+          font-family: Kepler;
+          /*&            :before {
+						content                      : "";
+						display                      : block;
+						width                        : 30px;
+						height                       : 30px;
+						background-image             : url("https://cdn.awsli.com.br/682/682958/arquivos/login-2.png");
+						background-repeat            : no-repeat;
+						background-position          : center;
+						background-size              : cover;
+						margin-right                 : 10px;
+						background-image             : url("https://cdn.awsli.com.br/682/682958/arquivos/add.png");
+					}*/
+        }
+
+        fieldset {
+          #id_tipo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            justify-content: left;
+          }
+        }
+      }
+
+      .acao-editar {
+        .span3 {
+          width: 100%;
+          margin: 0;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column-reverse;
+
+          button {
+            width: 80%;
+            //max-width: 320px;
+            height: 60px;
+            background: $corPrimaria 0% 0% no-repeat padding-box;
+            border-radius: 10px;
+            text-align: center;
+            font: normal normal bold 16px/25px $fonteBase;
+            letter-spacing: 0px;
+            color: #ffffff;
+          }
+        }
+
+        a {
+          margin-top: 25px;
+          font-family: $fonteBase;
+          border: 0;
+          box-shadow: none;
+          background-image: none;
+          color: #292929;
+          background-color: transparent;
+
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .caixa-sombreada {
+      border: 0;
+      padding: 0;
+      box-shadow: none;
+
+      legend {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        text-align: center;
+        font-family: $fonteBase;
+
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+        color: #292929;
+        padding-top: 50px;
+        padding-bottom: 20px;
+
+        i {
+          display: none;
+        }
+      }
+
+      label {
+        font-family: $fonteBase;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        color: #292929;
+
+        i {
+          display: none;
+        }
+      }
+
+      input[type="email"],
+      input[type="password"],
+      input[type="tel"],
+      input[type="text"],
+      select {
+        display: block;
+        background: #ffffff;
+        border: 2px solid $borda;
+        border-radius: 10px;
+        padding: 0;
+        width: 100%;
+        box-shadow: none;
+        text-indent: 15px;
+        height: 40px;
+        &:focus {
+          border: 2px solid #e1a92b;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .pagina-cadastro {
+    #corpo {
+      .formulario-cadastro-cliente {
+        padding: 0px 150px 50px 150px;
+
+        .caixa-sombreada {
+          input[type="email"] {
+            height: 50px;
+          }
+
+          input[type="password"] {
+            height: 50px;
+          }
+
+          input[type="tel"] {
+            height: 50px;
+          }
+
+          input[type="text"] {
+            height: 50px;
+          }
+
+          select {
+            height: 50px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .pagina-cadastro {
+    #corpo {
+      .formulario-cadastro-cliente {
+        .dados-pessoais {
+          .span6 {
+            .control-group {
+              width: calc(50% - 15px);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.pagina-cadastro #corpo img.img-corpo-left {
+  position: absolute;
+  left: -52px;
+  top: 27%;
+  z-index: 25;
+}
+
+.pagina-cadastro #corpo img.img-corpo-right {
+  position: absolute;
+  right: -245px;
+  top: 11%;
+  z-index: 25;
+}
+
+@media (max-width: 767px) {
+  .pagina-cadastro #corpo img.img-corpo-left {
+    display: none;
+  }
+
+  .pagina-cadastro #corpo img.img-corpo-right {
+    display: none;
+  }
+}
+
+@media (max-width: 1500px) {
+  .pagina-cadastro #corpo img.img-corpo-left {
+    width: 200px;
+  }
+
+  .pagina-cadastro #corpo img.img-corpo-right {
+    width: 300px;
+    right: -100px;
+  }
+}

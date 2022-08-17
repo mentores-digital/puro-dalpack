@@ -1,0 +1,109 @@
+#modalContato {
+  padding: 37px;
+}
+
+.modal-header span {
+  display: block;
+  margin-left: 30px !important;
+  margin-bottom: 16px !important;
+
+  font-family: $fonteBase;
+  color: $preto;
+  position: relative;
+  &::before{
+    content: $iconMeusPedidosHome;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 0;
+    left: -36px;
+  }
+}
+
+#modalContato .modal-body {}
+
+.modal-body.borda-principal {
+  border: none !important;
+}
+
+#modalContato .modal-body .control-group {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+}
+#modalContato .modal-body .control-group .g-recaptcha {
+  margin-left: 0 !important;
+}
+
+#modalContato .modal-body .control-group .control-label {
+  color: $preto !important;
+  font-weight: 300;
+  font-size: 14px;
+  text-align: left;
+  width: 200px;
+}
+
+#modalContato .modal-body .control-group .controls {
+  margin-left: 0;
+}
+
+#modalContato .modal-body .control-group .controls input {
+  border-radius: 3px !important;
+  width: 85%;
+}
+
+#modalContato .modal-body .control-group textarea#id_mensagem {
+  width: 85%;
+  height: 140px;
+}
+
+#modalContato button.botao.principal.pull-right {
+  background: $corPrimaria;
+  width: 89%;
+  height: 72px;
+  text-transform: uppercase;
+  font-family: $fonteBase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 800;
+  border-radius: 20px;
+}
+
+#modalContato .control-group .botao.principal.pull-right+.botao {
+  display: none;
+}
+
+#modalContato .modal-body .table tr {
+  padding: 0 3px !important;
+  margin-bottom: 6px;
+  border: 0 !important;
+  background-color: transparent !important;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+}
+
+#modalContato .modal-body .table td {
+  padding: 0 3px !important;
+  margin-bottom: 15px;
+  border: 0 !important;
+  background-color: transparent !important;
+  display: flex;
+  font-size: 14px;
+}
+
+#modalContato .modal-body .table td b {
+  font-weight: 700;
+  color: $preto !important;
+}
+
+#modalContato .modal-body .table span {
+  color: $preto !important;
+}
+
+#modalContato .modal-body .table span a {
+  color: $corPrimaria !important;
+}

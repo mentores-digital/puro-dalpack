@@ -1,0 +1,168 @@
+.pagina-login {
+  .span6:nth-child(2) button {
+    margin-top: 60px !important;
+  }
+
+  .cabecalho-interno .titulo {
+    display: none;
+  }
+
+  .cadastro-logar > div > div {
+    border: none;
+    box-shadow: none;
+    height: 440px;
+  }
+
+  .cadastro .icon-user::before {
+    content: url($imagemAvatarLogin);
+  }
+
+  .cadastro legend {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font: normal normal bold 20px/30px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+    border: none;
+  }
+
+  .cadastro .icon-edit::before {
+    content: url($imagemAvatarCadastrar);
+  }
+
+  .cadastro legend i {
+    margin-bottom: 10px;
+  }
+
+  .cadastro-logar .control-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cadastro-logar .form-horizontal .controls {
+    margin: 0;
+  }
+
+  .cadastro-logar .form-horizontal .controls {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cadastro-logar form.form-horizontal {
+    width: 57%;
+    margin: auto;
+  }
+
+  .cadastro-logar .form-horizontal .controls input {
+    width: 100%;
+    height: 40px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    // border       : 2px solid $corPrimaria;
+    border-radius: 10px;
+  }
+
+  .cadastro-logar form {
+    width: 58%;
+    height: 100%;
+    margin: auto;
+  }
+
+  .cadastro-logar button.botao.principal {
+    margin: 0;
+    margin-top: 15px;
+    background: $corPrimaria 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    text-shadow: none;
+    box-shadow: none;
+    font: normal normal bold 16px/25px $fonteBase;
+    letter-spacing: 0px;
+    color: $branco;
+    opacity: 1;
+    padding: 20px;
+    width: 100%;
+  }
+
+  a.recuperar-senha {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 15px;
+    font: normal normal normal 14px/21px $fonteBase;
+    letter-spacing: 0px;
+    color: $corPrimaria;
+    opacity: 1;
+    text-decoration: underline;
+  }
+
+  a.recuperar-senha i {
+    display: none;
+  }
+
+  .cadastro-logar .form-horizontal .controls input:focus {
+    border: 2px solid $corPrimaria;
+    box-shadow: 0px 3px 6px #0051ff29;
+  }
+
+  input#id_email {
+    width: 100%;
+    height: 40px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    // border       : 2px solid $corPrimaria;
+    border-radius: 10px;
+  }
+
+  input#id_email:focus {
+    border: 2px solid $corPrimaria;
+    box-shadow: 0px 3px 6px #0051ff29;
+  }
+
+  button.botao.principal {
+  }
+
+  strong {
+  }
+
+  .box-primeiro-acesso .primeiro-acesso strong {
+    font: normal normal bold 16px/21px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+  }
+
+  p.faca-seu-cadastro {
+    font: normal normal normal 16px/21px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+  }
+
+  .box-primeiro-acesso .primeiro-acesso {
+    margin: 0;
+  }
+
+  .cadastro-logar > .span6:last-child button.botao.principal {
+    margin-top: 65px;
+  }
+
+  .box-primeiro-acesso + label {
+    margin-top: 30px;
+  }
+
+  img.imagem-login {
+    max-width: 30%;
+  }
+
+  .box-imagem-login {
+    z-index: 10;
+    width: 50%;
+    position: absolute;
+    top: 200px;
+    right: -500px;
+  }
+
+  #corpo,
+  #corpo > .conteiner,
+  .conteiner-principal {
+    background: linear-gradient(90deg, #fff 50%, #f2f2f2 50%);
+  }
+}

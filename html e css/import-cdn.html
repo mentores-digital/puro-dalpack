@@ -1,0 +1,29 @@
+<!-- css imports -->
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.css" />
+
+<!-- js imports -->
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.10.1/simple-lightbox.min.js"></script>
+
+<!-- CDN Mentores Files -->
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        'strict'
+
+        /** CSS **/
+        const head = document.querySelector('head');
+        const styles = document.createElement('link');
+        styles.rel = 'stylesheet';
+        styles.type = 'text/css';
+        styles.href = `https://lojaintegrada.clientesmentores.com.br/puro-filip-joias/build/style.min.css?version=${Math.floor(Math.random() * 1000000)}`;
+        head.append(styles);
+
+        /** JS **/
+        const script = document.createElement('script');
+        script.src = `https://lojaintegrada.clientesmentores.com.br/puro-filip-joias/build/scripts.min.js?version=${Math.floor(Math.random() * 1000000)}`;
+        document.body.append(script);
+    });
+</script>

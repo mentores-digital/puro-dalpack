@@ -1,0 +1,67 @@
+#full-banner {
+
+    // PAGINATION ARROWS
+    .swiper-button-next:after,
+    .swiper-button-prev:after {
+        content: url($setasFullBanner);
+        margin-right: 140px;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+        content: url($setasFullBanner);
+        margin-bottom: 12px;
+        margin-left: 280px;
+        transform: rotate(180deg);
+    }
+
+    .swiper-slide {
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        bottom: 40px;
+        left: 0;
+        width: 100%;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+        border: 1px solid white;
+        background: transparent;
+        &.swiper-pagination-bullet-active{
+            background: white;
+        }
+    }
+
+
+}
+
+@media (max-width: 640px) {
+    #full-banner-mobile{
+        // height: calc(100vh - 158px);
+        img{
+            width: 100%;
+            position: relative;
+            // top: -65px;
+        }
+    }
+
+    // #full-banner-mobile img {
+    //     width: 100%;
+    // }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        display: none;
+    }
+
+    // Especifico Mosaico
+    .swiper-pagination-bullet {
+        // display: none;
+    }
+}

@@ -1,0 +1,203 @@
+.pagina-conta.pagina-alterar-senha {
+  // Menu lateral esquerdo
+  .conta-menu {
+    box-shadow: none;
+    border: none;
+    padding-top: 0;
+
+    .nome-usuario {
+      i {
+        display: none;
+      }
+
+      &::before {
+        content: "Bem vindo(a)";
+        text-align: left;
+        font: normal normal normal 12px/21px $fonteBase;
+        letter-spacing: 0px;
+        color: #25262c;
+      }
+
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      font: normal normal bold 14px/21px $fonteBase;
+      letter-spacing: 0px;
+      color: #25262c;
+      border: 1px solid $corPrimaria;
+      border-radius: 10px;
+      padding: 10px 15px;
+    }
+
+    .menu-simples {
+      i.icon-user {
+        &::before {
+          content: $iconMinhaConta;
+        }
+      }
+
+      i.icon-logout {
+        &::before {
+          content: $iconLogout;
+        }
+      }
+
+      i {
+        width: 45px;
+      }
+
+      i.icon-unlock-alt {
+        &::before {
+          content: $iconAlterarSenha;
+        }
+      }
+
+      i.icon-list-alt {
+        &::before {
+          content: $iconMeusPedidos;
+        }
+      }
+
+      i.icon-star {
+        &::before {
+          content: $iconListaDesejos;
+        }
+      }
+
+      li.divisor {
+        display: none;
+      }
+
+      li {
+        a {
+          padding: 15px;
+          background: none;
+          border-radius: 10px;
+          font: normal normal bold 14px/13px $fonteBase;
+          letter-spacing: 0px;
+          color: #292929;
+          opacity: 1;
+          transition: all 0.3s ease-in-out;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+
+          &:hover {
+            background: $corSecundaria;
+            color: white;
+
+            i {
+              &::before {
+                filter: brightness(0) saturate(100%) invert(100%) sepia(40%)
+                  saturate(2%) hue-rotate(165deg) brightness(103%)
+                  contrast(101%) !important;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .abas-conteudo.borda-alpha {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+
+    > div {
+      border: none;
+      box-shadow: none;
+      padding: 0;
+    }
+
+    .caixa-dados {
+      &:not(.outros-enderecos) {
+        h3.titulo {
+          border: none;
+          font: normal normal bold 30px/46px $fonteBase;
+          letter-spacing: 0px;
+          color: #292929;
+          opacity: 1;
+          margin-bottom: 30px;
+
+          small {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+
+  ul.abas-conta.borda-alpha {
+    display: none;
+  }
+
+  .form-horizontal {
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      .controls {
+        margin: 0;
+        .help-inline {
+          font: normal normal normal 16px/26px $fonteBase;
+          letter-spacing: 0px;
+          color: #292929;
+          opacity: 1;
+        }
+        input {
+          border: 2px solid $corPrimaria;
+          border-radius: 10px;
+          box-shadow: none;
+          height: 50px;
+          width: 330px;
+          font-family: $fonteBase;
+          color: #292929;
+          @media (max-width: 991px) {
+            width: 100%;
+          }
+        }
+      }
+    }
+    .control-label {
+      text-align: left;
+      width: 100%;
+      font: normal normal normal 14px/21px $fonteBase;
+      letter-spacing: 0px;
+      color: #292929;
+    }
+  }
+
+  // Botões da página
+  .acao-editar {
+    margin-top: 50px;
+    > div {
+      display: flex;
+      flex-direction: row;
+      > a {
+        font: normal normal bold 12px/18px $fonteBase;
+        letter-spacing: 0px;
+        color: #292929;
+        opacity: 1;
+        background: none;
+        box-shadow: none;
+        border: 1px solid $corPrimaria;
+        border-radius: 10px;
+        padding: 12px 36px;
+        margin: 0;
+        &:hover {
+          background: none;
+        }
+      }
+      > button.botao.principal {
+        font: normal normal bold 14px/21px $fonteBase;
+        letter-spacing: 0px;
+        color: #ffffff !important;
+        box-shadow: none;
+        text-shadow: none !important;
+        background: $corPrimaria 0% 0% no-repeat padding-box;
+        border-radius: 10px;
+        padding: 10px 20px;
+      }
+    }
+  }
+}

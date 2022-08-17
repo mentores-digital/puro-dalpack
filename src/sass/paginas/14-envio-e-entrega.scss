@@ -1,0 +1,31 @@
+#envio-e-entrega {
+    h2 {
+        text-align: center;
+        padding   : 80px 150px;
+    }
+
+    p {
+        line-height: 26px;
+    }
+}
+
+.pagina-pagina {
+    #banner-envio-e-entrega {
+        position: relative;
+
+        #breadcrumbs {
+            position: absolute;
+            top     : 10px;
+            left    : 100px;
+        }
+
+        h1 {
+            position   : absolute;
+            text-align : center;
+            top        : 45%;
+            left       : 42%;
+            color      : white;
+            font-family: $fonteBase;
+        }
+    }
+}
