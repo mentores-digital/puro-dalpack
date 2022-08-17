@@ -1,68 +1,68 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Url site cliente
-const urlSiteCliente = "https://www.filipjoias.com.br/";
+const urlSiteCliente = "https://dalpack-embalagens.lojaintegrada.com.br/";
 const facebook = "https://www.facebook.com/#";
 const instagram = "https://www.instagram.com/#";
 const youtube = "https://www.instagram.com/#";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Numeracão das imagens do painel
-const numPainel = "1595/1595002";
+const numPainel = "2256/2256296";
 // --Setas
 const urlSeta = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon-Carousel-Arrow.svg`;
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Userback
 const apiToken =
-  "7603|66664|Y6HssROcsvzEmR0agSQPeVCAdY3nc7fuG1FB6RfgdmYw49BDQ4";
+  "7603|72389|Y6HssROcsvzEmR0agSQPeVCAdY3nc7fuG1FB6RfgdmYw49BDQ4";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Logos
 const logoClienteNegativa =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/filip-joias-logo-branco-desktop-1x.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/Logo - Puro.png";
 const logoLojaIntegrada =
   "https://cdn.awsli.com.br/1595/1595002/arquivos/logo-lojaintegrada.png";
 const logoMentores =
   "https://cdn.awsli.com.br/1595/1595002/arquivos/Logo-horizontal.svg";
 const logoCliente =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/filip-joias-logo-dourado-desktop.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/Logo - Puro.png";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Links redes sociais
-const linkClienteFacebook = "https://www.facebook.com/Filip-joias-103841844728162";
-const linkClienteInstagram = "https://www.instagram.com/filipjoias/";
-const linkClienteYoutube = "https://www.youtube.com/channel/UCBexJ_jxWAwi-Lz4FtUWJXw";
+const linkClienteFacebook = "#";
+const linkClienteInstagram = "#";
+const linkClienteYoutube = "#";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Informações cliente
-const telefoneCliente = "(11) 95158-9745";
-const horarioFuncionamento = "Seg a Sex - das 9h às 19h";
-const razaoSocial = "Filip Joias";
+const telefoneCliente = "(41) 3333-3333";
+const horarioFuncionamento = "Seg a Sex - das 7h às 17h";
+const razaoSocial = "Dalpack Comercio Eletronico LTDA";
 const cnpjEndereco =
-  "CNPJ: 42.569.216/0001-12 Rua Henrique Bernardelli, 136, sala 74 - CEP: 02013-010 - Santana - São Paulo/SP";
+  "CNPJ: 42.458.501/0001-66 R. LOREM IISUM 000 - BAIRO - CIDADE";
 const descritivoNegocio =
-  "A Filip Joias é um e-commerce, uma loja online, especializada em jóias de design premium, com produção única e exclusiva.";
+  "A Dalpack é uma empresa que fabrica e vende embalagens. Em constante crescimento procura agora se alocar nos marketplaces e E-Commerce e vender ainda mais on-line!";
 const descritivoInferior =
-  "Filip Joias | CNPJ: 42.569.216/0001-12 Rua Henrique Bernardelli, 136, sala 74 - CEP: 02013-010 - Santana - São Paulo/SP";
+  "Dalpack Comercio Eletronico LTDA | CNPJ: 42.458.501/0001-66 Endereço";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Bandeiras cartão
 const bandeiraAmex =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-amex-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-americanexpress.png";
 const bandeiraDiners =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-diners-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-diners.png";
 const bandeiraElo =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-elo-desktop@2x.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-elo.png";
 const andeiraHipercard =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-hipercard-desktop@2x.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-hipercard-pb.png";
 const bandeiraMastercard =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-mastercard-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-Mastercard.png";
 const bandeiraVisa =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-visa-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-visa.png";
 const bandeiraBoleto =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-boleto-desktop@2x.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-code.png";
 const bandeiraDinheiro =
-  "https://cdn.awsli.com.br/2073/2073383/arquivos/bandeira-money-desktop.svg";
-const bandeiraPix = "https://cdn.awsli.com.br/2357/2357658/arquivos/pix.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-money.png";
+const bandeiraPix = "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-pix-pb.png";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Selo compra segura
@@ -85,17 +85,17 @@ const seloGoogleCheckout =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // --Navbar e Ícones
 const iconeAtendimento =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-atendimento.svg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-atendimento.svg`;
 const iconeFavoritos =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-favoritos.svg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-favoritos.svg`;
 const iconeMinhaConta =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-minha-conta.svg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-minhaconta.svg`;
 const iconeCarrinho =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-carrinho.svg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-carrinho.svg`;
 const iconeSanduiche =
   "https://cdn.awsli.com.br/1595/1595002/arquivos/button-menu.svg";
 const iconeBuscar =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-pesquisa.svg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-search.svg`;
 const textoSearchBar = "Faça sua pesquisa aqui_";
 const iconePlayVideo =
   "https://cdn.awsli.com.br/1595/1595002/arquivos/button-play.png";
@@ -105,45 +105,45 @@ const iconeLogout =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // --Slogan
 const iconeSlogan = "";
-const mensagemSlogan = "Design premium, com produção única e exclusiva.";
+const mensagemSlogan = "Super promoção de Lançamento Clique aqui e confira";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Banner Destaques Desktop
 const bannerDestaqueUm =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/mid-banner-1-desktop.jpg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-1-desktop.png`;
 const bannerDestaqueDois =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/mid-banner-2-desktop.jpg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-2-desktop.png`;
 const bannerDestaqueTres =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/mid-banner-3-desktop.jpg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-3-desktop.png`;
 const bannerDestaqueQuatro =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/mid-banner-4-desktop.jpg";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-2-desktop.png`;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Secao SaibaMais
-const h2SecaoSaibaMais = "Nós somos a Filip Joias";
+const h2SecaoSaibaMais = "Nós somos a Dalpack";
 const paragrafoSecaoSaibaMais =
-  "A Filip Joias é um e-commerce, uma loja online, especializada em joias de design premium, com produção única e exclusiva.";
+  "A Dalpack é uma empresa que fabrica e vende embalagens. Em constante crescimento procura agora se alocar nos marketplaces e E-Commerce e vender ainda mais on-line! Por ser uma empresa fabricante conta com alguns dos melhores preços em seus produtos e com qualidade impecável. Além do site próprio, já somos sucesso em outros markeplaces, como, Americanas, Magazine Luiza, Mercado Livre, Shopee, entre outros, possibilitando as melhores possibilidades de compra e entrega para nossos clientes.";
 const textoBotaoSaibaMais = "Saiba mais";
 const imagemSecaoSaibaMais =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/imagem-about.png";
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/imagem-about-desktop.png`;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Secao Stripe Banners
-const urlIconeUmStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-vantagem01.png`;
-const paragrafoUmStripe = "Até 10x";
-const strongUmStripe = "sem juros";
+// Secao Stripe Banners https://cdn.awsli.com.br/2256/2256296/arquivos/Icon feather-package.svg
+const urlIconeUmStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon feather-package.svg`;
+const paragrafoUmStripe = "Produtos a";
+const strongUmStripe = "pronta entrega";
 //
-const urlIconeDoisStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-vantagem02.svg`;
-const paragrafoDoisStripe = "Garantia";
-const strongDoisStripe = " de 1 ano";
+const urlIconeDoisStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon metro-star-empty.svg`;
+const paragrafoDoisStripe = "Personalização";
+const strongDoisStripe = "da embalagem";
 //
-const urlIconeTresStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-vantagem03.jpg`;
-const paragrafoTresStripe = "10% off";
-const strongTresStripe = "No PIX";
+const urlIconeTresStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon feather-package.svg`;
+const paragrafoTresStripe = "Envio para";
+const strongTresStripe = "todo o Brasil";
 //
-const urlIconeQuatroStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-vantagem04.svg`;
-const paragrafoQuatroStripe = "Envio grátis para";
-const strongQuatroStripe = "todo o Brasil";
+const urlIconeQuatroStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon metro-star-empty.svg`;
+const paragrafoQuatroStripe = "Certificado SSL";
+const strongQuatroStripe = "100% seguro";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Banner Destaque Inferior

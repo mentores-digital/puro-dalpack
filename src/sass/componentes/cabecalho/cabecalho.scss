@@ -80,8 +80,9 @@
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         .row-fluid {
 
-            .logo a img {
-                // width: 200px;
+            .logo a {
+                height: 58px;
+                margin-top: 29px;
             }
 
             .conteudo-topo {
@@ -250,6 +251,9 @@ strong.strong-menu-superior {
         justify-content: space-between;
         border-left    : 1px solid $borda;
         padding        : 20px 20px 20px 40px;
+        div:last-child{
+           display: none; 
+        }
 
         .strong-minha-conta {
             margin-bottom: 20px;

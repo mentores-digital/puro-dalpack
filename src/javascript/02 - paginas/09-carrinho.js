@@ -4,6 +4,20 @@ window.addEventListener('load', () => {
     try {
         if (paginaCarrinho()) {
 
+            const inputFrete = document.querySelectorAll('.formas-envio .radio input');
+
+            inputFrete.forEach((elemento, index) => {
+                const newdiv = document.createElement('div');
+                newdiv.classList.add('inputEnvio');
+                newdiv[index].append(elemento);
+
+
+                const formas = document.querySelectorAll('.formas-envio .radio');
+                formas.forEach((elem) =>{
+                    elem.prepend(newdiv);
+                })
+            })
+
             setTituloPaginaCarrinho();
             removeSubtotalPaginaCarrinho();
             substituirSkuPorCodigo();

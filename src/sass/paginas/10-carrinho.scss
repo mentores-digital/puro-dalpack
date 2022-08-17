@@ -25,154 +25,134 @@
 
   .tabela-carrinho {
     .formas-envio {
-      
+
       ul {
-        li {
-          label.radio {
-            border: 1px solid #d5d5db66;
-            padding: 0;
-            background: white;
-            font-weight: 600;
-            height: 50px;
-            box-sizing: border-box;
-            line-height: 48px;
-            border-radius: 10px;
-            margin: 0 0 10px 0;
+          li {
+              label.radio {
+                  display: flex;
+                  border       : 1px solid $corPrimaria;
+                  padding      : 0;
+                  background   : white;
+                  font-weight  : 600;
+                  height       : 50px;
+                  box-sizing   : border-box;
+                  line-height  : 48px;
+                  border-radius: 10px;
+                  margin       : 0 0 10px 0;
 
+                  span.cor-principal.valor {
+                      vertical-align: baseline;
+                  }
 
-            span.cor-principal.valor {
-              vertical-align: baseline;
-            }
+                  b {
+                      order: 3;
+                      font-weight  : 600;
+                      min-width    : 91px;
+                      // float        : right;
+                      text-align   : right;
+                      margin       : 0;
+                      padding-right: 15px;
+                      border-radius: 0 10px 10px 0;
+                      @media (max-width: 992px) {
+                          min-width: 85px;
+                          padding-right: 5px;
+                      }
+                      @media (max-width: 425px) {
+                          min-width: 76px;
+                          font-size: 12px;
+                      }
+                  }
 
-            b {
-              font-weight: 600;
-              min-width: 102px;
-              float: right;
-              text-align: right;
-              margin: 0;
-              padding-right: 15px;
-              border-radius: 0 10px 10px 0;
+                  .nome {
+                      font-weight : 600;
+                      // float       : left;
+                      display     : block;
+                      min-width   : 222px;
+                      text-align  : left;
+                      border-left : 1px solid $corPrimaria;
+                      padding-left: 12px;
+                      @media (max-width: 992px) {
+                          min-width   : 195px;
+                      }
+                      @media (max-width: 425px) {
+                          min-width   : 165px;
+                          font-size: 12px;
+                      }
+                  }
 
-              //@media (max-width: 470px) {
-                //min-width: 91px;
-              //}
+                  .valor {
+                      // float: right;
+                      order: 2;
+                      width     : 108px;
+                      text-align: left;
+                      margin    : 0;
+                      color     : #292929;
 
-              // @media (max-width: 375px){
-              //     min-width: 90px;
-              // }
-
-              // @media (max-width: 320px){
-              //     min-width: 83px;
-              //     padding-right: 5px;
-              // }
-            }
-
-            .nome {
-              font-weight: 600;
-              float: left;
-              display: block;
-              min-width: 214px;
-              text-align: left;
-              border-left: 1px solid #d5d5db66;
-              padding-left: 12px;
-              @media (max-width: 992px) {
-                min-width: 132px;
+                      @media (max-width: 992px) {
+                          width       : 66px;
+                      }
+                      @media (max-width: 425px) {
+                          width: 54px;
+                          font-size: 12px;
+                      }
+                  }
               }
-              @media (max-width: 470px) {
-                min-width: 95px;
-                font-size: 13px;
-              }
-              // @media (max-width: 375px) {
-              //     min-width       : 117px;
-              //     font-size: 13px;
-              // }
-
-              // @media (max-width: 320px) {
-              //     min-width       : 90px;
-              //     font-size: 13px;
-              //     padding-left: 5px;
-              // }
-            }
-
-            .valor {
-              // float: right;
-              width: 108px;
-              text-align: left;
-              margin: 0;
-              color: #292929;
-
-              @media (max-width: 992px) {
-                width: 108px;
-                margin-top: -2px;
-                margin-right: -3px;
-              }
-              @media (max-width: 470px) {
-                width: 65px;
-              }
-              @media (max-width: 375px) {
-                width: 55px;
-                font-size: 12px !important;
-              }
-
-              // @media (max-width: 320px) {
-              //     width: 55px;
-              // }
-            }
           }
-        }
       }
 
       input[type="radio"] {
-        float: left;
-        display: block;
-        height: 25px;
-        width: 24px;
-        margin: 13px 6px 10px 6px;
-        -webkit-appearance: none;
-        box-sizing: border-box;
-        @media (max-width: 376px) {
-          height: 18px;
-          width: 18px;
-        }
-
-        &:hover {
-          border-color: #999;
-        }
-
-        &:checked {
-          ~ {
-            b {
-              //border-radius: 0px 10px 10px 0px;
-            }
-
-            * {
-              background: $corSecundaria;
-              color: white !important;
-              width: 109px !important;
-            }
+          // float             : left;
+          display           : block;
+          height            : 25px;
+          width             : 24px;
+          margin            : 13px 9px 10px 14px;
+          -webkit-appearance: none;
+          box-sizing        : border-box;
+          @media (max-width: 992px) {
+              height: 20px;
+              width: 20px;
+          }
+          @media (max-width: 425px) {
+              margin: 13px 3px 10px 5px;
           }
 
-          border: $corPrimaria 7px solid;
-          transition: all 0.5s;
-          border-radius: 50%;
-          background-color: white;
-          z-index: -1;
-        }
+
+          &:hover {
+              border-color: #999;
+          }
+
+          &:checked {
+
+              ~ {
+                  // b {
+                  //     //border-radius: 0px 10px 10px 0px;
+                  // }
+
+                  * {
+                      background: $corPrimaria;
+                      color     : white !important;
+                  }
+              }
+
+              border          : $corPrimaria 7px solid;
+              transition      : all 0.5s;
+              border-radius   : 50%;
+              background-color: white;
+          }
       }
 
-      width: 470px;
-      display: block;
+      width      : 470px;
+      display    : block;
       margin-left: -150px;
 
-
-
       @media (max-width: 992px) {
-        margin-left: 0;
+          margin-left: 0;
+          width: 389px;
       }
-      @media (max-width: 470px) {
-        width: 315px;
+      @media (max-width: 425px) {
+          width: 325px;
       }
-    }
+  }
 
     tr.possui-cupom {
       background-color: #c8ecec;
