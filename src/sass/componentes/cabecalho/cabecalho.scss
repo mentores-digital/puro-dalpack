@@ -1,3 +1,77 @@
+// IMAGENS MENU SUPERIOR
+
+.menu.superior {
+    ul.nivel-um .categoria-id-18036994 {
+        ul.nivel-dois {
+            min-width       : 214px;
+            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu01.png);
+            height          : 512px;
+            background-color: $corPrimaria;
+        }
+    }
+
+    ul.nivel-um li.categoria-id-17803827 {
+        ul.nivel-dois {
+            min-width       : 214px;
+            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu02.png);
+            height          : 512px;
+            background-color: $corSecundaria;
+
+        }
+    }
+
+    ul.nivel-um li.categoria-id-18036996 {
+        ul.nivel-dois {
+            min-width       : 214px;
+            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu03.png);
+            height          : 512px;
+            background-color: #F95E41;
+        }
+    }
+
+    ul.nivel-um li.categoria-id-17804230 {
+        ul.nivel-dois {
+            min-width       : 214px;
+            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu04.png);
+            height          : 512px;
+            background-color: #FBB523;
+        }
+    }
+
+    ul.nivel-um  li.categoria-id-18037007{
+        ul.nivel-dois {
+            min-width       : 240px;
+            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu05.png);
+            height          : 512px;
+            background-color: #F82364;
+        }
+    }
+
+    // .categoria-id-18037007.com-filho.borda-principal {
+    //     ul.nivel-dois {
+    //         min-width       : 240px;
+    //         background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu05.png);
+    //         height          : 512px;
+    //     }
+
+    //     &:before {
+    //         content  : url('https://cdn.awsli.com.br/2443/2443989/arquivos/Icon feather-cpu.svg');
+    //         position : absolute;
+    //         left     : 10px;
+    //         top      : 50%;
+    //         transform: translate(-50%, -50%);
+    //     }
+    // }
+
+    // ul.nivel-um li.categoria-id-17567987::before {
+    //     content  : url('https://cdn.awsli.com.br/2443/2443989/arquivos/pacman.png');
+    //     position : absolute;
+    //     left     : 10px;
+    //     top      : 50%;
+    //     transform: translate(-50%, -50%);
+    // }
+}
+
 .midias-mobile {
     display        : none;
     // display     : flex;
@@ -353,7 +427,7 @@ strong.strong-menu-superior {
             display: block;
 
             .logo-header-mobile {
-                height: 65px;
+                height: 42px;
                 margin-left: 13px;
             }
 

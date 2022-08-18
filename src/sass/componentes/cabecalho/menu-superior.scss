@@ -65,12 +65,16 @@
         >li {
             border: none;
             z-index: 110;
+            &:hover strong{
+                color: #fff;
+            }
 
 
             strong {
                 font-size: 16px;
                 font-weight: 600;
                 color: $fonteCabecalho;
+                text-transform: capitalize;
             }
 
             i {
@@ -127,7 +131,7 @@
         background-color: $corLiHover;
 
         strong {
-            color: $corPrimaria !important;
+            color: $branco !important;
         }
     }
 

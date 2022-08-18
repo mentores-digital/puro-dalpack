@@ -31,6 +31,9 @@
       }
 
     .listagem {
+        &.com-caixa .listagem-item:hover{
+            box-shadow: none;
+        }
 
         .listagem-linha {
             border-style: none;
@@ -38,6 +41,8 @@
 
         .listagem-item {
             padding: 0px;
+            box-shadow: none;
+            border: none;
         }
     }
 
@@ -131,7 +136,7 @@
                         >li {
                             >a {
 
-                                background   : $corSecundaria 0% 0% no-repeat padding-box;
+                                background   : $preto 0% 0% no-repeat padding-box;
                                 padding      : 12px;
                                 border-radius: 10px;
 
@@ -461,6 +466,7 @@
                 .nome-produto {
                     font-size  : 16px;
                     font-weight: bold;
+                    color: $preto;
                 }
 
                 .imagem-produto>img {

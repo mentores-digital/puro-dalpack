@@ -106,7 +106,7 @@ div#logo-e-midia {
     }
 
     input {
-        height       : 45px;
+        height       : 40px;
         width        : 280px;
         border       : 2px solid $corPrimaria;
         border-radius: 7px;
@@ -116,7 +116,7 @@ div#logo-e-midia {
         height          : 45px;
         width           : 280px;
         border-radius   : 10px;
-        background-color: $corPrimaria;
+        background-color: $corSecundaria;
         color           : $branco;
         position        : relative;
         margin-right    : 0 !important;
@@ -282,7 +282,7 @@ a.logo-mentores {
 
 .selos-box img.selo-img {
     margin-right: 15px;
-    width       : 120px;
+    width       : 107px;
 }
 .pague-com-selos-box{
     filter: grayscale(1);

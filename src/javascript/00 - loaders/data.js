@@ -67,21 +67,21 @@ const bandeiraPix = "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-pix-pb.
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Selo compra segura
 const seloCompraSegura =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/selo-comprasegura-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-comprasegura.svg";
 const seloGoogle =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/selo-google-safe-browsing-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-google-safe-browsing.svg";
 const seloMercadolivre =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/selo-mercadolivre-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-mercadolivre.svg";
 const seloCorreios =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/selo-correios-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-correios.svg";
 const seloOpinioes =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/selo-opinioes-desktop.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-opinioes.svg";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Selos header checkout
 const seloCompraSeguraCheckout =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/selo-comprasegura.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-comprasegura-checkout.svg";
 const seloGoogleCheckout =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/selo-google-safe-browsing.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-google-safe-browsing-checkout.svg";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // --Navbar e Ícones
 const iconeAtendimento =
@@ -93,7 +93,7 @@ const iconeMinhaConta =
 const iconeCarrinho =
   `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-carrinho.svg`;
 const iconeSanduiche =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/button-menu.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/button-menu.svg";
 const iconeBuscar =
   `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-search.svg`;
 const textoSearchBar = "Faça sua pesquisa aqui_";
@@ -141,14 +141,14 @@ const urlIconeTresStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon 
 const paragrafoTresStripe = "Envio para";
 const strongTresStripe = "todo o Brasil";
 //
-const urlIconeQuatroStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon metro-star-empty.svg`;
+const urlIconeQuatroStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-vantagem-4.svg`;
 const paragrafoQuatroStripe = "Certificado SSL";
 const strongQuatroStripe = "100% seguro";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Banner Destaque Inferior
 const bannerDestaqueInferior = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-desktop.png`;
-const bannerDestaqueInferiorMobile = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-desktop.png`;
+const bannerDestaqueInferiorMobile = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-mobile.png`;
 const textoBannerDestaqueInferior = "";
 const porcentBannerDestaqueInferior = "";
 const ctaBannerDestaqueInferior = "";
@@ -166,7 +166,7 @@ const imagemAvatar =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Quem-somos
 const quemSomosBanner =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/banner quem somos.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/banner-quem-somos-desktop.png";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Perguntas Frequentes
@@ -176,4 +176,4 @@ const perguntasFrequentesBanner =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Privacidade e Segurança
 const segurancaEPrivacidadeBanner =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/banner-seguranca-e-privacidade-desktop.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/banner-seguranca-e-privacidade-desktop.png";

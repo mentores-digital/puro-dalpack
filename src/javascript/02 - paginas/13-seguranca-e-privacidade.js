@@ -1,7 +1,7 @@
 window.addEventListener("load", () => {
   "strict";
   try {
-    if (window.location.pathname == "/pagina/politica-de-privacidade.html") {
+    if (window.location.pathname == "/pagina/seguranca-e-privacidade.html") {
       const divBanner = document.createElement("div");
       divBanner.id = "banner-seguranca-e-privacidade";
       const bannerImagem = document.createElement("img");

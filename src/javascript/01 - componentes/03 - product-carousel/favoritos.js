@@ -16,7 +16,7 @@ window.addEventListener("load", () => {
       let favoritesId = [];
       // Request
       const response = await fetch(
-        "https://www.filipjoias.com.br/conta/favorito/listar"
+        "/conta/favorito/listar"
       );
       // Transforma pra texto
       const responseText = await response.text();
@@ -51,13 +51,13 @@ window.addEventListener("load", () => {
             elementoImage.src =
               "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-favoritos-2.png";
             elementoImage.className = "icone-favorito-2";
-            elementoIcon.href = `https://www.filipjoias.com.br/conta/favorito/${boxProdutoId}/remover`;
+            elementoIcon.href = `/conta/favorito/${boxProdutoId}/remover`;
             break;
           } else {
             elementoImage.src =
               "https://cdn.awsli.com.br/1595/1595002/arquivos/Icon-heart.svg";
             elementoImage.className = "icone-favorito";
-            elementoIcon.href = `https://www.filipjoias.com.br/conta/favorito/${boxProdutoId}/adicionar`;
+            elementoIcon.href = `/favorito/${boxProdutoId}/adicionar`;
           }
         }
         // Check if user was logged on request
@@ -65,7 +65,7 @@ window.addEventListener("load", () => {
           elementoImage.src =
             "https://cdn.awsli.com.br/1595/1595002/arquivos/Icon-heart.svg";
           elementoImage.className = "icone-favorito";
-          elementoIcon.href = `https://www.filipjoias.com.br/conta/favorito/${boxProdutoId}/adicionar`;
+          elementoIcon.href = `/conta/favorito/${boxProdutoId}/adicionar`;
         }
         elementoIcon.className = "favorite-conteiner";
         elementoIcon.append(elementoImage);
