@@ -99,4 +99,32 @@
         }
     }
 
+    .secao-vantagem{
+        margin: 55px auto;
+        display: flex;
+        justify-content: center;
+
+        .vantagem-desktop {
+            @media (max-width: 768px) {
+                display: none;
+            }
+        }
+        .vantagem-mobile {
+            @media (min-width: 768px) {
+                display: none;
+            }
+        }
+
+    }
+    .secao-logos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 55px auto;
+        
+        @media (max-width: 992px) {
+            flex-wrap: wrap;
+        }
+    }
+
 }

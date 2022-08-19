@@ -18,11 +18,11 @@ const apiToken =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Logos
 const logoClienteNegativa =
-  "https://cdn.awsli.com.br/2256/2256296/arquivos/Logo - Puro.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/logo-footer-dalpack-desktop@2x.png";
 const logoLojaIntegrada =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/logo-lojaintegrada.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/logo-footer-loja-integrada-desktop.svg";
 const logoMentores =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/Logo-horizontal.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/logo-footer-mentores-desktop.svg";
 const logoCliente =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/Logo - Puro.png";
 
@@ -34,15 +34,15 @@ const linkClienteYoutube = "#";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Informações cliente
-const telefoneCliente = "(41) 3333-3333";
+const telefoneCliente = "(11) 93322-7590";
 const horarioFuncionamento = "Seg a Sex - das 7h às 17h";
 const razaoSocial = "Dalpack Comercio Eletronico LTDA";
 const cnpjEndereco =
-  "CNPJ: 42.458.501/0001-66 R. LOREM IISUM 000 - BAIRO - CIDADE";
+  "CNPJ: 42.458.501/0001-66<br> Estrada Municipal Carlos Gibim, 2825,<br> Portaria 2 - Dalpack, Laranja Azeda <br> Bom Jesus dos Perdões, São Paulo";
 const descritivoNegocio =
   "A Dalpack é uma empresa que fabrica e vende embalagens. Em constante crescimento procura agora se alocar nos marketplaces e E-Commerce e vender ainda mais on-line!";
 const descritivoInferior =
-  "Dalpack Comercio Eletronico LTDA | CNPJ: 42.458.501/0001-66 Endereço";
+  "Dalpack Comercio Eletronico LTDA | CNPJ: 42.458.501/0001-66<br> Endereço: Estrada Municipal Carlos Gibim, 2825, Portaria 2 - Dalpack, Laranja Azeda <br>Bom Jesus dos Perdões, São Paulo";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Bandeiras cartão
@@ -116,7 +116,7 @@ const bannerDestaqueDois =
 const bannerDestaqueTres =
   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-3-desktop.png`;
 const bannerDestaqueQuatro =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-2-desktop.png`;
+  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-4-desktop.png`;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Secao SaibaMais
@@ -137,7 +137,7 @@ const urlIconeDoisStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon 
 const paragrafoDoisStripe = "Personalização";
 const strongDoisStripe = "da embalagem";
 //
-const urlIconeTresStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon feather-package.svg`;
+const urlIconeTresStripe = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-destaque-03-desktop.svg`;
 const paragrafoTresStripe = "Envio para";
 const strongTresStripe = "todo o Brasil";
 //
@@ -148,7 +148,7 @@ const strongQuatroStripe = "100% seguro";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Banner Destaque Inferior
 const bannerDestaqueInferior = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-desktop.png`;
-const bannerDestaqueInferiorMobile = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-mobile.png`;
+const bannerDestaqueInferiorMobile = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-mobile@2x.png`;
 const textoBannerDestaqueInferior = "";
 const porcentBannerDestaqueInferior = "";
 const ctaBannerDestaqueInferior = "";
@@ -161,7 +161,7 @@ const imagemDireita = "";
 // Página Cadastro
 const botaoCadastrarEndereco = `[href='${urlSiteCliente}conta/endereco/criar']`;
 const imagemAvatar =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-adduser.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/avatar-cabecalho-user-desktop.png";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Quem-somos

@@ -4,46 +4,60 @@
     ul.nivel-um .categoria-id-18036994 {
         ul.nivel-dois {
             min-width       : 214px;
-            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu01.png);
-            height          : 512px;
+            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-01-desktop.png);
             background-color: $corPrimaria;
+            height          : 425px;
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            background-position-x: right;
         }
     }
 
     ul.nivel-um li.categoria-id-17803827 {
         ul.nivel-dois {
             min-width       : 214px;
-            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu02.png);
-            height          : 512px;
+            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-02-desktop.png);
             background-color: $corSecundaria;
-
+            height          : 425px;
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            background-position-x: right;
         }
     }
 
     ul.nivel-um li.categoria-id-18036996 {
         ul.nivel-dois {
-            min-width       : 214px;
-            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu03.png);
-            height          : 512px;
+            min-width       : 100%;
+            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-03-desktop.png);
             background-color: #F95E41;
+            height          : 425px;
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            background-position-x: right;
         }
     }
 
     ul.nivel-um li.categoria-id-17804230 {
         ul.nivel-dois {
             min-width       : 214px;
-            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu04.png);
-            height          : 512px;
+            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-04-desktop.png);
             background-color: #FBB523;
+            height          : 425px;
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            background-position-x: right;
         }
     }
 
     ul.nivel-um  li.categoria-id-18037007{
         ul.nivel-dois {
-            min-width       : 240px;
-            background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu05.png);
-            height          : 512px;
+            min-width       : 100%;
+            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-05-desktop.png);
             background-color: #F82364;
+            height          : 425px;
+            background-repeat: no-repeat;
+            background-position-y: bottom;
+            background-position-x: right;
         }
     }
 
@@ -311,7 +325,7 @@ strong.strong-menu-superior {
         }
 
         .btn-minha-conta {
-            background-color: $corPrimaria;
+            background-color: $corSecundaria;
             padding         : 10px;
             color           : white;
             text-align      : center;

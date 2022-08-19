@@ -287,29 +287,64 @@ window.addEventListener("load", () => {
       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
       // Banner destaque inferior
       //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-      const conteinerSecaoSaibaMais =
-        document.querySelector("#secao-saiba-mais");
-      conteinerSecaoSaibaMais.after(
-        criarBannerDestaqueInferior(
-          bannerDestaqueInferior,
-          textoBannerDestaqueInferior,
-          porcentBannerDestaqueInferior,
-          ctaBannerDestaqueInferior
-        )
-      );
+      const conteinerSecaoSaibaMais = document.querySelector("#secao-saiba-mais");
+      if (window.matchMedia("(min-width: 640px)").matches) {
+        conteinerSecaoSaibaMais.after(
+          criarBannerDestaqueInferior(
+            bannerDestaqueInferior
+          )
+        );
+      } else {
+        conteinerSecaoSaibaMais.after(
+          criarBannerDestaqueInferior(
+            bannerDestaqueInferiorMobile
+          )
+        );
+      }
       const miniBanners = document.querySelector(".banner");
       miniBanners.classList.remove("hidden-phone");
 
       const footerZ = document.querySelector("#footer");
       const whats = document.createElement("a");
-      whats.innerHTML = `
-            <img src='https://cdn.awsli.com.br/2289/2289041/arquivos/Icon.svg' alt ="whats" />
-            `;
-      whats.href = "https://api.whatsapp.com/send?phone=5511951589745";
+      whats.innerHTML = `<img src='https://cdn.awsli.com.br/2289/2289041/arquivos/Icon.svg' alt ="whats" />`;
+
+      const boxWhats = document.createElement("div");
+      boxWhats.classList.add("box-whats");
+
+      boxWhats.innerHTML = `<div class="content-whats">
+      <ul>
+          <li>
+              <a href="#" target="_blank">
+                Atendimento
+              </a>
+          </li>
+          <li>
+              <a href="#" target="_blank">
+                Financeiro
+              </a>
+          </li>
+          </ul>
+      </div>`;
+
+      boxWhats.style.display = "none";
+
+      whats.addEventListener('click', function() {
+        if (boxWhats.style.display === 'none'){
+            boxWhats.style.display = 'block';
+        }else{
+            boxWhats.style.display = 'none';
+        }
+      })
+
+      // whats.href = "https://api.whatsapp.com/send?phone=5511951589745";
       whats.id = "whats";
       whats.target = "_blank";
       footerZ.append(whats);
+      whats.after(boxWhats);
+
+
     }
+
   } catch (error) {
     console.log(`Erro encontrado -> ${error}`);
   }

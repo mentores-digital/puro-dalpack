@@ -13,7 +13,7 @@ const criarBannerDestaquesDesktop = (
   // -> criar conteiner
   const conteinerUmBannerDestaques = document.createElement("a");
   conteinerUmBannerDestaques.classList.add("destaques-banners");
-  conteinerUmBannerDestaques.href = "categoria/brincos--.html";
+  conteinerUmBannerDestaques.href = "#";
   // -> criar imagem um
   const imagemUmBannerDestaques = document.createElement("img");
   imagemUmBannerDestaques.src = urlElementoUm;
@@ -24,7 +24,7 @@ const criarBannerDestaquesDesktop = (
   // -> criar conteiner
   const conteinerDoisBannerDestaques = document.createElement("a");
   conteinerDoisBannerDestaques.classList.add("destaques-banners");
-  conteinerDoisBannerDestaques.href = "categoria/escapularios.html";
+  conteinerDoisBannerDestaques.href = "#";
   // -> criar imagem
   const imagemDoisBannerDestaques = document.createElement("img");
   imagemDoisBannerDestaques.src = urlElementoDois;
@@ -35,7 +35,7 @@ const criarBannerDestaquesDesktop = (
   // -> criar conteiner
   const conteinerTresBannerDestaques = document.createElement("a");
   conteinerTresBannerDestaques.classList.add("destaques-banners");
-  conteinerTresBannerDestaques.href = "/buscar?q=kit&sort=mais_vendidos";
+  conteinerTresBannerDestaques.href = "#";
   // -> criar imagem
   const imagemTresBannerDestaques = document.createElement("img");
   imagemTresBannerDestaques.src = urlElementoTres;
@@ -46,8 +46,7 @@ const criarBannerDestaquesDesktop = (
   // -> criar conteiner
   const conteinerQuatroBannerDestaques = document.createElement("a");
   conteinerQuatroBannerDestaques.classList.add("destaques-banners");
-  conteinerQuatroBannerDestaques.href =
-    "categoria/conjunto-corrente-pingente-.html";
+  conteinerQuatroBannerDestaques.href = "#";
   // -> criar imagem
   const imagemQuatroBannerDestaques = document.createElement("img");
   imagemQuatroBannerDestaques.src = urlElementoQuatro;

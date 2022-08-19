@@ -1,25 +1,56 @@
 .pagina-inicial {
-    a#whats {
+    .box-whats{
         position: fixed;
-        bottom: 100px;
-        right: 100px;
-        z-index: 10000;
-    }
+        z-index: 9999;
+        width: 165px;
+        height: 115px;
+        bottom: 125px;
+        right: 125px;
+        @media (max-width: 991px) {
+            height: 90px;
+            bottom: 70px;
+            right: 80px;
+        }
 
-    @media (max-width: 991px) {
-        a#whats {
-            bottom: 50px;
-            right: 50px;
+        .content-whats {
+            height: 100%;
+            ul {
+                margin: 0;
+                height: 100%;
+                li {
+                    text-decoration: none;
+                    list-style-type: none !important;
+                    height: 50%;
+                    border-bottom: 1px solid;
+                    a {
+                        height: 100%;
+                        background: #678e5f;
+                        display: flex;
+                        align-items: center;
+                        border-bottom: 1px solid #fff;
+                        justify-content: center;
+                        &:hover{
+                            filter: invert(1);
+                        }
+                    }
+                }
+            }
         }
     }
-
-    @media (max-width: 425px) {
-        a#whats {
+    a#whats {
+        position: fixed;
+        bottom: 70px;
+        right: 70px;
+        z-index: 10000;
+        cursor: pointer;
+        @media (max-width: 991px) {
             width: 65px;
             bottom: 25px;
             right: 25px;
         }
     }
+    
+
 
     // animacao mini banner
     .mini-banner .modulo .flexslider ul.slides li a img {
@@ -333,7 +364,7 @@
                     }
 
                     @media screen and (max-width:480px) {
-                        margin-left: 50px;
+                        margin-left: 15px;
                     }
                 }
 
@@ -356,7 +387,8 @@
                     }
 
                     @media screen and (max-width:480px) {
-                        margin-left: 10px;
+                        margin-left: 5px;
+                        width: 32px;
                     }
                 }
 
@@ -398,6 +430,10 @@
         }
 
         .banner-destaque-inferior {
+            .imagem-destaque-inferior{
+                width: 100%;
+                margin-top: 50px;
+            }
 
             button {
                 font-size: 11px;

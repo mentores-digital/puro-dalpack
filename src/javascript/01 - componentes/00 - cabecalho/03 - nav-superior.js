@@ -219,14 +219,14 @@ window.addEventListener("load", () => {
         iconeCarrinho,
         // Atendimentos
         `<p class="small-menu-superior">Atendimentos e televendas</p>
-            <strong class="strong-menu-superior">(12) 3333-3333</strong><br>
+            <strong class="strong-menu-superior">(11) 93322-7590</strong><br>
             <p class="small-menu-superior">Ligações para fixos e celulares</p>`,
         // Fale consco
         `<p class="small-menu-superior">Fale conosco através do e-mail</p>
-            <strong class="strong-menu-superior">loremipsum@gmail.com</strong>`,
+            <strong class="strong-menu-superior">dalpack@dalpack.com.br</strong>`,
         // Horários
         `<p class="small-menu-superior">Horários de atendimento</p>
-            <strong class="strong-menu-superior">Seg a Sex 7h às 17h
+            <strong class="strong-menu-superior">Seg a Sex 7h às 17h<br> Sábados 7h as 16h
             </strong>`,
         // Envios
         `<p class="small-menu-superior">Envio</p>

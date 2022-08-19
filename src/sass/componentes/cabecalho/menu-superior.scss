@@ -8,7 +8,6 @@
     margin: 0;
     background-color: transparent;
     border-top: 1px solid #D5D5DB66;
-    border-bottom: 2px solid $bordaMenuSuperior;
     position: relative;
 
     a#link-ver-todos {
@@ -102,6 +101,7 @@
         background-color: $fundoMenuNivelDois;
         border-radius: 0px 0px 10px 10px;
         min-width: 200px;
+        box-shadow: none;
 
         li {
             padding: 0px;
@@ -127,9 +127,44 @@
     }
 
 
-    ul.nivel-um li:hover {
+    ul.nivel-um li.categoria-id-18036994:hover {
         background-color: $corLiHover;
-
+        strong {
+            color: $branco !important;
+        }
+    }
+    ul.nivel-um li.categoria-id-17803827:hover{
+        background-color: $corSecundaria;
+        strong {
+            color: $branco !important;
+        }
+    }
+    ul.nivel-um li.categoria-id-18036996:hover{
+        background-color: #F95E41;
+        strong {
+            color: $branco !important;
+        }
+    }
+    ul.nivel-um li.categoria-id-17804230:hover{
+        background-color: #FBB523;
+        strong {
+            color: $branco !important;
+        }
+    }
+    ul.nivel-um li.categoria-id-18037007:hover{
+        background-color: #F82364;
+        strong {
+            color: $branco !important;
+        }
+    }
+    ul.nivel-um li.categoria-id-18037010:hover{
+        background-color: #B61C36;
+        strong {
+            color: $branco !important;
+        }
+    }
+    ul.nivel-um li.categoria-id-18037012:hover{
+        background-color: #8885E7;
         strong {
             color: $branco !important;
         }

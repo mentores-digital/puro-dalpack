@@ -380,16 +380,16 @@ const criarFooter = (
   // 5 PARAGRAFO
   const paragrafoTermos = document.createElement("p");
   // 6 LINKS TERMOS
-  const linkTermosDeUso = document.createElement("a");
-  linkTermosDeUso.href = "/pagina/termos-de-uso.html";
-  linkTermosDeUso.innerHTML = "Termos de uso e ";
+  // const linkTermosDeUso = document.createElement("a");
+  // linkTermosDeUso.href = "/pagina/termos-de-uso.html";
+  // linkTermosDeUso.innerHTML = "Termos de uso e ";
   // 6 LINKS TERMOS
   const linkSegurancaEPrivacidade = document.createElement("a");
   linkSegurancaEPrivacidade.href = "/pagina/seguranca-e-privacidade.html";
   linkSegurancaEPrivacidade.innerHTML = "Política de privacidade";
 
   // APPENDS 6->5
-  paragrafoTermos.append(linkTermosDeUso);
+  // paragrafoTermos.append(linkTermosDeUso);
   paragrafoTermos.append(linkSegurancaEPrivacidade);
   // APPENDS 5->4
   termosEPrivacidade.append(paragrafoTermos);

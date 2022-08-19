@@ -49,7 +49,7 @@ window.addEventListener("load", () => {
         for (let j = 0; j < arrayIdFavoritos.length; j++) {
           if (parseInt(boxProdutoId) === parseInt(arrayIdFavoritos[j])) {
             elementoImage.src =
-              "https://cdn.awsli.com.br/1595/1595002/arquivos/icon-favoritos-2.png";
+              "https://cdn.awsli.com.br/2256/2256296/arquivos/icon-favoritos-conta.svg";
             elementoImage.className = "icone-favorito-2";
             elementoIcon.href = `/conta/favorito/${boxProdutoId}/remover`;
             break;
@@ -57,7 +57,7 @@ window.addEventListener("load", () => {
             elementoImage.src =
               "https://cdn.awsli.com.br/1595/1595002/arquivos/Icon-heart.svg";
             elementoImage.className = "icone-favorito";
-            elementoIcon.href = `/favorito/${boxProdutoId}/adicionar`;
+            elementoIcon.href = `/conta/favorito/${boxProdutoId}/adicionar`;
           }
         }
         // Check if user was logged on request

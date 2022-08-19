@@ -279,6 +279,11 @@ a.logo-mentores {
     color      : $branco;
     font-weight: 600;
 }
+.selos-box, .selos h4{
+    @media (max-width:768px) {
+        text-align: center;
+    }
+}
 
 .selos-box img.selo-img {
     margin-right: 15px;

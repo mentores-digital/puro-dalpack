@@ -1,4 +1,11 @@
 .pagina-carrinho.carrinho-checkout {
+    .cor-secundaria, .cor-principal{
+        color: $preto !important;
+    }
+    .logo a{
+        height: 57px;
+        margin-top: 20px;
+    }
 
     a.titulo.cor-secundaria.fazer-login-btn {
         margin-left: 5px;
@@ -207,7 +214,7 @@
                                 div {
                                     font          : normal normal bold 14px/21px $fonteBase;
                                     letter-spacing: 0px;
-                                    color         : #E29600;
+                                    color         : $corPrimaria;
                                     opacity       : 1;
                                     background    : #E6E6E6;
                                     margin-top    : 10px;
@@ -349,19 +356,19 @@
 
     // Ícones dos Títulos
     .caixa-sombreada.borda-principal.dados-cadastro i.icon-list::before {
-        content: url("https://cdn.awsli.com.br/2357/2357658/arquivos/icon-dados-desktop.svg");
+        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-dados.svg");
     }
 
     #listaEndereco.lista-endereco.accordion i.icon-list-alt::before {
-        content: url("https://cdn.awsli.com.br/2357/2357658/arquivos/icon-meus-pedidos.svg");
+        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-meus-pedidos.svg");
     }
 
     .campos-pedido .caixa-sombreada i.icon-map-marker::before {
-        content: url("https://cdn.awsli.com.br/2357/2357658/arquivos/icon-entrega.svg");
+        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-entrega-desktop.svg");
     }
 
     .campos-pedido .caixa-sombreada i.icon-money::before {
-        content: url("https://cdn.awsli.com.br/2357/2357658/arquivos/icon-pagamento-desktop.svg");
+        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-pagamento-desktop.svg");
     }
 
     //
@@ -422,7 +429,7 @@
         letter-spacing: 0px;
         color         : #FFFFFF;
         opacity       : 1;
-        background    : $corPrimaria 0% 0% no-repeat padding-box;
+        background    : $corSecundaria 0% 0% no-repeat padding-box;
         border-radius : 10px;
         padding       : 20px;
     }
@@ -500,7 +507,7 @@
     .formas .accordion-heading .radio-conteiner {
 
         &.m-checked+.forma-conteiner {
-            background: $corSecundaria;
+            background: $preto;
 
             strong {
                 color: white;
