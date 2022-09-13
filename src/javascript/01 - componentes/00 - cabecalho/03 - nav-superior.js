@@ -18,6 +18,9 @@ const hoverOutMenuSuperiorConta = () => {
   el.classList.add("displayNone");
 };
 
+const categ = document.querySelector("li.categoria-id-18037012 a");
+const categTag = categ.getAttribute('title');
+categTag.innerText = 'Em breve'
 /*
 BARRA DE BUSCA NAV SUPERIOR
 */

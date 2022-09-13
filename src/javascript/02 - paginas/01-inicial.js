@@ -314,13 +314,13 @@ window.addEventListener("load", () => {
       boxWhats.innerHTML = `<div class="content-whats">
       <ul>
           <li>
-              <a href="#" target="_blank">
-                Atendimento
+              <a href="https://api.whatsapp.com/send?phone=5511933227590" target="_blank">
+                SAC
               </a>
           </li>
           <li>
-              <a href="#" target="_blank">
-                Financeiro
+              <a href="https://api.whatsapp.com/send?phone=5511933227590" target="_blank">
+                Comercial
               </a>
           </li>
           </ul>

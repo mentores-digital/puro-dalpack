@@ -59,6 +59,10 @@
         display: block;
         z-index: 100;
 
+        .categoria-id-18037012 a{
+            cursor: no-drop;
+            pointer-events: none;
+        }
 
 
         >li {

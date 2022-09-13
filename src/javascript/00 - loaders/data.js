@@ -18,7 +18,7 @@ const apiToken =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Logos
 const logoClienteNegativa =
-  "https://cdn.awsli.com.br/2256/2256296/arquivos/logo-footer-dalpack-desktop@2x.png";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/Dalpack Logo.png";
 const logoLojaIntegrada =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/logo-footer-loja-integrada-desktop.svg";
 const logoMentores =
@@ -28,9 +28,9 @@ const logoCliente =
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Links redes sociais
-const linkClienteFacebook = "#";
-const linkClienteInstagram = "#";
-const linkClienteYoutube = "#";
+const linkClienteFacebook = "https://www.facebook.com/dalpackembalagens/";
+const linkClienteInstagram = "https://www.instagram.com/dalpackembalagens/";
+// const linkClienteYoutube = "#";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Informações cliente
