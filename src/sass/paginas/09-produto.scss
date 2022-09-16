@@ -3,6 +3,16 @@
     color: $preto;
   }
 
+  .codigo-produto {
+    display: flex;
+    flex-direction: column;
+    span a {
+      color: black;
+    }
+  }
+  .bandeiras-produto span{
+    color: black;
+  }
   .preco-produto{
     div {
       &:first-child {
@@ -502,6 +512,11 @@
 
     .codigo-produto {
       font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      span a{
+        color: black;
+      }
 
       @media (max-width: 768px) {
         margin-bottom: 0 !important;

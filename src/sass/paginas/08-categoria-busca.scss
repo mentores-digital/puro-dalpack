@@ -623,11 +623,11 @@
 
     .pagina-categoria .listagem .listagem-linha:nth-child(odd) li:nth-child(odd),
     .pagina-busca .listagem .listagem-linha:nth-child(odd) li:nth-child(odd) {
-        clear: left;
+        // clear: left;
     }
 
     .pagina-categoria .listagem .listagem-linha:nth-child(even) li:nth-child(even),
     .pagina-busca .listagem .listagem-linha:nth-child(even) li:nth-child(even) {
-        clear: left;
+        // clear: left;
     }
 }
