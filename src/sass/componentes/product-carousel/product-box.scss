@@ -7,6 +7,11 @@
     padding: 10px;
     min-height: 385px !important;
 
+
+    &:hover .show-product{
+        display: block !important;
+    }
+
     figure {
         border-radius: 5px 5px 0px 0px;
         width: 100%;
@@ -54,6 +59,20 @@
     }
 
     .product-price {
+        .show-product{
+            color: $corPrimaria;
+            border: 2px solid;
+            border-radius: 7px;
+            padding: 13px;
+            top: 58%;
+            left: 41%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+            background: white;
+            transition: 3s;
+            display: none;
+            font-size: 16px;
+        }
         p {
             font-size: 14px;
             display: flex;
@@ -123,11 +142,11 @@
 }
 
 // HOVER PRODUCT BOX
-.product-box:hover {
-    .product-price {
-        .show-product {
-            background-color: #000;
-            color: #FFF;
-        }
-    }
-}
+// .product-box:hover {
+//     .product-price {
+//         .show-product {
+//             background-color: #000;
+//             color: #FFF;
+//         }
+//     }
+// }
