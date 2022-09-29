@@ -65,3 +65,91 @@
         // display: none;
     }
 }
+.secao-banners{
+
+    // Desktop
+    #full-banner{
+
+        .swiper-slide {
+            
+            > div{ // Os próprios banner-text-0X
+                position: absolute;
+            }
+
+            .banner-text-01{
+                position: absolute;
+
+                top: 50%;
+                left: 69%;
+                transform: translate(-50%, -50%);
+
+                h2 {
+                    font-family: $fonteBase;
+                    font-weight: 900;
+                    font-size: 36px;
+                    line-height: 43px;
+                    color: $branco;
+                    padding-bottom: 12px;
+                }
+                a {
+                    color: $branco;
+                    background-color: #5FBB51;
+                    padding: 15px 30px;
+                    border-radius: 12px;
+                    &:hover{
+                        opacity: .9;
+                    }
+                }
+            }
+
+            .banner-text-02{
+                position: absolute;
+                top: 50%;
+                left: 69%;
+                transform: translate(-50%, -50%);
+                h2 {
+                    font-family: $fonteBase;
+                    font-weight: 900;
+                    font-size: 36px;
+                    line-height: 43px;
+                    color: $branco;
+                    padding-bottom: 12px;
+                }
+                a {
+                    color: $branco;
+                    background-color: #5FBB51;
+                    padding: 15px 30px;
+                    border-radius: 12px;
+                    &:hover{
+                        opacity: .9;
+                    }
+                }
+            }
+
+            .banner-text-03{
+                position: absolute;
+                top: 50%;
+                left: 69%;
+                transform: translate(-50%, -50%);
+                
+                h2 {
+                    font-family: $fonteBase;
+                    font-weight: 900;
+                    font-size: 36px;
+                    line-height: 43px;
+                    color: $branco;
+                    padding-bottom: 12px;
+                }
+                a {
+                    color: $branco;
+                    background-color: #5FBB51;
+                    padding: 15px 30px;
+                    border-radius: 12px;
+                    &:hover{
+                        opacity: .9;
+                    }
+                }
+            }
+        }
+    }
+}
