@@ -90,14 +90,19 @@
                     line-height: 43px;
                     color: $branco;
                     padding-bottom: 12px;
+                    @media (max-width: 1240px) {
+                        font-size: 31px;
+                        line-height: 37px;
+                    }
                 }
                 a {
                     color: $branco;
                     background-color: #5FBB51;
-                    padding: 15px 30px;
+                    padding: 11px 33px;
                     border-radius: 12px;
                     &:hover{
-                        opacity: .9;
+                        background-color: #6ed25f;
+                        transition: all .7s;
                     }
                 }
             }
@@ -114,14 +119,20 @@
                     line-height: 43px;
                     color: $branco;
                     padding-bottom: 12px;
+                    @media (max-width: 1240px) {
+                        font-size: 31px;
+                        line-height: 37px;
+                    }
                 }
                 a {
                     color: $branco;
                     background-color: #5FBB51;
-                    padding: 15px 30px;
+                    padding: 11px 33px;
                     border-radius: 12px;
                     &:hover{
-                        opacity: .9;
+                        background-color: #6ed25f;
+                        transition: all .7s;
+
                     }
                 }
             }
@@ -139,16 +150,45 @@
                     line-height: 43px;
                     color: $branco;
                     padding-bottom: 12px;
+                    @media (max-width: 1240px) {
+                        font-size: 31px;
+                        transition: all .7s;
+                    }
                 }
                 a {
                     color: $branco;
                     background-color: #5FBB51;
-                    padding: 15px 30px;
+                    padding: 11px 33px;
                     border-radius: 12px;
                     &:hover{
-                        opacity: .9;
+                        background-color: #6ed25f;
+                        // transition: all 1s;
                     }
                 }
+            }
+        }
+    }
+}
+.secao-banners{
+
+    // Desktop
+    #full-banner{
+
+        .swiper-slide:nth-child(1) {
+
+            a img:after{
+                content: attr(src);
+                width: 110px;
+                overflow: hidden;
+                text-indent: -12px;
+                color: white;
+                height: 30px;
+                position: relative;
+                display: block;
+                z-index: 999;
+                text-align: left;
+                padding-top: 10px;
+                margin-left: 30px;
             }
         }
     }
