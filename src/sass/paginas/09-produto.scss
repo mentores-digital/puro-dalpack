@@ -36,6 +36,44 @@
       }
     }
   }
+  .listagem-item {
+    &:hover .acoes-produto {
+      bottom: 36%;
+      opacity: 1;
+    }
+  }
+  
+  .listagem-item .acoes-produto {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -1px;
+
+    background-color: $botaoCard;
+    width: 100%;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 15;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    // transition: opacity ease-in-out .09s,bottom ease-out .09s;
+    a {
+        background-color: transparent !important;
+        font-family: $fonteBase;    
+        color: $branco;
+        font-weight: 700;
+        text-shadow: none;
+        background-image: none;
+        border: none;
+        &:hover{
+          background-color: transparent !important;
+        }
+        i {
+            display: none;
+        }
+    }
+  } 
   .listagem-item .desconto-a-vista{
     margin-top: 0;
   }

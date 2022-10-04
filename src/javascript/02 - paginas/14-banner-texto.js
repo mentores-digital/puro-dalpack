@@ -14,9 +14,9 @@ window.addEventListener("load", () => {
       // var cloneTextBannerMobile2 = textBanner2.cloneNode(true);
       // var cloneTextBannerMobile3 = textBanner3.cloneNode(true);
 
-      document.querySelector('#full-banner .swiper-slide img[alt="Supermercado & Padaria"]').after(cloneTextBannerDesktop1);
-      document.querySelector("#full-banner .swiper-slide img[alt='Conheça nossos produtos para Fast Food / Restaurante']").after(cloneTextBannerDesktop2);
-      document.querySelector("#full-banner .swiper-slide img[alt='Sacos & Sacolas Kraft']").after(cloneTextBannerDesktop3);
+      document.querySelector('#full-banner .swiper-slide img[alt="Full_Banner_1_Desktop"]').after(cloneTextBannerDesktop1);
+      document.querySelector("#full-banner .swiper-slide img[alt='Full_Banner_2_Desktop']").after(cloneTextBannerDesktop2);
+      document.querySelector("#full-banner .swiper-slide img[alt='Full_Banner_3_Desktop']").after(cloneTextBannerDesktop3);
 
       // document.querySelector("#full-banner-mobile .swiper-slide img[alt='Full_Banner_2_Mobile']").after(cloneTextBannerMobile1);
       // document.querySelector("#full-banner-mobile .swiper-slide img[alt='Full_Banner_1_Mobile']").after(cloneTextBannerMobile2);

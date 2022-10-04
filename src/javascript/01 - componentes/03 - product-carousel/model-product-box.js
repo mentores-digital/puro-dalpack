@@ -68,11 +68,11 @@ const criarModelProductBox = (textoSmallPreco, textoBotaoCTA) => {
     spanConteiner.append(strongPrecoAVista);
     // 3 SPAN 2 CONTEINER
     const spanConteiner2 = document.createElement("span");
-    spanConteiner2.classList.add("show-product");
-    spanConteiner2.innerHTML = "Veja mais";
+    // spanConteiner2.classList.add("show-product");
+    // spanConteiner2.innerHTML = "Veja mais";
     // APPENDS 3 -> 2
     productPriceDiv.append(spanConteiner);
-    productPriceDiv.append(spanConteiner2);
+    // productPriceDiv.append(spanConteiner2);
 
     linkProductBox.append(spanBandeirasProduto);
     linkProductBox.append(spanBookmarks);

@@ -186,6 +186,7 @@ window.addEventListener("load", () => {
             /** Catch all infos **/
             const image = product.querySelector(".imagem-produto img");
             const name = product.querySelector(".nome-produto");
+            const buton = product.querySelector(".acoes-produto");
             const priceFrom = product.querySelector(".preco-venda");
             const price = product.querySelector(".preco-promocional");
             const precoAVista = product.querySelector(
@@ -228,6 +229,9 @@ window.addEventListener("load", () => {
             }
             if (stars) {
               box.querySelector(".stars").append(stars.cloneNode(true));
+            }
+            if (buton) {
+              box.querySelector("a").append(buton.cloneNode(true));
             }
             if (stallments) {
               box.querySelector(".product-price small").innerHTML =
