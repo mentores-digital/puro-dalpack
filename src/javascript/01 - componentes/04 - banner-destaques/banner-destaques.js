@@ -11,9 +11,9 @@ const criarBannerDestaquesDesktop = (
 
   // CRIAR PRIMEIRO ELEMENTO
   // -> criar conteiner
-  const conteinerUmBannerDestaques = document.createElement("a");
-  conteinerUmBannerDestaques.classList.add("destaques-banners");
-  conteinerUmBannerDestaques.href = "#";
+  // const conteinerUmBannerDestaques = document.createElement("a");
+  // conteinerUmBannerDestaques.classList.add("destaques-banners");
+  // conteinerUmBannerDestaques.href = "#";
   // -> criar imagem um
   const imagemUmBannerDestaques = document.createElement("img");
   imagemUmBannerDestaques.src = urlElementoUm;
@@ -22,9 +22,9 @@ const criarBannerDestaquesDesktop = (
 
   // CRIAR SEGUNDO ELEMENTO
   // -> criar conteiner
-  const conteinerDoisBannerDestaques = document.createElement("a");
-  conteinerDoisBannerDestaques.classList.add("destaques-banners");
-  conteinerDoisBannerDestaques.href = "#";
+  // const conteinerDoisBannerDestaques = document.createElement("a");
+  // conteinerDoisBannerDestaques.classList.add("destaques-banners");
+  // conteinerDoisBannerDestaques.href = "#";
   // -> criar imagem
   const imagemDoisBannerDestaques = document.createElement("img");
   imagemDoisBannerDestaques.src = urlElementoDois;
@@ -33,9 +33,9 @@ const criarBannerDestaquesDesktop = (
 
   // CRIAR TERCEIRO ELEMENTO
   // -> criar conteiner
-  const conteinerTresBannerDestaques = document.createElement("a");
-  conteinerTresBannerDestaques.classList.add("destaques-banners");
-  conteinerTresBannerDestaques.href = "#";
+  // const conteinerTresBannerDestaques = document.createElement("a");
+  // conteinerTresBannerDestaques.classList.add("destaques-banners");
+  // conteinerTresBannerDestaques.href = "#";
   // -> criar imagem
   const imagemTresBannerDestaques = document.createElement("img");
   imagemTresBannerDestaques.src = urlElementoTres;
@@ -44,9 +44,9 @@ const criarBannerDestaquesDesktop = (
 
   // CRIAR QUARTO ELEMENTO
   // -> criar conteiner
-  const conteinerQuatroBannerDestaques = document.createElement("a");
-  conteinerQuatroBannerDestaques.classList.add("destaques-banners");
-  conteinerQuatroBannerDestaques.href = "#";
+  // const conteinerQuatroBannerDestaques = document.createElement("a");
+  // conteinerQuatroBannerDestaques.classList.add("destaques-banners");
+  // conteinerQuatroBannerDestaques.href = "#";
   // -> criar imagem
   const imagemQuatroBannerDestaques = document.createElement("img");
   imagemQuatroBannerDestaques.src = urlElementoQuatro;

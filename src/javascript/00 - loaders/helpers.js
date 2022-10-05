@@ -522,28 +522,37 @@ function createBanner(fullBanner, images, sectionBanner) {
       slide.classList.add("swiper-slide");
       // slide.appendChild(img);
 
+      // Create Title
+
+      const divTitle = document.createElement("div");
+      divTitle.classList.add("swiper-slide-text");
+
+      if (!!image.title) {
+        const title = document.createElement("h2");
+        title.classList.add("title");
+        title.innerHTML = image.title.toString().split("||")[0].trim();
+        title.innerHTML = title.textContent;
+        divTitle.append(title);
+      }
+  
       // Create Button
       if (!!image.link) {
         const a = document.createElement("a");
-        a.href = image.link;
+        // a.href = image.link;
         //a.innerHTML = image.alt;
-        // a.classList.add('btn-black');
+        a.classList.add("btn-black");
         a.append(img);
         slide.append(a);
+
+        const verMais = document.createElement("a");
+        verMais.classList.add("swiper-slide-btn");
+        verMais.href = image.link;
+        verMais.innerText = image.title.toString().split("||")[1].trim();
+        divTitle.append(verMais);
+        slide.append(divTitle);
       } else {
         slide.appendChild(img);
       }
-
-      // Create Title
-      /*
-            if(!!image.title) {
-                const title = document.createElement('span');
-                title.classList.add('title');
-                title.innerHTML = image.title.toString().trim();
-                title.innerHTML = title.textContent;
-                slide.append(title);
-            }
-            */
 
       // Append
       wrapper.appendChild(slide);

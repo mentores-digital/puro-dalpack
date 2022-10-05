@@ -108,15 +108,15 @@ const iconeSlogan = "";
 const mensagemSlogan = "Super promoção de Lançamento Clique aqui e confira";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Banner Destaques Desktop
-const bannerDestaqueUm =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-1-desktop.png`;
-const bannerDestaqueDois =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-2-desktop.png`;
-const bannerDestaqueTres =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-3-desktop.png`;
-const bannerDestaqueQuatro =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-4-desktop.png`;
+// // Banner Destaques Desktop
+// const bannerDestaqueUm =
+//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-1-desktop.png`;
+// const bannerDestaqueDois =
+//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-2-desktop.png`;
+// const bannerDestaqueTres =
+//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-3-desktop.png`;
+// const bannerDestaqueQuatro =
+//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-4-desktop.png`;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Secao SaibaMais
