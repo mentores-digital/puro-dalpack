@@ -1,463 +1,442 @@
 // IMAGENS MENU SUPERIOR
 
 .menu.superior {
-    ul.nivel-um .categoria-id-18036994 {
-        ul.nivel-dois {
-            min-width       : 214px;
-            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-01-desktop.png);
-            background-color: $corPrimaria;
-            height          : 425px;
-            background-repeat: no-repeat;
-            background-position-y: bottom;
-            background-position-x: right;
-        }
+  ul.nivel-um .categoria-id-18036994 {
+    ul.nivel-dois {
+      min-width: 214px;
+      background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-01-desktop.png);
+      background-color: $corPrimaria;
+      height: 425px;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
     }
+  }
 
-    ul.nivel-um li.categoria-id-17803827 {
-        ul.nivel-dois {
-            // min-width       : 214px;
-            width: 100%;
-            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-02-desktop.png);
-            background-color: $corSecundaria;
-            height          : 425px;
-            background-repeat: no-repeat;
-            background-position-y: bottom;
-            background-position-x: right;
-        }
+  ul.nivel-um li.categoria-id-17803827 {
+    ul.nivel-dois {
+      // min-width       : 214px;
+      width: 100%;
+      background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-02-desktop.png);
+      background-color: $corSecundaria;
+      height: 425px;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
     }
+  }
 
-    ul.nivel-um li.categoria-id-18036996 {
-        ul.nivel-dois {
-            // min-width       : 100%;
-            width: 100%;
-            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-03-desktop.png);
-            background-color: #F95E41;
-            height          : 425px;
-            background-repeat: no-repeat;
-            background-position-y: bottom;
-            background-position-x: right;
-        }
+  ul.nivel-um li.categoria-id-18036996 {
+    ul.nivel-dois {
+      // min-width       : 100%;
+      width: 100%;
+      background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-03-desktop.png);
+      background-color: #f95e41;
+      height: 425px;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
     }
+  }
 
-    ul.nivel-um li.categoria-id-17804230 {
-        ul.nivel-dois {
-            // min-width       : 214px;
-            width: 100%;
-            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-04-desktop.png);
-            background-color: #FBB523;
-            height          : 425px;
-            background-repeat: no-repeat;
-            background-position-y: bottom;
-            background-position-x: right;
-        }
+  ul.nivel-um li.categoria-id-17804230 {
+    ul.nivel-dois {
+      // min-width       : 214px;
+      width: 100%;
+      background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-04-desktop.png);
+      background-color: #fbb523;
+      height: 425px;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
     }
+  }
 
-    ul.nivel-um  li.categoria-id-18037007{
-        ul.nivel-dois {
-            // min-width       : 100%;
-            width: 100%;
-            background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-05-desktop.png);
-            background-color: #F82364;
-            height          : 425px;
-            background-repeat: no-repeat;
-            background-position-y: bottom;
-            background-position-x: right;
-        }
+  ul.nivel-um li.categoria-id-18037007 {
+    ul.nivel-dois {
+      // min-width       : 100%;
+      width: 100%;
+      background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-05-desktop.png);
+      background-color: #f82364;
+      height: 425px;
+      background-repeat: no-repeat;
+      background-position-y: bottom;
+      background-position-x: right;
     }
+  }
 
-    // .categoria-id-18037007.com-filho.borda-principal {
-    //     ul.nivel-dois {
-    //         min-width       : 240px;
-    //         background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu05.png);
-    //         height          : 512px;
-    //     }
+  // .categoria-id-18037007.com-filho.borda-principal {
+  //     ul.nivel-dois {
+  //         min-width       : 240px;
+  //         background-image: url(https://cdn.awsli.com.br/2443/2443989/arquivos/menu05.png);
+  //         height          : 512px;
+  //     }
 
-    //     &:before {
-    //         content  : url('https://cdn.awsli.com.br/2443/2443989/arquivos/Icon feather-cpu.svg');
-    //         position : absolute;
-    //         left     : 10px;
-    //         top      : 50%;
-    //         transform: translate(-50%, -50%);
-    //     }
-    // }
+  //     &:before {
+  //         content  : url('https://cdn.awsli.com.br/2443/2443989/arquivos/Icon feather-cpu.svg');
+  //         position : absolute;
+  //         left     : 10px;
+  //         top      : 50%;
+  //         transform: translate(-50%, -50%);
+  //     }
+  // }
 
-    // ul.nivel-um li.categoria-id-17567987::before {
-    //     content  : url('https://cdn.awsli.com.br/2443/2443989/arquivos/pacman.png');
-    //     position : absolute;
-    //     left     : 10px;
-    //     top      : 50%;
-    //     transform: translate(-50%, -50%);
-    // }
+  // ul.nivel-um li.categoria-id-17567987::before {
+  //     content  : url('https://cdn.awsli.com.br/2443/2443989/arquivos/pacman.png');
+  //     position : absolute;
+  //     left     : 10px;
+  //     top      : 50%;
+  //     transform: translate(-50%, -50%);
+  // }
 }
 
 .midias-mobile {
-    display        : none;
-    // display     : flex;
-    padding        : 20px;
-    justify-content: space-around;
-    border-radius  : 10px;
-    border         : 1px solid lightgray;
-    margin         : 100px 40px;
+  display: none;
+  // display     : flex;
+  padding: 20px;
+  justify-content: space-around;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin: 100px 40px;
 
-    i {
-        margin-right: 5px;
-    }
+  i {
+    margin-right: 5px;
+  }
 }
-
-
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // INICIO BARRA INICIAL
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 .barra-inicial-container {
+  // Variáveis
+  $altura: 50px;
+  background-color: $barraInicial;
+  height: $altura;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    // Variáveis
-    $altura         : 50px;
-    background-color: $barraInicial;
-    height          : $altura;
-    font-size       : 14px;
-    display         : flex;
-    justify-content : center;
-    align-items     : center;
+  .slogan {
+    align-self: center;
+    line-height: $altura;
+    color: $barraInicialFonte;
+  }
 
-    .slogan {
-        align-self : center;
-        line-height: $altura;
-        color      : $barraInicialFonte;
-    }
-
-    .imagemSlogan {
-        width      : 38px;
-        height     : auto;
-        align-self : center;
-        margin-left: 11px;
-    }
+  .imagemSlogan {
+    width: 38px;
+    height: auto;
+    align-self: center;
+    margin-left: 11px;
+  }
 }
 
 .conteiner-principal .conteiner {
-    padding: 10px 20px 0 20px !important;
+  padding: 10px 20px 0 20px !important;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // FIM BARRA INICIAL
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 #cabecalho {
-    position        : sticky;
-    top             : 0;
-    right           : 0;
-    z-index         : 99;
-    background-color: $cabecalho;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 99;
+  background-color: $cabecalho;
 
-    @media (max-width: 992px) {
-        background-color: #fff;
+  @media (max-width: 992px) {
+    background-color: #fff;
+  }
+
+  .conteudo-topo {
+    .superior.row-fluid,
+    .inferior.row-fluid {
+      display: none;
     }
+  }
 
-    .conteudo-topo {
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  // Limitacao Loja Integrada, nova classe
+  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  .cabecalho-conteiner {
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // NAV SUPERIOR
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    .row-fluid {
+      .logo a {
+        height: 58px;
+        margin-top: 29px;
+      }
 
-        .superior.row-fluid,
-        .inferior.row-fluid {
-            display: none;
+      .conteudo-topo {
+        margin: 24px 10%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .imagem-logo-desktop {
+          height: 77px;
+          width: auto;
         }
-    }
 
+        #form-buscar {
+          input#auto-complete {
+            @include inputBarraBuscaNavSuperior;
+          }
 
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    // Limitacao Loja Integrada, nova classe
-    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-    .cabecalho-conteiner {
+          button {
+            position: absolute;
+            background-color: transparent;
+            line-height: $alturaBarraBusca;
+            padding-left: 19px;
 
-
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        // NAV SUPERIOR
-        ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        .row-fluid {
-
-            .logo a {
-                height: 58px;
-                margin-top: 29px;
+            img {
+              width: 25px;
+              height: auto;
             }
-
-            .conteudo-topo {
-                margin         : 24px 10%;
-                display        : flex;
-                align-items    : center;
-                justify-content: space-between;
-
-                .imagem-logo-desktop {
-                    height: 77px;
-                    width : auto;
-                }
-
-                #form-buscar {
-
-                    input#auto-complete {
-                        @include inputBarraBuscaNavSuperior;
-
-                    }
-
-                    button {
-
-                        position        : absolute;
-                        background-color: transparent;
-                        line-height     : $alturaBarraBusca;
-                        padding-left    : 19px;
-
-                        img {
-                            width : 25px;
-                            height: auto;
-                        }
-                    }
-                }
-
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                // NAV SUPERIOR LINKS
-                ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-                .nav-superior-conteiner {
-                    display        : flex;
-                    justify-content: space-around;
-                    align-items    : center;
-
-                    .item-nav {
-                        margin-left: 25px;
-
-                        >span {
-                            color: $fonteCabecalho;
-
-                            >a {
-                                color: $fonteCabecalho;
-                            }
-                        }
-
-                        img {
-                            margin-right: 7px;
-                            height      : auto;
-                            max-width   : none;
-
-                            &.icone-Conta-nav {
-                                width: 36px;
-                            }
-                        }
-
-
-                        .icone-carrinho {
-                            margin: 0;
-                        }
-                    }
-                }
-            }
+          }
         }
 
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        // FIM NAV SUPERIOR
+        // NAV SUPERIOR LINKS
         ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        .nav-superior-conteiner {
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
 
+          .item-nav {
+            margin-left: 25px;
+
+            > span {
+              color: $fonteCabecalho;
+
+              > a {
+                color: $fonteCabecalho;
+              }
+            }
+
+            img {
+              margin-right: 7px;
+              height: auto;
+              max-width: none;
+
+              &.icone-Conta-nav {
+                width: 36px;
+              }
+            }
+
+            .icone-carrinho {
+              margin: 0;
+            }
+          }
+        }
+      }
     }
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+    // FIM NAV SUPERIOR
+    ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+  }
 }
 
-
-
 .box-atendimento-superior {
-    position     : absolute;
-    background   : white;
+  position: absolute;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 10px grey;
+  border-top: 2px solid $corPrimaria;
+  z-index: 1000;
+
+  div {
+    padding: 15px 20px 15px 40px;
+    border-bottom: 1px solid #f2f2f5;
     border-radius: 10px;
-    box-shadow   : 0px 1px 10px grey;
-    border-top   : 2px solid $corPrimaria;
-    z-index      : 1000;
+    position: relative;
 
-    div {
-        padding      : 15px 20px 15px 40px;
-        border-bottom: 1px solid #F2F2F5;
-        border-radius: 10px;
-        position     : relative;
-
-        &::before {
-            content : $iconClock;
-            position: absolute;
-            width   : 15px;
-            height  : 15px;
-            left    : 5px;
-            top     : 20px;
-        }
-
-        p {
-            color: $extremelyDark70;
-        }
-
-        strong {
-            color: $preto;
-        }
+    &::before {
+      content: $iconClock;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      left: 5px;
+      top: 20px;
     }
+
+    p {
+      color: $extremelyDark70;
+    }
+
+    strong {
+      color: $preto;
+    }
+  }
 }
 
 strong.strong-menu-superior {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .small-menu-superior {
-    font-size: 13px;
-    color    : $extremelyDark;
-    opacity  : 0.7;
+  font-size: 13px;
+  color: $extremelyDark;
+  opacity: 0.7;
 }
 
 // BOX MINHA CONTA HOVEr
 .box-minha-conta {
-    display      : flex;
-    position     : absolute;
-    background   : white;
-    border       : 1px solid $borda;
-    border-radius: 10px;
-    margin-left  : -280px;
-    z-index      : 150;
-    height       : 250px;
-    border-top   : 2px solid $corPrimaria;
+  display: flex;
+  position: absolute;
+  background: white;
+  border: 1px solid $borda;
+  border-radius: 10px;
+  margin-left: -280px;
+  z-index: 150;
+  height: 250px;
+  border-top: 2px solid $corPrimaria;
 
-    .div-bem-vindo {
-        display        : flex;
-        flex-direction : column;
-        justify-content: space-between;
-        padding        : 20px;
+  .div-bem-vindo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
 
-        img {
-            width: 40px !important;
-        }
-
-        h3 {
-            font-size  : 20px;
-            line-height: 20px;
-            font-weight: 900;
-            color      : $preto;
-        }
-
-        .btn-minha-conta {
-            background-color: $corSecundaria;
-            padding         : 10px;
-            color           : white;
-            text-align      : center;
-            border-radius   : 10px;
-        }
+    img {
+      width: 40px !important;
     }
 
-    .div-minhas-infos {
-        display        : flex;
-        flex-direction : column;
-        justify-content: space-between;
-        border-left    : 1px solid $borda;
-        padding        : 20px 20px 20px 40px;
-        div:last-child{
-           display: none; 
-        }
-
-        .strong-minha-conta {
-            margin-bottom: 20px;
-            color        : $preto !important;
-            position     : relative;
-            &.cadastroheader{
-                &:before {
-                    content : $iconCadastrarHome;
-                    position: absolute;
-                    left    : -37px;
-                    top     : -6px;
-                }
-            }
-            &.pedidosheader{
-                &:before {
-                    content : $iconMeusPedidosHome;
-                    position: absolute;
-                    left    : -37px;
-                    top     : -6px;
-                }
-            }
-            &.rastreioheader{
-                &:before {
-                    content : $iconRastrear;
-                    position: absolute;
-                    left    : -37px;
-                    top     : -6px;
-                }
-            }
-
-            a {
-                color   : $preto !important;
-                position: relative;
-
-                
-
-            }
-        }
-
-        input#code {
-            height       : 40px;
-            width        : 150px;
-            margin       : 10px 0px 0px 0px;
-            border-radius: 10px;
-        }
+    h3 {
+      font-size: 20px;
+      line-height: 20px;
+      font-weight: 900;
+      color: $preto;
     }
+
+    .btn-minha-conta {
+      background-color: $corSecundaria;
+      padding: 10px;
+      color: white;
+      text-align: center;
+      border-radius: 10px;
+    }
+  }
+
+  .div-minhas-infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: 1px solid $borda;
+    padding: 20px 20px 20px 40px;
+    div:last-child {
+      display: none;
+    }
+
+    .strong-minha-conta {
+      margin-bottom: 20px;
+      color: $preto !important;
+      position: relative;
+      &.cadastroheader {
+        &:before {
+          content: $iconCadastrarHome;
+          position: absolute;
+          left: -37px;
+          top: -6px;
+        }
+      }
+      &.pedidosheader {
+        &:before {
+          content: $iconMeusPedidosHome;
+          position: absolute;
+          left: -37px;
+          top: -6px;
+        }
+      }
+      &.rastreioheader {
+        &:before {
+          content: $iconRastrear;
+          position: absolute;
+          left: -37px;
+          top: -6px;
+        }
+      }
+
+      a {
+        color: $preto !important;
+        position: relative;
+      }
+    }
+
+    input#code {
+      height: 40px;
+      width: 150px;
+      margin: 10px 0px 0px 0px;
+      border-radius: 10px;
+    }
+  }
 }
 
 #header-mobile {
-    display: none;
+  display: none;
 
-    padding: 15px;
+  padding: 15px;
 
-    .elementos-header-mobile {
-        display        : flex;
-        justify-content: space-between;
-        align-items    : center;
-        margin-bottom  : 15px;
+  .elementos-header-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  #form-buscar {
+    text-align: center;
+
+    #auto-complete {
+      @include inputBarraBuscaNavSuperior;
+      width: 100%;
+      height: 45px;
     }
 
-    #form-buscar {
-        text-align: center;
+    button {
+      position: absolute;
+      background-color: transparent;
+      line-height: 45px;
+      padding-left: 19px;
 
-        #auto-complete {
-            @include inputBarraBuscaNavSuperior;
-            width : 100%;
-            height: 45px;
-        }
-
-        button {
-
-            position        : absolute;
-            background-color: transparent;
-            line-height     : 45px;
-            padding-left    : 19px;
-
-            img {
-                width : 25px;
-                height: auto;
-            }
-        }
+      img {
+        width: 25px;
+        height: auto;
+      }
     }
+  }
 }
 
-
 // RESETS
-@media (max-width: 992px) {
+@media (max-width: 1024px) {
+  .barra-inicial {
+    display: none;
+  }
 
-    .barra-inicial {
-        display: none;
+  #cabecalho {
+    padding-top: 0px;
+
+    #header-mobile {
+      display: block;
+
+      .logo-header-mobile {
+        height: 42px;
+        margin-left: 13px;
+      }
+
+      img.carrinho-header-mobile {
+        border: 1px solid #d5d5db66;
+        border-radius: 7px;
+        padding: 7px;
+      }
     }
+  }
 
-    #cabecalho {
-        padding-top: 0px;
-
-        #header-mobile {
-            display: block;
-
-            .logo-header-mobile {
-                height: 42px;
-                margin-left: 13px;
-            }
-
-            img.carrinho-header-mobile {
-                border       : 1px solid #D5D5DB66;
-                border-radius: 7px;
-                padding      : 7px;
-            }
-        }
-    }
-
-    .cabecalho-conteiner {
-        display: none;
-    }
+  .cabecalho-conteiner {
+    display: none;
+  }
 }
