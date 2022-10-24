@@ -94,6 +94,26 @@
 
   ul.nivel-um li {
     padding: 0 20px;
+
+    @media (max-width: 1409px) {
+      padding: 0 3px;
+    }
+  }
+
+  ul.nivel-um li:nth-child(n + 7) {
+    &:hover {
+      color: $preto;
+    }
+    a {
+      &:hover {
+        color: $preto;
+      }
+      strong {
+        &:hover {
+          color: $preto;
+        }
+      }
+    }
   }
 
   ul.nivel-dois {

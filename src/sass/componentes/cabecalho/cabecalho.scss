@@ -230,6 +230,13 @@
             .icone-carrinho {
               margin: 0;
             }
+
+            @media (max-width: 1409px) {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            }
           }
         }
       }
@@ -415,6 +422,10 @@ strong.strong-menu-superior {
 @media (max-width: 1024px) {
   .barra-inicial {
     display: none;
+  }
+
+  .menu.superior {
+    display: none !important;
   }
 
   #cabecalho {
