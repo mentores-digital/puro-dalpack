@@ -9,7 +9,8 @@ const youtube = "https://www.instagram.com/#";
 // Numeracão das imagens do painel
 const numPainel = "2256/2256296";
 // --Setas
-const urlSeta = `https://cdn.awsli.com.br/${numPainel}/arquivos/Icon-Carousel-Arrow.svg`;
+const urlSeta = `https://cdn.awsli.com.br/2256/2256296/arquivos/icons8-less-than-32.png`;
+
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Userback
 const apiToken =
@@ -62,7 +63,8 @@ const bandeiraBoleto =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-code.png";
 const bandeiraDinheiro =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-money.png";
-const bandeiraPix = "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-pix-pb.png";
+const bandeiraPix =
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/pgto-pix-pb.png";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Selo compra segura
@@ -84,18 +86,13 @@ const seloGoogleCheckout =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-google-safe-browsing-checkout.svg";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // --Navbar e Ícones
-const iconeAtendimento =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-atendimento.svg`;
-const iconeFavoritos =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-favoritos.svg`;
-const iconeMinhaConta =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-minhaconta.svg`;
-const iconeCarrinho =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-carrinho.svg`;
+const iconeAtendimento = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-atendimento.svg`;
+const iconeFavoritos = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-favoritos.svg`;
+const iconeMinhaConta = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-minhaconta.svg`;
+const iconeCarrinho = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-carrinho.svg`;
 const iconeSanduiche =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/button-menu.svg";
-const iconeBuscar =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-search.svg`;
+const iconeBuscar = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-search.svg`;
 const textoSearchBar = "Faça sua pesquisa aqui_";
 const iconePlayVideo =
   "https://cdn.awsli.com.br/1595/1595002/arquivos/button-play.png";
@@ -108,15 +105,26 @@ const iconeSlogan = "";
 const mensagemSlogan = "Super promoção de Lançamento Clique aqui e confira";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// // Banner Destaques Desktop
-// const bannerDestaqueUm =
-//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-1-desktop.png`;
-// const bannerDestaqueDois =
-//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-2-desktop.png`;
-// const bannerDestaqueTres =
-//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-3-desktop.png`;
-// const bannerDestaqueQuatro =
-//   `https://cdn.awsli.com.br/${numPainel}/arquivos/mid-banner-4-desktop.png`;
+////////////////////////////////////// Colocar codigo no painel com o nome - midBanners-Configs ///////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// Banner Destaques Desktop
+// const bannerDestaqueUm = `https://cdn.awsli.com.br/2256/2256296/arquivos/mid-banner-1-desktop.png`;
+// const bannerDestaqueDois = `https://cdn.awsli.com.br/2256/2256296/arquivos/mid-banner-2-desktop.png`;
+// const bannerDestaqueTres = `https://cdn.awsli.com.br/2256/2256296/arquivos/mid-banner-3-desktop.png`;
+// const bannerDestaqueQuatro = `https://cdn.awsli.com.br/2256/2256296/arquivos/mid-banner-4-desktop.png`;
+
+// const titleElementoUm = "";
+// const titleElementoDois = "";
+// const titleElementoTres = "";
+// const titleElementoQuatro = "";
+// const textoBtnElementoUm = "";
+// const textoBtnElementoDois = "";
+// const textoBtnElementoTres = "";
+// const textoBtnElementoQuatro = "";
+// const linkBtnElementoUm = "/supermercado-padaria/papel-acoplado";
+// const linkBtnElementoDois = "/sacos-para-talher";
+// const linkBtnElementoTres = "/saco-kraft-pao-nosso";
+// const linkBtnElementoQuatro = "/sacolas-kraft-sos";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Secao SaibaMais
@@ -124,8 +132,7 @@ const h2SecaoSaibaMais = "Nós somos a Dalpack";
 const paragrafoSecaoSaibaMais =
   "A Dalpack é uma empresa que fabrica e vende embalagens. Em constante crescimento procura agora se alocar nos marketplaces e E-Commerce e vender ainda mais on-line! Por ser uma empresa fabricante conta com alguns dos melhores preços em seus produtos e com qualidade impecável. Além do site próprio, já somos sucesso em outros markeplaces, como, Americanas, Magazine Luiza, Mercado Livre, Shopee, entre outros, possibilitando as melhores possibilidades de compra e entrega para nossos clientes.";
 const textoBotaoSaibaMais = "Saiba mais";
-const imagemSecaoSaibaMais =
-  `https://cdn.awsli.com.br/${numPainel}/arquivos/imagem-about-desktop.png`;
+const imagemSecaoSaibaMais = `https://cdn.awsli.com.br/${numPainel}/arquivos/imagem-about-desktop.png`;
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Secao Stripe Banners https://cdn.awsli.com.br/2256/2256296/arquivos/Icon feather-package.svg
@@ -146,12 +153,14 @@ const paragrafoQuatroStripe = "Certificado SSL";
 const strongQuatroStripe = "100% seguro";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-// Banner Destaque Inferior
-const bannerDestaqueInferior = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-desktop.png`;
-const bannerDestaqueInferiorMobile = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-mobile@2x.png`;
-const textoBannerDestaqueInferior = "";
-const porcentBannerDestaqueInferior = "";
-const ctaBannerDestaqueInferior = "";
+////////////////////// Banner Destaque Inferior - Colocar essas variaveis no painel da loja integrada. Nome do arquivo bannerFooter-Configs/////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// const bannerDestaqueInferior = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-desktop.png`;
+// const bannerDestaqueInferiorMobile = `https://cdn.awsli.com.br/${numPainel}/arquivos/banner-bottom-mobile@2x.png`;
+// const textoBannerDestaqueInferior = "Conheça Disco Elysium;";
+// const porcentBannerDestaqueInferior = "The Final Cut!";
+// const ctaBannerDestaqueInferior = "Comprar agora";
+// const linkBannerDestaqueInferior = "/oferta"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Login

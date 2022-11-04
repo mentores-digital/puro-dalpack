@@ -1,5 +1,6 @@
 .pagina-produto {
-  .cor-principal, .cor-secundaria{
+  .cor-principal,
+  .cor-secundaria {
     color: $preto;
   }
 
@@ -10,10 +11,10 @@
       color: black;
     }
   }
-  .bandeiras-produto span{
+  .bandeiras-produto span {
     color: black;
   }
-  .preco-produto{
+  .preco-produto {
     div {
       &:first-child {
         display: flex;
@@ -31,7 +32,6 @@
           &::before {
             content: "de";
           }
-
         }
       }
     }
@@ -42,7 +42,7 @@
       opacity: 1;
     }
   }
-  
+
   .listagem-item .acoes-produto {
     position: absolute;
     right: 0;
@@ -59,29 +59,29 @@
     filter: alpha(opacity=0);
     // transition: opacity ease-in-out .09s,bottom ease-out .09s;
     a {
+      background-color: transparent !important;
+      font-family: $fonteBase;
+      color: $branco;
+      font-weight: 700;
+      text-shadow: none;
+      background-image: none;
+      border: none;
+      &:hover {
         background-color: transparent !important;
-        font-family: $fonteBase;    
-        color: $branco;
-        font-weight: 700;
-        text-shadow: none;
-        background-image: none;
-        border: none;
-        &:hover{
-          background-color: transparent !important;
-        }
-        i {
-            display: none;
-        }
+      }
+      i {
+        display: none;
+      }
     }
-  } 
-  .listagem-item .desconto-a-vista{
+  }
+  .listagem-item .desconto-a-vista {
     margin-top: 0;
   }
-  .preco-parcela{
+  .preco-parcela {
     color: $extremelyDark70 !important;
     font-size: 14px !important;
     font-weight: 400 !important;
-    strong{
+    strong {
       color: $extremelyDark70 !important;
       font-size: 14px !important;
       font-weight: 400 !important;
@@ -90,6 +90,7 @@
 
   .produto .acoes-produto .preco-produto .preco-venda {
     font-size: 13px;
+    text-decoration: line-through !important;
   }
 
   .pagina-produto .atributos ul li.active a,
@@ -112,26 +113,26 @@
     align-items: center;
     flex-direction: row-reverse;
     height: 70px;
-    @media(max-width: 992px){
+    @media (max-width: 992px) {
       margin: 35px 0;
       a.botao-video {
         i {
-          &::before{
-            content: url('https://cdn.awsli.com.br/1595/1595002/arquivos/button-play.png');
+          &::before {
+            content: url("https://cdn.awsli.com.br/1595/1595002/arquivos/button-play.png");
           }
         }
-  
+
         span {
           display: none;
         }
       }
     }
-    @media(min-width: 992px){
+    @media (min-width: 992px) {
       a.botao-video {
         i {
           display: none;
         }
-  
+
         span {
           display: none;
         }
@@ -174,7 +175,7 @@
       height: 40px;
     }
 
-    >div {
+    > div {
       display: flex;
       flex-direction: column;
       font-size: 11px;
@@ -196,7 +197,8 @@
   }
 
   #carouselImagem .flex-direction-nav a.flex-next {
-    background: url("https://cdn.awsli.com.br/2384/2384993/arquivos/Icon-Carousel-Arrow_2.png") 0px 0;
+    background: url("https://cdn.awsli.com.br/2384/2384993/arquivos/Icon-Carousel-Arrow_2.png")
+      0px 0;
     background-repeat: no-repeat;
     transform: scale(0.6);
     max-width: 100%;
@@ -208,7 +210,8 @@
   }
 
   #carouselImagem .flex-direction-nav a.flex-prev {
-    background: url("https://cdn.awsli.com.br/2384/2384993/arquivos/Icon-Carousel-Arrow_2.png") 0px 0;
+    background: url("https://cdn.awsli.com.br/2384/2384993/arquivos/Icon-Carousel-Arrow_2.png")
+      0px 0;
     transform: scale(0.6) rotate(180deg);
     background-repeat: no-repeat;
     position: absolute;
@@ -233,7 +236,7 @@
   }
 
   strong.preco-promocional.cor-principal {
-    font-size: 28px !important;
+    font-size: 32px !important;
     font-weight: 800;
     color: $extremelyDark;
     font-family: $fonteBase;
@@ -250,13 +253,11 @@
     letter-spacing: 1px;
     font-size: 14px !important;
     font-family: $fonteBase;
-    color: #1A1405B2;
+    color: #1a1405b2;
     font-weight: 500;
     letter-spacing: 0.3px;
-    strong{
-
+    strong {
     }
-
   }
 
   span.desconto-a-vista {
@@ -308,7 +309,7 @@
       font-family: $fonteBase;
       font-weight: 600;
       font-size: 15px;
-      background-color: $corPrimaria
+      background-color: $corPrimaria;
     }
   }
 
@@ -316,23 +317,28 @@
     width: 400px;
   }
 
-  .produto .principal>*+* {
+  .produto .principal > * + * {
     padding: 0;
   }
 
-  .acoes-produto>div {
+  .acoes-produto > div {
     display: flex;
     flex-direction: column;
   }
 
-  .parcelas-produto .accordion .accordion-group .accordion-body .accordion-inner ul {
+  .parcelas-produto
+    .accordion
+    .accordion-group
+    .accordion-body
+    .accordion-inner
+    ul {
     font-size: 11px;
   }
 
   // FORMAT BOTAO
   .produto .acoes-produto .comprar {
     width: 100%;
-    label{
+    label {
       width: 35% !important;
     }
 
@@ -469,7 +475,7 @@
     width: 70%;
   }
 
-  .produto>.row-fluid:first-child {
+  .produto > .row-fluid:first-child {
     display: flex;
     justify-content: space-between;
   }
@@ -505,7 +511,7 @@
       }
     }
 
-    &>.conteiner-imagem>div>img {
+    & > .conteiner-imagem > div > img {
       border-radius: 10px 10px 10px 10px;
     }
   }
@@ -552,7 +558,7 @@
       font-size: 12px;
       display: flex;
       flex-direction: column;
-      span a{
+      span a {
         color: black;
       }
 
@@ -775,7 +781,7 @@
       margin-bottom: 30px;
     }
 
-    &>div>div>div {
+    & > div > div > div {
       font-size: 14px;
       line-height: 25px !important;
       font-weight: 300;
@@ -804,7 +810,7 @@
   }
 
   .listagem {
-    .titulo{
+    .titulo {
       margin: 7px 0 !important;
     }
     li {
@@ -891,7 +897,7 @@
   }
 
   // mobile
-  .pagina-produto .produto>.row-fluid:first-child {
+  .pagina-produto .produto > .row-fluid:first-child {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -931,7 +937,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .produto .conteiner-imagem>div {
+  .produto .conteiner-imagem > div {
     border: none;
   }
 
@@ -944,13 +950,13 @@
     border-width: 0 0 2px;
   }
 
-  .produto .principal>div {
+  .produto .principal > div {
     padding: 0 0 15px;
     margin: 0 0 15px;
     border-bottom: none;
   }
 
-  .produto .principal>div {
+  .produto .principal > div {
     margin: 0;
   }
 }

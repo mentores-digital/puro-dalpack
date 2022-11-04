@@ -1,0 +1,51 @@
+.box-whats {
+  position: fixed;
+  z-index: 9999;
+  width: 165px;
+  height: 115px;
+  bottom: 125px;
+  right: 125px;
+  @media (max-width: 991px) {
+    height: 90px;
+    bottom: 70px;
+    right: 80px;
+  }
+
+  .content-whats {
+    height: 100%;
+    ul {
+      margin: 0;
+      height: 100%;
+      li {
+        text-decoration: none;
+        list-style-type: none !important;
+        height: 50%;
+        border-bottom: 1px solid;
+        a {
+          height: 100%;
+          background: #678e5f;
+          display: flex;
+          align-items: center;
+          border-bottom: 1px solid #fff;
+          justify-content: center;
+          &:hover {
+            filter: invert(1);
+          }
+        }
+      }
+    }
+  }
+}
+a#whats {
+  position: fixed;
+  bottom: 70px;
+  right: 70px;
+  z-index: 10000;
+  width: 70px;
+  cursor: pointer;
+  @media (max-width: 991px) {
+    width: 65px;
+    bottom: 25px;
+    right: 25px;
+  }
+}

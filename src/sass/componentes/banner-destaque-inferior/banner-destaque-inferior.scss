@@ -1,44 +1,65 @@
 .banner-destaque-inferior {
-    position: relative;
-    margin-top: 80px;
+  position: relative;
+  margin-top: 80px;
 
-    image {
-        max-width: 100%;
+  image {
+    max-width: 100%;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    color: $branco;
+    top: -60px;
+    left: 60px;
+
+    p {
+      font-size: 35px;
+      line-height: 30px;
     }
 
-
-    div {
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        color: $branco;
-        top: 100px;
-        right: 280px;
-
-        p {
-            font-size: 25px;
-            line-height: 30px;
-        }
-
-        strong {
-            font-size: 45px;
-            color: $branco;
-            line-height: 57px;
-        }
+    strong {
+      font-size: 45px;
+      color: $branco;
+      line-height: 57px;
     }
 
-    // button {
-    //     position: absolute;
-    //     font-size: 16px;
-    //     border-radius: 10px;
-    //     padding: 18px 30px;
-    //     margin-top: 30px;
-    //     background: #007CCB;
-    //     font-weight: 500;
-    //     width: 185px;
-    //     text-align: center;
+    // a {
+    //   display: flex;
+    //   justify-content: center;
+    //   align-items: center;
+    //   width: 200px;
+    //   font-size: 16px;
+    //   padding: 15px 20px;
+    //   background-color: $buttonBannerInferior;
+    //   border: 1px solid $buttonBannerInferior;
+    //   border-radius: 10px;
+    //   color: $branco;
+    //   position: relative;
+    //   top: 20px;
+    //   &:hover {
+    //     transition: 0.3s;
+    //     background-color: transparent;
+    //     border: 1px solid $buttonBannerInferior;
     //     color: $branco;
-    //     top: 33%;
-    //     right: 40px;
+    //   }
+    //   transition: 0.3s;
     // }
+  }
+
+  // button {
+  //     position: absolute;
+  //     font-size: 16px;
+  //     border-radius: 10px;
+  //     padding: 18px 30px;
+  //     margin-top: 30px;
+  //     background: #007CCB;
+  //     font-weight: 500;
+  //     width: 185px;
+  //     text-align: center;
+  //     color: $branco;
+  //     top: 33%;
+  //     right: 40px;
+  // }
 }

@@ -534,7 +534,7 @@ function createBanner(fullBanner, images, sectionBanner) {
         title.innerHTML = title.textContent;
         divTitle.append(title);
       }
-  
+
       // Create Button
       if (!!image.link) {
         const a = document.createElement("a");
@@ -763,3 +763,55 @@ Sair
     .querySelector(".menu-simples")
     .insertAdjacentHTML("beforeend", htmlInsert);
 };
+
+// adiciona textos e btn nos miniBanners
+window.addEventListener("load", () => {
+  const images = document.querySelectorAll(
+    ".mini-banner > div.span4 > div.flexslider > ul.slides > li > a > img"
+  );
+  const links = document.querySelectorAll(
+    ".mini-banner > div.span4 > div.flexslider > ul.slides > li > a"
+  );
+  const onlyimage = document.querySelectorAll(
+    ".mini-banner > div.span4 > div.flexslider > ul.slides > li > img"
+  );
+  images.forEach((elem, index) => {
+    const div = document.createElement("div");
+    const h4 = document.createElement("h4");
+    const a = document.createElement("a");
+
+    div.classList.add("midBanner-text");
+    h4.classList.add("midBanner-text-title");
+    a.classList.add("midBanner-text-a");
+
+    if (links[index].href) {
+      h4.innerText = elem.alt.split("||")[0];
+      div.appendChild(h4);
+
+      a.href = links[index].href;
+      a.innerText = elem.alt.split("||")[1] && elem.alt.split("||")[1];
+      div.appendChild(a);
+    }
+
+    elem.parentNode.parentNode.appendChild(div);
+  });
+
+  onlyimage.forEach((elem, index) => {
+    const div = document.createElement("div");
+    const h4 = document.createElement("h4");
+
+    div.classList.add("midBanner-text");
+    h4.classList.add("midBanner-text-title");
+
+    if (onlyimage[index]) {
+      h4.innerText = elem.alt.split("||")[0];
+      div.appendChild(h4);
+    }
+
+    elem.parentNode.appendChild(div);
+  });
+
+  links.forEach((elem) => {
+    elem.href = "";
+  });
+});

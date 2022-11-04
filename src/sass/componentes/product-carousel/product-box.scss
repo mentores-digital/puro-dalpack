@@ -1,173 +1,172 @@
 .product-box {
+  // width: 310px !important;
+  margin-top: 50px;
+  // border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  padding: 10px;
+  min-height: 385px !important;
+  &:hover .acoes-produto {
+    bottom: 36%;
+    opacity: 1;
+  }
 
-    // width: 310px !important;
-    margin-top: 50px;
-    // border: 1px solid #f3f3f3;
-    border-radius: 5px;
-    padding: 10px;
-    min-height: 385px !important;
-    &:hover .acoes-produto {
-        bottom: 36%;
+  figure {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    height: 240px;
+    margin-bottom: 22px;
+    overflow: hidden;
+    display: block;
+
+    position: relative;
+
+    img {
+      // width: 100%;
+      height: 100%;
+
+      // object-fit: cover;
+      // object-position: center;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      @include transition;
+
+      &.cover {
+        visibility: visible;
         opacity: 1;
-    }
+      }
 
-    figure {
-        border-radius: 5px 5px 0px 0px;
-        width: 100%;
-        height: 240px;
-        margin-bottom: 22px;
-        overflow: hidden;
-        display: block;
-
-        position: relative;
-
-        img {
-            // width: 100%;
-            height: 100%;
-
-            // object-fit: cover;
-            // object-position: center;
-
-            position: absolute;
-            top: 0;
-            left: 0;
-
-            @include transition;
-
-            &.cover {
-                visibility: visible;
-                opacity: 1;
-            }
-
-            &.hover {
-                visibility: hidden;
-                opacity: 0;
-            }
-        }
-
-    }
-
-    .product-title {
-        h2 {
-            font-family: $fonteBase;
-            color: $preto;
-            font-size: $tamanhoTituloListagem;
-            line-height: 24px;
-            text-align: left;
-        }
-    }
-    .acoes-produto {
-        position: absolute;
-        right: 0;
-        left: 0;
-        bottom: -1px;
-
-        background-color: $botaoCard;
-        width: 100%;
-        border-radius: 7px;
-        text-align: center;
-        padding: 10px 0;
-        z-index: 15;
+      &.hover {
+        visibility: hidden;
         opacity: 0;
-        filter: alpha(opacity=0);
-        // transition: opacity ease-in-out .09s,bottom ease-out .09s;
-        a {
-            background-color: transparent !important;
-            font-family: $fonteBase;    
-            color: $branco;
-            font-weight: 700;
-            text-shadow: none;
-            background-image: none;
-            border: none;
-            &:hover{
-                background-color: transparent !important;
-            }
-            i {
-                display: none;
-            }
-        }
+      }
     }
-    .product-price {
-        // .show-product{
-        //     color: $corPrimaria;
-        //     border: 2px solid;
-        //     border-radius: 7px;
-        //     padding: 13px;
-        //     top: 58%;
-        //     left: 41%;
-        //     transform: translate(-50%, -50%);
-        //     position: absolute;
-        //     background: white;
-        //     transition: 3s;
-        //     display: none;
-        //     font-size: 16px;
-        // }
-        p {
-            font-size: 14px;
-            display: flex;
-            color: $extremelyDark70;
-        }
+  }
 
-        h2 {
-            font-size: $tamanhoPrecoListagem;
-            line-height: 20px;
-            text-align: left;
-            font-family: $fonteBase;
-            color: #000;
-            font-weight: 700;
-        }
+  .product-title {
+    h2 {
+      font-family: $fonteBase;
+      color: $preto;
+      font-size: $tamanhoTituloListagem;
+      line-height: 24px;
+      text-align: left;
+    }
+  }
+  .acoes-produto {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -1px;
 
-        small, strong {
-            font-family: $fonteBase;
-            font-size: 14px;
-            display: flex;
-            color: $extremelyDark70;
-
-            span:before {
-                content: "";
-                margin-left: 3px;
-            }
-        }
-
-        .preco-a-vista {
-            font-size: 14px;
-            display: flex;
-            font-weight: bold;
-            color: $preto;
-            margin-top: 5px;
-        }
+    background-color: $botaoCard;
+    width: 100%;
+    border-radius: 7px;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 15;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    // transition: opacity ease-in-out .09s,bottom ease-out .09s;
+    transition: 0.6s;
+    a {
+      background-color: transparent !important;
+      font-family: $fonteBase;
+      color: $branco;
+      font-weight: 700;
+      text-shadow: none;
+      background-image: none;
+      border: none;
+      &:hover {
+        background-color: transparent !important;
+      }
+      i {
+        display: none;
+      }
+    }
+  }
+  .product-price {
+    // .show-product{
+    //     color: $corPrimaria;
+    //     border: 2px solid;
+    //     border-radius: 7px;
+    //     padding: 13px;
+    //     top: 58%;
+    //     left: 41%;
+    //     transform: translate(-50%, -50%);
+    //     position: absolute;
+    //     background: white;
+    //     transition: 3s;
+    //     display: none;
+    //     font-size: 16px;
+    // }
+    p {
+      font-size: 14px;
+      display: flex;
+      color: $extremelyDark70;
     }
 
-    &:hover {
-        figure {
-            img {
-                &.cover {
-                    visibility: hidden;
-                    opacity: 0;
-                }
-
-                &.hover {
-                    visibility: visible;
-                    opacity: 1;
-                }
-            }
-        }
+    h2 {
+      font-size: $tamanhoPrecoListagem;
+      line-height: 20px;
+      text-align: left;
+      font-family: $fonteBase;
+      color: #000;
+      font-weight: 700;
     }
 
-    .price-from {
-        strong.titulo {
-            font-family: $fonteBase, sans-serif;
-            color: #000;
-            font-size: 25px;
-            line-height: 32px;
-            text-align: left;
-            font-weight: 900;
-        }
+    small,
+    strong {
+      font-family: $fonteBase;
+      font-size: 14px;
+      display: flex;
+      color: $extremelyDark70;
+
+      span:before {
+        content: "";
+        margin-left: 3px;
+      }
     }
 
+    .preco-a-vista {
+      font-size: 14px;
+      display: flex;
+      font-weight: bold;
+      color: $preto;
+      margin-top: 5px;
+    }
+  }
+
+  &:hover {
+    figure {
+      img {
+        &.cover {
+          visibility: hidden;
+          opacity: 0;
+        }
+
+        &.hover {
+          visibility: visible;
+          opacity: 1;
+        }
+      }
+    }
+  }
+
+  .price-from {
+    strong.titulo {
+      font-family: $fonteBase, sans-serif;
+      color: #000;
+      font-size: 25px;
+      line-height: 32px;
+      text-align: left;
+      font-weight: 900;
+    }
+  }
 }
-.swiper-wrapper{
-    box-sizing: border-box !important;
+.swiper-wrapper {
+  box-sizing: border-box !important;
 }
 
 // HOVER PRODUCT BOX

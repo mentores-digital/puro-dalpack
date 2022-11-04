@@ -55,7 +55,7 @@
   ul.nivel-um li.categoria-id-18037007 {
     ul.nivel-dois {
       // min-width       : 100%;
-      width: 100%;
+      min-width: 100%;
       background-image: url(https://cdn.awsli.com.br/2256/2256296/arquivos/imagem-categoria-05-desktop.png);
       background-color: #f82364;
       height: 425px;
@@ -170,10 +170,10 @@
       }
 
       .conteudo-topo {
-        margin: 24px 10%;
+        margin: 24px 4%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
 
         .imagem-logo-desktop {
           height: 77px;
@@ -181,6 +181,8 @@
         }
 
         #form-buscar {
+          position: relative;
+          left: 6px;
           input#auto-complete {
             @include inputBarraBuscaNavSuperior;
           }

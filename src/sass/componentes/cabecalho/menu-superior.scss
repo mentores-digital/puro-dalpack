@@ -102,6 +102,11 @@
 
   ul.nivel-um li:nth-child(n + 7) {
     &:hover {
+      a {
+        strong {
+          color: $preto;
+        }
+      }
       color: $preto;
     }
     a {
@@ -121,6 +126,7 @@
     border-radius: 0px 0px 10px 10px;
     min-width: 200px;
     box-shadow: none;
+    padding: 0 0 10px;
 
     li {
       padding: 0px;

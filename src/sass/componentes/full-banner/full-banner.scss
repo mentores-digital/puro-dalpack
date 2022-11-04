@@ -1,251 +1,270 @@
 #full-banner {
+  // PAGINATION ARROWS
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    content: url($setasFullBanner);
+    margin-right: 140px;
+    transform: rotate(180deg);
+  }
 
-    // PAGINATION ARROWS
-    .swiper-button-next:after,
-    .swiper-button-prev:after {
-        content: url($setasFullBanner);
-        margin-right: 140px;
+  .swiper-button-next:after {
+    margin-top: -17px;
+  }
+
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    content: url($setasFullBanner);
+    margin-bottom: 12px;
+    margin-left: 280px;
+    transform: rotate(0deg);
+  }
+
+  .swiper-slide {
+    img {
+      width: 100%;
+    }
+  }
+
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 40px;
+    left: 0;
+    width: 100%;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
+  .swiper-pagination-horizontal.swiper-pagination-bullets
+    .swiper-pagination-bullet {
+    border: 1px solid white;
+    background: transparent;
+    &.swiper-pagination-bullet-active {
+      background: white;
+    }
+  }
+
+  .swiper-slide-text {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+
+    h2 {
+      color: $textoFullBanner;
+      margin-bottom: 30px;
+      max-width: 285px;
     }
 
-    .swiper-button-prev:after,
-    .swiper-rtl .swiper-button-next:after {
-        content: url($setasFullBanner);
-        margin-bottom: 12px;
-        margin-left: 280px;
-        transform: rotate(180deg);
+    .swiper-slide-btn {
+      background: $buttonFullBanner;
+      color: $corButtonFullBanner;
+      padding: 15px 35px;
+      border-radius: 10px;
+      border: 1px solid $buttonFullBanner;
+      transition: 0.5s;
+
+      &:hover {
+        background-color: transparent;
+        border: 1px solid $buttonFullBanner;
+        border-radius: 10px;
+        transition: 0.5s;
+      }
     }
-
-    .swiper-slide {
-        img {
-            width: 100%;
-        }
-
-    }
-
-    .swiper-horizontal>.swiper-pagination-bullets,
-    .swiper-pagination-bullets.swiper-pagination-horizontal,
-    .swiper-pagination-custom,
-    .swiper-pagination-fraction {
-        bottom: 40px;
-        left: 0;
-        width: 100%;
-    }
-    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
-        border: 1px solid white;
-        background: transparent;
-        &.swiper-pagination-bullet-active{
-            background: white;
-        }
-    }
-
-    .swiper-slide-text{
-        position: absolute;
-        top: 25%;
-        right: 20%;
-
-        h2{
-            color: $textoFullBanner;
-            margin-bottom: 30px;
-            max-width: 285px;
-        }
-
-        .swiper-slide-btn{
-            background: $buttonFullBanner;
-            color: $corButtonFullBanner;
-            padding: 15px 35px;
-            border-radius: 10px;
-            border: 1px solid $buttonFullBanner;
-            transition: 0.5s;
-
-            &:hover{
-                background-color: transparent;
-                border: 1px solid $buttonFullBanner;
-                border-radius: 10px;
-                transition: 0.5s;
-            }
-        }
-    }
-
+  }
 }
 #full-banner-mobile {
-    .swiper-slide-text{
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translateX(-50%);
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    content: url($setasFullBanner);
+    margin-right: 140px;
+    transform: rotate(180deg);
+  }
 
-        h2{
-            color: $textoFullBanner;
-            margin-bottom: 30px;
-            max-width: 285px;
-        }
+  .swiper-button-next:after {
+    margin-top: -17px;
+    position: relative;
+    left: 35px;
+  }
 
-        .swiper-slide-btn{
-            background: $buttonFullBanner;
-            color: $corButtonFullBanner;
-            padding: 15px 35px;
-            border-radius: 10px;
-            border: 1px solid $buttonFullBanner;
-            transition: 0.5s;
+  .swiper-button-prev:after,
+  .swiper-rtl .swiper-button-next:after {
+    content: url($setasFullBanner);
+    margin-bottom: 5px;
+    margin-left: 185px;
+    transform: rotate(0deg);
+  }
 
-            &:hover{
-                background-color: transparent;
-                border: 1px solid $buttonFullBanner;
-                border-radius: 10px;
-                transition: 0.5s;
-            }
-        }
+  .swiper-slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    h2 {
+      color: $textoFullBanner;
+      margin-bottom: 30px;
+      max-width: 285px;
     }
+
+    .swiper-slide-btn {
+      background: $buttonFullBanner;
+      color: $corButtonFullBanner;
+      padding: 15px 35px;
+      border-radius: 10px;
+      border: 1px solid $buttonFullBanner;
+      transition: 0.5s;
+
+      &:hover {
+        background-color: transparent;
+        border: 1px solid $buttonFullBanner;
+        border-radius: 10px;
+        transition: 0.5s;
+      }
+    }
+  }
 }
 @media (max-width: 640px) {
-    #full-banner-mobile{
-        // height: calc(100vh - 158px);
-        img{
-            width: 100%;
-            position: relative;
-            // top: -65px;
-        }
+  #full-banner-mobile {
+    // height: calc(100vh - 158px);
+    img {
+      width: 100%;
+      position: relative;
+      // top: -65px;
     }
+  }
 
-    // #full-banner-mobile img {
-    //     width: 100%;
-    // }
+  // #full-banner-mobile img {
+  //     width: 100%;
+  // }
 
-    .swiper-button-prev,
-    .swiper-button-next {
-        display: none;
-    }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: block;
+  }
 
-    // Especifico Mosaico
-    .swiper-pagination-bullet {
-        // display: none;
-    }
+  // Especifico Mosaico
+  .swiper-pagination-bullet {
+    // display: none;
+  }
 }
 .secao-banners {
+  // Desktop
+  #full-banner {
+    .swiper-slide {
+      > div {
+        // Os próprios banner-text-0X
+        position: absolute;
+      }
 
-    // Desktop
-    #full-banner{
+      .banner-text-01 {
+        position: absolute;
 
-        .swiper-slide {
-            
-            > div{ // Os próprios banner-text-0X
-                position: absolute;
-            }
+        top: 50%;
+        left: 69%;
+        transform: translate(-50%, -50%);
 
-            .banner-text-01{
-                position: absolute;
-
-                top: 50%;
-                left: 69%;
-                transform: translate(-50%, -50%);
-
-                h2 {
-                    font-family: $fonteBase;
-                    font-weight: 900;
-                    font-size: 36px;
-                    line-height: 43px;
-                    color: $branco;
-                    padding-bottom: 12px;
-                    @media (max-width: 1240px) {
-                        font-size: 31px;
-                        line-height: 37px;
-                    }
-                }
-                a {
-                    color: $branco;
-                    background-color: #5FBB51;
-                    padding: 11px 33px;
-                    border-radius: 12px;
-                    &:hover{
-                        background-color: #6ed25f;
-                        transition: all .7s;
-                    }
-                }
-            }
-
-            .banner-text-02{
-                position: absolute;
-                top: 50%;
-                left: 69%;
-                transform: translate(-50%, -50%);
-                h2 {
-                    font-family: $fonteBase;
-                    font-weight: 900;
-                    font-size: 36px;
-                    line-height: 43px;
-                    color: $branco;
-                    padding-bottom: 12px;
-                    @media (max-width: 1240px) {
-                        font-size: 31px;
-                        line-height: 37px;
-                    }
-                }
-                a {
-                    color: $branco;
-                    background-color: #5FBB51;
-                    padding: 11px 33px;
-                    border-radius: 12px;
-                    &:hover{
-                        background-color: #6ed25f;
-                        transition: all .7s;
-
-                    }
-                }
-            }
-
-            .banner-text-03{
-                position: absolute;
-                top: 50%;
-                left: 69%;
-                transform: translate(-50%, -50%);
-                
-                h2 {
-                    font-family: $fonteBase;
-                    font-weight: 900;
-                    font-size: 36px;
-                    line-height: 43px;
-                    color: $branco;
-                    padding-bottom: 12px;
-                    @media (max-width: 1240px) {
-                        font-size: 31px;
-                        transition: all .7s;
-                    }
-                }
-                a {
-                    color: $branco;
-                    background-color: #5FBB51;
-                    padding: 11px 33px;
-                    border-radius: 12px;
-                    &:hover{
-                        background-color: #6ed25f;
-                        // transition: all 1s;
-                    }
-                }
-            }
+        h2 {
+          font-family: $fonteBase;
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 43px;
+          color: $branco;
+          padding-bottom: 12px;
+          @media (max-width: 1240px) {
+            font-size: 31px;
+            line-height: 37px;
+          }
         }
+        a {
+          color: $branco;
+          background-color: #5fbb51;
+          padding: 11px 33px;
+          border-radius: 12px;
+          &:hover {
+            background-color: #6ed25f;
+            transition: all 0.7s;
+          }
+        }
+      }
+
+      .banner-text-02 {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        transform: translate(-50%, -50%);
+        h2 {
+          font-family: $fonteBase;
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 43px;
+          color: $branco;
+          padding-bottom: 12px;
+          @media (max-width: 1240px) {
+            font-size: 31px;
+            line-height: 37px;
+          }
+        }
+        a {
+          color: $branco;
+          background-color: #5fbb51;
+          padding: 11px 33px;
+          border-radius: 12px;
+          &:hover {
+            background-color: #6ed25f;
+            transition: all 0.7s;
+          }
+        }
+      }
+
+      .banner-text-03 {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        transform: translate(-50%, -50%);
+
+        h2 {
+          font-family: $fonteBase;
+          font-weight: 900;
+          font-size: 36px;
+          line-height: 43px;
+          color: $branco;
+          padding-bottom: 12px;
+          @media (max-width: 1240px) {
+            font-size: 31px;
+            transition: all 0.7s;
+          }
+        }
+        a {
+          color: $branco;
+          background-color: #5fbb51;
+          padding: 11px 33px;
+          border-radius: 12px;
+          &:hover {
+            background-color: #6ed25f;
+            // transition: all 1s;
+          }
+        }
+      }
     }
+  }
 }
-.secao-banners{
-
-    // Desktop
-    #full-banner{
-
-        .swiper-slide:nth-child(1) {
-
-            a img:after{
-                content: attr(src);
-                width: 110px;
-                overflow: hidden;
-                text-indent: -12px;
-                color: white;
-                height: 30px;
-                position: relative;
-                display: block;
-                z-index: 999;
-                text-align: left;
-                padding-top: 10px;
-                margin-left: 30px;
-            }
-        }
+.secao-banners {
+  // Desktop
+  #full-banner {
+    .swiper-slide:nth-child(1) {
+      a img:after {
+        content: attr(src);
+        width: 110px;
+        overflow: hidden;
+        text-indent: -12px;
+        color: white;
+        height: 30px;
+        position: relative;
+        display: block;
+        z-index: 999;
+        text-align: left;
+        padding-top: 10px;
+        margin-left: 30px;
+      }
     }
+  }
 }
