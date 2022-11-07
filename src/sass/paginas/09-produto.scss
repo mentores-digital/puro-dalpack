@@ -11,8 +11,12 @@
       color: black;
     }
   }
-  .bandeiras-produto span {
-    color: black;
+  .bandeiras-produto {
+    top: 10px;
+    right: 50px !important;
+    span {
+      color: black;
+    }
   }
   .preco-produto {
     div {
@@ -959,4 +963,9 @@
   .produto .principal > div {
     margin: 0;
   }
+}
+
+.bandeiras-produto {
+  position: absolute;
+  left: 135px !important;
 }

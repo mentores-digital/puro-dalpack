@@ -3,12 +3,12 @@
 .pagina-busca {
   .listagem-item {
     &:hover .acoes-produto {
-      bottom: 36% !important;
-      opacity: 1 !important;
+      bottom: 36%;
+      opacity: 1;
     }
   }
 
-  .acoes-produto {
+  .listagem-item .acoes-produto {
     position: absolute;
     right: 0;
     left: 0;
@@ -23,7 +23,6 @@
     opacity: 0;
     filter: alpha(opacity=0);
     // transition: opacity ease-in-out .09s,bottom ease-out .09s;
-    transition: 0.6s;
     a {
       background-color: transparent !important;
       font-family: $fonteBase;
@@ -39,6 +38,9 @@
         display: none;
       }
     }
+  }
+  .listagem-item .desconto-a-vista {
+    margin-top: 0;
   }
   .bandeiras-produto {
     display: none;
@@ -501,9 +503,9 @@
           display: none !important;
         }
 
-        &:hover .acoes-produto {
-          display: none;
-        }
+        // &:hover .acoes-produto {
+        //   display: none;
+        // }
       }
 
       .produto-sobrepor {
@@ -601,6 +603,18 @@
     border-radius: 2px;
     min-height: 552px;
     padding: 15px 5px;
+
+    @media (max-width: 768px) {
+      min-height: 490px;
+    }
+
+    @media (max-width: 425px) {
+      min-height: 400px;
+    }
+
+    @media (max-width: 320px) {
+      min-height: 430px;
+    }
   }
 
   .listagem .listagem-item:after {
@@ -611,6 +625,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
+    @media (max-width: 768px) {
+      height: 455px;
+    }
   }
 
   .acoes-produto-responsiva {
