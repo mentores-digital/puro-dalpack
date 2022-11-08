@@ -635,8 +635,11 @@
   display: none;
 }
 
-.fancybox-wrap.fancybox-desktop.fancybox-type-html.modal-modalNewsletter.fancybox-opened {
+.fancybox-wrap.fancybox-desktop.fancybox-type-html.modal-login-content.fancybox-opened {
   width: 50% !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
   .fancybox-skin {
     width: 100% !important;
     height: 220px;
@@ -645,8 +648,31 @@
       height: 165px !important;
     }
     .fancybox-inner {
-      width: auto !important;
-      height: auto;
+      width: 100% !important;
+      height: 100% !important;
+
+      input[type="text"] {
+        height: 40px !important;
+      }
+
+      .submit-email.botao.principal.grande {
+        height: 40px !important;
+        background-color: $corPrimaria !important;
+        color: $branco;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        right: 30px !important;
+
+        border-radius: 8px !important;
+
+        line-height: 30px !important;
+
+        max-width: 110px !important;
+        min-width: 110px !important;
+      }
 
       .newsletter-cadastro button {
         height: 22px;
