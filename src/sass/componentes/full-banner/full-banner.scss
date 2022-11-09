@@ -11,6 +11,21 @@
     margin-top: -17px;
   }
 
+  .swiper-button-next {
+    transition: 0.3s;
+    &:hover {
+      right: -15px;
+      transition: 0.3s;
+    }
+  }
+  .swiper-button-prev {
+    transition: 0.3s;
+    &:hover {
+      left: -15px;
+      transition: 0.3s;
+    }
+  }
+
   .swiper-button-prev:after,
   .swiper-rtl .swiper-button-next:after {
     content: url($setasFullBanner);
