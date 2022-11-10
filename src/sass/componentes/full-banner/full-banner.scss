@@ -12,15 +12,33 @@
   }
 
   .swiper-button-next {
+    width: 180px;
+    height: calc(100% - 13px);
+    top: 0;
+    right: 0;
     transition: 0.3s;
     &:hover {
       right: -10px;
       transition: 0.3s;
+      background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0),
+        rgb(0, 0, 0)
+      );
     }
   }
   .swiper-button-prev {
+    width: 180px;
+    height: calc(100% - 13px);
+    top: 0;
+    left: 0;
     transition: 0.3s;
     &:hover {
+      background-image: linear-gradient(
+        to left,
+        rgba(0, 0, 0, 0),
+        rgb(0, 0, 0)
+      );
       left: -10px;
       transition: 0.3s;
     }
