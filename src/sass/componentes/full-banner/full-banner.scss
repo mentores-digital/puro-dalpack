@@ -12,35 +12,35 @@
   }
 
   .swiper-button-next {
+    height: 100%;
     width: 180px;
-    height: calc(100% - 13px);
+    transition: 0.3s;
     top: 0;
     right: 0;
-    transition: 0.3s;
     &:hover {
-      right: -10px;
-      transition: 0.3s;
       background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0),
         rgb(0, 0, 0)
       );
+      right: -10px;
+      transition: 0.3s;
     }
   }
   .swiper-button-prev {
+    height: 100%;
     width: 180px;
-    height: calc(100% - 13px);
+    transition: 0.3s;
     top: 0;
     left: 0;
-    transition: 0.3s;
     &:hover {
+      left: -10px;
+      transition: 0.3s;
       background-image: linear-gradient(
         to left,
         rgba(0, 0, 0, 0),
         rgb(0, 0, 0)
       );
-      left: -10px;
-      transition: 0.3s;
     }
   }
 
