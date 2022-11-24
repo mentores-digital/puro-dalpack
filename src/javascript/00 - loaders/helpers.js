@@ -520,38 +520,43 @@ function createBanner(fullBanner, images, sectionBanner) {
       img.alt = image.alt;
 
       slide.classList.add("swiper-slide");
-      // slide.appendChild(img);
+      slide.appendChild(img);
 
       // Create Title
 
       const divTitle = document.createElement("div");
       divTitle.classList.add("swiper-slide-text");
+      const verMais = document.createElement("a");
 
-      if (!!image.title) {
+      if (image.title) {
         const title = document.createElement("h2");
         title.classList.add("title");
-        title.innerHTML = image.title.toString().split("||")[0].trim();
-        title.innerHTML = title.textContent;
+        title.innerText = image.title.toString().split("||")[0].trim();
+
         divTitle.append(title);
+
+        if (image.title.toString().split("||")[1]) {
+          verMais.classList.add("swiper-slide-btn");
+          verMais.href = image.link;
+          verMais.innerText = image.title.toString().split("||")[1].trim();
+          divTitle.appendChild(verMais);
+        }
+
+        slide.appendChild(divTitle);
+      } else {
+        const title = document.createElement("h2");
+        title.classList.add("title");
+        divTitle.append(title);
+        slide.appendChild(divTitle);
       }
 
-      // Create Button
-      if (!!image.link) {
+      if (image.link) {
+        // Create Button
         const a = document.createElement("a");
-        // a.href = image.link;
-        //a.innerHTML = image.alt;
         a.classList.add("btn-black");
+        a.href = image.link;
         a.append(img);
         slide.append(a);
-
-        const verMais = document.createElement("a");
-        verMais.classList.add("swiper-slide-btn");
-        verMais.href = image.link;
-        verMais.innerText = image.title.toString().split("||")[1].trim();
-        divTitle.append(verMais);
-        slide.append(divTitle);
-      } else {
-        slide.appendChild(img);
       }
 
       // Append
@@ -560,7 +565,7 @@ function createBanner(fullBanner, images, sectionBanner) {
 
     // Swiper
     new Swiper(fullBanner, {
-      loop: false,
+      loop: true,
       spaceBetween: 0,
       pagination: { el: fullBanner.querySelector(".swiper-pagination") },
       navigation: {

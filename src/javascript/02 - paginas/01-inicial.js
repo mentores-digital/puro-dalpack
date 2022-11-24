@@ -259,7 +259,7 @@ window.addEventListener("load", () => {
           });
           // Montar Slider
           new Swiper(_slider, {
-            loop: false,
+            loop: true,
             slidesPerView: 1,
             spaceBetween: 30,
             navigation: {

@@ -160,7 +160,7 @@ const strongQuatroStripe = "100% seguro";
 // const textoBannerDestaqueInferior = "Conheça Disco Elysium;";
 // const porcentBannerDestaqueInferior = "The Final Cut!";
 // const ctaBannerDestaqueInferior = "Comprar agora";
-// const linkBannerDestaqueInferior = "/oferta"
+// const linkBannerDestaqueInferior = "/oferta";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Login

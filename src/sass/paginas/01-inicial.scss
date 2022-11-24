@@ -402,6 +402,14 @@
         font-weight: bold;
         width: 145px;
         color: $preto;
+        transition: 0.3s;
+
+        &:hover {
+          background: $corPrimaria;
+          border: 1px solid $corPrimaria;
+          transition: 0.3s;
+          color: $branco;
+        }
       }
     }
   }

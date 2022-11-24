@@ -43,7 +43,9 @@
     margin-top: 0;
   }
   .bandeiras-produto {
-    display: none;
+    span {
+      color: $preto !important;
+    }
   }
   .preco-produto {
     div {
