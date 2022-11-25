@@ -18,7 +18,9 @@ body {
     /**
 	 * Resets
 	 **/
-
+     > .countdown{
+        display: none;
+    }
     p,
     form {
         margin: 0;

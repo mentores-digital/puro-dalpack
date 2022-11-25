@@ -5,6 +5,12 @@
   border-radius: 5px;
   padding: 10px;
   min-height: 385px !important;
+
+  
+  a{
+    display: flex;
+    flex-direction: column;
+  }
   &:hover .acoes-produto {
     bottom: 36%;
     opacity: 1;
@@ -46,6 +52,7 @@
   }
 
   .product-title {
+    order: 2;
     h2 {
       font-family: $fonteBase;
       color: $preto;
@@ -87,6 +94,7 @@
     }
   }
   .product-price {
+    order: 3;
     // .show-product{
     //     color: $corPrimaria;
     //     border: 2px solid;
