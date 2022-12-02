@@ -416,9 +416,12 @@ const criarFooter = (
   linkMentores.target = "_blank";
   linkMentores.href = "https://mentores.com.br/loja-integrada/";
   // 6 IMAGEM LOGO MENTORES
-  const imagemLogoMentores = document.createElement("img");
-  imagemLogoMentores.classList.add("logo-mentores-img");
-  imagemLogoMentores.src = urlLogoMentores;
+  // const imagemLogoMentores = document.createElement("img");
+  // imagemLogoMentores.classList.add("logo-mentores-img");
+  // imagemLogoMentores.src = urlLogoMentores;
+  const imagemLogoMentores = document.createElement("p");
+  imagemLogoMentores.textContent = "Mentores loja integrada layout";
+
   // APPENDS 6->5
   linkMentores.append(imagemLogoMentores);
   // APPENDS 5->4

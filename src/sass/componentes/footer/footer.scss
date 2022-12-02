@@ -272,6 +272,7 @@ a.seta-voltar-topo {
 
 .mentores {
   display: flex;
+  align-items: center;
 }
 
 div#copyrights {
@@ -282,6 +283,17 @@ div#copyrights {
 a.logo-mentores {
   margin-left: 3px;
   width: 100px;
+  p {
+    text-indent: -99999px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  #Camada_2 {
+    position: relative;
+    top: -10px;
+    left: 5px;
+  }
 }
 
 .termos-e-privacidade p {
