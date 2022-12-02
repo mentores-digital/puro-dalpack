@@ -1,4 +1,5 @@
 .pagina-conta.pagina-minha-conta,
+.pagina-pedido,
 .pagina-conta-endereco {
   .caixa-dados.outros-enderecos fieldset a {
     float: left;
@@ -118,6 +119,14 @@
 
   ul.abas-conta.borda-alpha {
     display: none;
+  }
+
+  .abas-conta li.active a {
+    background-color: $corSecundaria;
+  }
+
+  .abas-conta li a {
+    background-color: $corPrimaria;
   }
 
   h3.titulo small {
@@ -242,6 +251,14 @@
     align-items: center;
     display: flex;
   }
+  .caixa-dados {
+    legend {
+      @media (max-width: 580px) {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
 
   .formulario-editar-cliente,
   .form-horizontal {
@@ -297,13 +314,13 @@
 }
 @media only screen and (max-width: 767px) {
   .pagina-conta.pagina-minha-conta ul.abas-conta.borda-alpha {
-      display: block;
-      clear: right;
-      float: left;
-      width: 100%;
-      padding-bottom: 20px
+    display: block;
+    clear: right;
+    float: left;
+    width: 100%;
+    padding-bottom: 20px;
   }
   .pagina-conta.pagina-minha-conta h3.titulo {
-      display: block;
+    display: block;
   }
 }

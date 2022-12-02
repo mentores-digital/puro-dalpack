@@ -9,6 +9,7 @@ const criarModelProductBox = (textoSmallPreco, textoBotaoCTA) => {
   // 3 CRIAR SPAN BANDEIRAS-PRODUTO
   const spanBandeirasProduto = document.createElement("span");
   spanBandeirasProduto.classList.add("bandeiras-produto");
+
   // 3 CRIAR SPAN BOOKMARKS
   const spanBookmarks = document.createElement("span");
   spanBookmarks.classList.add("bookmarks");

@@ -12,10 +12,8 @@
     }
   }
   .bandeiras-produto {
-    top: 10px;
-    right: 50% !important;
     span {
-      color: black;
+      color: $branco;
     }
   }
   .preco-produto {
@@ -966,7 +964,33 @@
   }
 }
 
-.bandeiras-produto {
+.bandeiras-produto.conteudo {
   position: absolute;
-  left: 50% !important;
+  left: -25px !important;
+  background-color: #53ba63 !important;
+  color: white;
+  /* width: 150px; */
+  /* height: 20px; */
+  z-index: 9;
+  font-size: 12px;
+  padding: 2px 10px;
+  border-radius: 3px;
+  top: 60px;
+  transform: rotate(-90deg);
+  width: 80px;
+}
+
+.bandeiras-produto span {
+  display: block !important;
+  padding: 0 !important;
+  line-height: none !important;
+  text-transform: none !important;
+  font-size: 12px !important;
+  font-weight: 600;
+  margin: 0 !important;
+  border: none !important;
+  box-sizing: border-box;
+  box-shadow: none !important;
+  white-space: none !important;
+  background-color: transparent !important;
 }

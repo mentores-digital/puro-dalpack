@@ -169,6 +169,7 @@ window.addEventListener("load", () => {
           urlSeta
         )
       );
+
       document.body.append(
         criarModelProductBox(
           //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -178,6 +179,7 @@ window.addEventListener("load", () => {
           ""
         )
       );
+
       // SELECIONA TODOS OS UL
       let productCarouselLI = document.querySelectorAll(".produtos-carrossel");
       // SE EXISTIR PRODUTOS NO CARROSSEL
@@ -196,6 +198,9 @@ window.addEventListener("load", () => {
           );
           items.forEach((product, index) => {
             /** Catch all infos **/
+            const bandeirasCards = product.querySelector(
+              ".bandeiras-produto span"
+            );
             const image = product.querySelector(".imagem-produto img");
             const name = product.querySelector(".nome-produto");
             const buton = product.querySelector(".acoes-produto");
@@ -221,6 +226,10 @@ window.addEventListener("load", () => {
                 _cover && _cover.classList.remove("cover");
                 box.querySelector("figure .hover").remove();
               }
+            }
+            if (bandeirasCards) {
+              box.querySelector(".bandeiras-produto").innerHTML =
+                bandeirasCards.innerHTML;
             }
             if (name) {
               box.querySelector(".product-title h2").innerHTML = name.innerHTML;

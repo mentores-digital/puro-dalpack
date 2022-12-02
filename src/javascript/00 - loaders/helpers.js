@@ -816,7 +816,7 @@ window.addEventListener("load", () => {
     elem.parentNode.appendChild(div);
   });
 
-  links.forEach((elem) => {
-    elem.href = "";
-  });
+  // links.forEach((elem) => {
+  //   elem.href = "";
+  // });
 });

@@ -1,614 +1,648 @@
 .pagina-carrinho.carrinho-checkout {
-    .cor-secundaria, .cor-principal{
-        color: $preto !important;
+  .cor-secundaria,
+  .cor-principal {
+    color: $preto !important;
+  }
+  .logo a {
+    height: 57px;
+    margin-top: 20px;
+  }
+
+  a.titulo.cor-secundaria.fazer-login-btn {
+    margin-left: 5px;
+    font-family: "Kepler";
+  }
+
+  #cabecalho {
+    background-color: #fff;
+    border-bottom: 2px solid $corSecundaria;
+  }
+
+  .formas.envio .accordion-heading .forma-conteiner .envio-nome {
+    text-align: left;
+    white-space: normal;
+    vertical-align: 0;
+    font-size: 11px;
+  }
+
+  // temporario
+  #cabecalho .atendimento {
+    display: none;
+  }
+
+  i {
+    // filter: invert(79%) sepia(46%) saturate(5809%) hue-rotate(175deg) brightness(99%) contrast(106%);
+  }
+
+  .bandeiras-pagamento i {
+    filter: none !important;
+  }
+
+  .bandeiras-pagamento li {
+    margin-right: 6px;
+  }
+
+  input#id_email_login {
+    box-shadow: none;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 2px solid $corPrimaria;
+    border-radius: 10px;
+    height: 50px;
+    font: normal normal normal 16px/25px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+    width: 100%;
+  }
+
+  .identificacao .control-group .submit-email.botao.principal {
+    max-width: unset;
+    max-height: unset;
+    text-align: center;
+    font: normal normal bold 14px/21px $fonteBase;
+    letter-spacing: 0px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $corPrimaria 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 12.5px 20px;
+    border: none;
+    height: 50px;
+    text-shadow: none;
+  }
+
+  .identificacao hr.sem-margem {
+    display: none;
+  }
+
+  .conteiner-principal #corpo .conteiner {
+    box-shadow: none;
+  }
+
+  // Titulo página checkout
+  .cabecalho-interno .titulo {
+    text-align: left;
+    font: normal normal bold 30px/45px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+    opacity: 1;
+
+    small {
+      text-align: left;
+      font: normal normal normal 16px/22px $fonteBase;
+      letter-spacing: 0px;
+      color: #292929;
+      opacity: 0.7;
+      margin-left: 10px;
     }
-    .logo a{
-        height: 57px;
-        margin-top: 20px;
+  }
+
+  .campos-pedido h3.identificacao-title {
+    text-align: center;
+    font: normal normal bold 30px/40px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+    opacity: 1;
+  }
+
+  // Checkout Alerta Seguro
+  .checkout-alerta-seguro {
+    max-width: 510px;
+    padding: 35px;
+    border: 1px solid #d5d5db66;
+    border-radius: 10px;
+    background: #f2f2f2;
+
+    .checkout-alerta-seguro-item {
+      .icon-ok {
+        color: $corPrimaria;
+      }
     }
 
-    a.titulo.cor-secundaria.fazer-login-btn {
-        margin-left: 5px;
-        font-family: 'Kepler';
+    .checkout-alerta-seguro-tit {
+      text-align: left;
+      font: normal normal bold 20px/30px $fonteBase;
+      letter-spacing: 0px;
+      color: #292929;
+      opacity: 1;
+      margin-top: 0;
+      width: 80%;
     }
 
-    #cabecalho {
-        background-color: #fff;
-        border-bottom   : 2px solid $corSecundaria;
+    .checkout-alerta-seguro-icon {
+      top: 5%;
+      bottom: unset;
+      right: 5%;
+
+      &::before {
+        font-size: 161px;
+        color: $corPrimaria;
+      }
     }
 
-    .formas.envio .accordion-heading .forma-conteiner .envio-nome {
-        text-align    : left;
-        white-space   : normal;
-        vertical-align: 0;
-        font-size     : 11px;
+    span.checkout-alerta-seguro-text {
+      text-align: left;
+      font: normal normal normal 14px/24px $fonteBase;
+      letter-spacing: 0px;
+      color: #292929;
     }
-
-    // temporario
-    #cabecalho .atendimento {
+  }
+  .mobilenav {
+    .row-fluid {
+      .span3 {
+        width: 70%;
+        // margin-left: -20px;
+        @media (max-width: 580px) {
+          position: relative;
+          top: -7px;
+        }
+      }
+      .span6 {
         display: none;
+      }
     }
 
-    i {
-        // filter: invert(79%) sepia(46%) saturate(5809%) hue-rotate(175deg) brightness(99%) contrast(106%);
+    .row-fluid {
+      .selo-div {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  // Tabela Resumo
+
+  .resumo-compra {
+    &.caixa-sombreada {
+      box-shadow: none;
     }
 
-    .bandeiras-pagamento i {
-        filter: none !important;
-    }
+    table.table.tabela-carrinho {
+      border-collapse: separate;
+      border-radius: 10px;
+      border: 1px solid lightgray;
 
-    .bandeiras-pagamento li {
-        margin-right: 6px;
-    }
+      thead {
+        tr {
+          th {
+            border: none;
+            background: none;
 
-    input#id_email_login {
-        box-shadow    : none;
-        background    : #FFFFFF 0% 0% no-repeat padding-box;
-        border        : 2px solid $corPrimaria;
-        border-radius : 10px;
-        height        : 50px;
-        font          : normal normal normal 16px/25px $fonteBase;
-        letter-spacing: 0px;
-        color         : #292929;
-        width         : 100%;
-    }
-
-    .identificacao .control-group .submit-email.botao.principal {
-        max-width      : unset;
-        max-height     : unset;
-        text-align     : center;
-        font           : normal normal bold 14px/21px $fonteBase;
-        letter-spacing : 0px;
-        color          : #FFFFFF;
-        display        : flex;
-        align-items    : center;
-        justify-content: center;
-        background     : $corPrimaria 0% 0% no-repeat padding-box;
-        border-radius  : 10px;
-        padding        : 12.5px 20px;
-        border         : none;
-        height         : 50px;
-        text-shadow    : none;
-    }
-
-    .identificacao hr.sem-margem {
-        display: none;
-    }
-
-    .conteiner-principal #corpo .conteiner {
-        box-shadow: none;
-    }
-
-    // Titulo página checkout
-    .cabecalho-interno .titulo {
-        text-align    : left;
-        font          : normal normal bold 30px/45px $fonteBase;
-        letter-spacing: 0px;
-        color         : #292929;
-        opacity       : 1;
-
-        small {
-            text-align    : left;
-            font          : normal normal normal 16px/22px $fonteBase;
-            letter-spacing: 0px;
-            color         : #292929;
-            opacity       : 0.7;
-            margin-left   : 10px;
-        }
-    }
-
-    .campos-pedido h3.identificacao-title {
-        text-align    : center;
-        font          : normal normal bold 30px/40px $fonteBase;
-        letter-spacing: 0px;
-        color         : #292929;
-        opacity       : 1;
-    }
-
-    // Checkout Alerta Seguro
-    .checkout-alerta-seguro {
-        max-width    : 510px;
-        padding      : 35px;
-        border       : 1px solid #D5D5DB66;
-        border-radius: 10px;
-        background   : #F2F2F2;
-
-        .checkout-alerta-seguro-item {
-            .icon-ok {
-                color: $corPrimaria;
+            h6 {
+              font: normal normal normal 12px/18px $fonteBase;
+              letter-spacing: 0px;
+              color: #292929;
+              text-transform: uppercase;
+              opacity: 0.5;
             }
+          }
+        }
+      }
+
+      tbody {
+        .produto-info {
+          ul {
+            display: none;
+          }
         }
 
-        .checkout-alerta-seguro-tit {
-            text-align    : left;
-            font          : normal normal bold 20px/30px $fonteBase;
-            letter-spacing: 0px;
-            color         : #292929;
-            opacity       : 1;
-            margin-top    : 0;
-            width         : 80%;
-        }
+        tr {
+          td[data-produto-id] {
+            padding-bottom: 19px;
+            border-color: lightgray;
 
-        .checkout-alerta-seguro-icon {
-            top   : 5%;
-            bottom: unset;
-            right : 5%;
-
-            &::before {
-                font-size: 161px;
-                color    : $corPrimaria;
-            }
-        }
-
-        span.checkout-alerta-seguro-text {
-            text-align    : left;
-            font          : normal normal normal 14px/24px $fonteBase;
-            letter-spacing: 0px;
-            color         : #292929;
-        }
-    }
-    .mobilenav{
-        .row-fluid {
-            .span3{
-                width: 70%;
-                margin-left: -20px;
-            }
-            .span6{
-                display: none;
-            }
-        }
-    }
-
-    // Tabela Resumo
-
-    .resumo-compra {
-
-        &.caixa-sombreada {
-            box-shadow: none;
-        }
-
-        table.table.tabela-carrinho {
-            border-collapse: separate;
-            border-radius  : 10px;
-            border         : 1px solid lightgray;
-
-            thead {
-                tr {
-                    th {
-                        border    : none;
-                        background: none;
-
-                        h6 {
-                            font          : normal normal normal 12px/18px $fonteBase;
-                            letter-spacing: 0px;
-                            color         : #292929;
-                            text-transform: uppercase;
-                            opacity       : 0.5;
-                        }
-                    }
-                }
+            .produto-info {
+              font: normal normal 500 17px/25px $fonteBase;
+              letter-spacing: 0px;
+              color: #292929;
+              opacity: 1;
+              margin-top: 15px;
             }
 
-            tbody {
-                .produto-info {
-                    ul {
-                        display: none;
-                    }
+            + {
+              td.conteiner-qtd {
+                div {
+                  font: normal normal bold 14px/21px $fonteBase;
+                  letter-spacing: 0px;
+                  color: $corPrimaria;
+                  opacity: 1;
+                  background: #e6e6e6;
+                  margin-top: 10px;
                 }
 
-                tr {
-                    td[data-produto-id] {
-                        padding-bottom: 19px;
-                        border-color  : lightgray;
-
-                        .produto-info {
-                            font          : normal normal 500 17px/25px $fonteBase;
-                            letter-spacing: 0px;
-                            color         : #292929;
-                            opacity       : 1;
-                            margin-top    : 15px;
-                        }
-
-                        + {
-                            td.conteiner-qtd {
-                                div {
-                                    font          : normal normal bold 14px/21px $fonteBase;
-                                    letter-spacing: 0px;
-                                    color         : $corPrimaria;
-                                    opacity       : 1;
-                                    background    : #E6E6E6;
-                                    margin-top    : 10px;
-                                }
-
-                                + {
-                                    td.conteiner-preco {
-                                        .preco-produto {
-                                            strong {
-                                                font          : normal normal bold 18px/27px $fonteBase;
-                                                letter-spacing: 0px;
-                                                color         : #292929;
-                                                opacity       : 1;
-                                            }
-                                        }
-                                    }
-                                }
-                            }
-
-                            td {
-                                border-color: lightgray;
-
-                                + {
-                                    td {
-                                        border-color: lightgray;
-                                    }
-                                }
-                            }
-                        }
+                + {
+                  td.conteiner-preco {
+                    .preco-produto {
+                      strong {
+                        font: normal normal bold 18px/27px $fonteBase;
+                        letter-spacing: 0px;
+                        color: #292929;
+                        opacity: 1;
+                      }
                     }
-
-                    &:nth-last-child(-n + 4) {
-                        .text-right {
-                            font          : normal normal normal 14px/21px $fonteBase;
-                            letter-spacing: 0px;
-                            color         : #292929;
-                            opacity       : 1;
-                        }
-
-                        .padding-preco {
-                            * {
-                                font          : normal normal bold 14px/51px $fonteBase;
-                                letter-spacing: 0px;
-                                color         : #292929;
-                                opacity       : 1;
-                            }
-                        }
-
-                        td {
-                            // background: lightgray;
-                        }
-                    }
-
-                    &:last-child {
-                        border    : none;
-                        box-shadow: none;
-                        background: none;
-                        padding   : 0;
-                        margin    : 0;
-
-                        td {
-                            &:last-child {
-                                border-radius: 0 0 10px 0;
-                            }
-
-                            &:first-child {
-                                border-radius: 0 0 0 10px;
-                            }
-
-                            padding: 20px 0;
-                        }
-
-                        .padding-preco {
-                            * {
-                                font          : normal normal bold 18px/51px $fonteBase;
-                                letter-spacing: 0px;
-                                color         : #292929;
-                                opacity       : 1;
-                            }
-                        }
-                    }
+                  }
                 }
+              }
+
+              td {
+                border-color: lightgray;
+
+                + {
+                  td {
+                    border-color: lightgray;
+                  }
+                }
+              }
+            }
+          }
+
+          &:nth-last-child(-n + 4) {
+            .text-right {
+              font: normal normal normal 14px/21px $fonteBase;
+              letter-spacing: 0px;
+              color: #292929;
+              opacity: 1;
             }
 
-            border-color: lightgray !important;
+            .padding-preco {
+              * {
+                font: normal normal bold 14px/51px $fonteBase;
+                letter-spacing: 0px;
+                color: #292929;
+                opacity: 1;
+              }
+            }
 
             td {
-                border-color: lightgray !important;
+              // background: lightgray;
             }
-        }
-    }
+          }
 
-    // Login Checkout - Seção preencher senha
-    .login-data.hide {
+          &:last-child {
+            border: none;
+            box-shadow: none;
+            background: none;
+            padding: 0;
+            margin: 0;
 
-        .esqueci-senha,
-        .fazer-cadastro {
-            color: #292929;
-        }
+            td {
+              &:last-child {
+                border-radius: 0 0 10px 0;
+              }
 
-        button#id_botao_login {
-            max-width      : unset;
-            max-height     : unset;
-            text-align     : center;
-            font           : normal normal bold 14px/21px $fonteBase;
-            letter-spacing : 0px;
-            color          : #FFFFFF;
-            display        : flex;
-            align-items    : center;
-            justify-content: center;
-            background     : $corSecundaria 0% 0% no-repeat padding-box;
-            border-radius  : 10px;
-            padding        : 12.5px 20px;
-            border         : none;
-            height         : 50px;
-            text-shadow    : none;
-        }
+              &:first-child {
+                border-radius: 0 0 0 10px;
+              }
 
-        input#id_senha_login {
-            box-shadow    : none;
-            background    : #FFFFFF 0% 0% no-repeat padding-box;
-            border        : 2px solid $corPrimaria;
-            border-radius : 10px;
-            height        : 50px;
-            font          : normal normal normal 16px/25px $fonteBase;
-            letter-spacing: 0px;
-            color         : #292929;
-            width         : 100%;
-        }
-    }
-
-    // Frete - defina abaixo
-    .resumo-compra table.table.tabela-carrinho tbody tr:nth-last-child(-n + 4) .padding-preco .frete-preco small.muted {
-        font-size: 8px;
-    }
-
-    //
-
-
-    // Ícones dos Títulos
-    .caixa-sombreada.borda-principal.dados-cadastro i.icon-list::before {
-        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-dados.svg");
-    }
-
-    #listaEndereco.lista-endereco.accordion i.icon-list-alt::before {
-        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-meus-pedidos.svg");
-    }
-
-    .campos-pedido .caixa-sombreada i.icon-map-marker::before {
-        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-entrega-desktop.svg");
-    }
-
-    .campos-pedido .caixa-sombreada i.icon-money::before {
-        content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-pagamento-desktop.svg");
-    }
-
-    //
-
-
-    // Temp - pra arrumar (daqui pra baixo tudo)
-
-    .caixa-sombreada.borda-principal.dados-cadastro {
-        border    : none;
-        box-shadow: none;
-    }
-
-    .campos-pedido legend {
-        font          : normal normal bold 22px/33px $fonteBase;
-        letter-spacing: 0px;
-        color         : #292929;
-        opacity       : 1;
-        border        : none;
-        display       : flex;
-        align-items   : center;
-    }
-
-    .caixa-info {
-        box-shadow   : none;
-        background   : none;
-        border       : 1px solid $borda;
-        border-radius: 10px;
-    }
-
-    .caixa-info li strong {
-        font          : normal normal bold 14px/30px $fonteBase;
-        letter-spacing: 0px;
-        color         : #292929;
-    }
-
-    .caixa-info li {
-        font          : normal normal normal 14px/30px $fonteBase;
-        letter-spacing: 0px;
-        color         : #292929;
-    }
-
-    .campos-pedido .caixa-sombreada {
-        box-shadow: none;
-        border    : none;
-    }
-
-    #formas-pagamento-wrapper .selo-ssl {
-        display: none;
-    }
-
-    button#finalizarCompra {
-        width         : 100%;
-        background    : none;
-        border        : none;
-        box-shadow    : none;
-        text-shadow   : none;
-        font          : normal normal bold 16px/25px $fonteBase;
-        letter-spacing: 0px;
-        color         : #FFFFFF;
-        opacity       : 1;
-        background    : $corSecundaria 0% 0% no-repeat padding-box;
-        border-radius : 10px;
-        padding       : 20px;
-    }
-
-    button#finalizarCompra i {
-        display: none;
-    }
-
-    .endereco.accordion-group .accordion-inner {
-        font          : normal normal normal 14px/22px $fonteBase;
-        letter-spacing: 0px;
-        color         : #292929;
-        opacity       : 1;
-        border-top    : 1px solid $corPrimaria;
-    }
-
-    .formas .accordion-heading .forma-conteiner {
-        line-height  : 48px;
-        //text-indent: 20px;
-        margin-left  : 53px;
-    }
-
-    .radio-conteiner input:checked::after {
-        content      : "";
-        top          : -3px;
-        left         : -3px;
-        width        : 20px;
-        height       : 20px;
-        border-radius: 50%;
-        background   : white;
-        border       : 6px solid $corPrimaria;
-    }
-
-    .radio-conteiner input {
-        position: relative;
-    }
-
-    .radio-conteiner input::after {
-        position     : absolute;
-        content      : "";
-        top          : -4px;
-        left         : -3px;
-        width        : 20px;
-        height       : 20px;
-        border-radius: 50%;
-        background   : white;
-        border       : 2px solid $corPrimaria;
-    }
-
-    .formas .accordion-heading .radio-conteiner {
-        background     : none;
-        border-right   : 1px solid $borda;
-        padding        : 25px 20px;
-        display        : flex;
-        align-items    : center;
-        justify-content: center;
-    }
-
-    .formas .accordion-heading .forma-conteiner strong {
-        line-height: -12px;
-    }
-
-    .formas .accordion-group {
-        border: 1px solid $borda;
-    }
-
-    .formas .accordion-group:hover {
-        background: none;
-    }
-
-    .formas .accordion-group {
-        background: none;
-    }
-
-    .formas .accordion-heading .radio-conteiner {
-
-        &.m-checked+.forma-conteiner {
-            background: $preto;
-
-            strong {
-                color: white;
+              padding: 20px 0;
             }
-        }
 
-        input {
-            @include transition;
+            .padding-preco {
+              * {
+                font: normal normal bold 18px/51px $fonteBase;
+                letter-spacing: 0px;
+                color: #292929;
+                opacity: 1;
+              }
+            }
+          }
         }
+      }
 
-        .forma-conteiner {
-            @include transition;
-        }
+      border-color: lightgray !important;
+
+      td {
+        border-color: lightgray !important;
+      }
+    }
+  }
+
+  // Login Checkout - Seção preencher senha
+  .login-data.hide {
+    .esqueci-senha,
+    .fazer-cadastro {
+      color: #292929;
     }
 
-    .campos-pedido input:not([type='radio']),
-    .campos-pedido select {
-        border       : 2px solid #D5D5DB66 !important;
-        border-radius: 10px !important;
-        box-shadow   : none !important;
-        font-family  : $fonteBase;
-        height       : 50px;
-
+    button#id_botao_login {
+      max-width: unset;
+      max-height: unset;
+      text-align: center;
+      font: normal normal bold 14px/21px $fonteBase;
+      letter-spacing: 0px;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: $corSecundaria 0% 0% no-repeat padding-box;
+      border-radius: 10px;
+      padding: 12.5px 20px;
+      border: none;
+      height: 50px;
+      text-shadow: none;
     }
 
-    .campos-pedido input#cartao_check_dados_titular,
-    .campos-pedido input#cartao_check_dados_fatura {
-        height   : 13px;
-        min-width: 13px;
+    input#id_senha_login {
+      box-shadow: none;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 2px solid $corPrimaria;
+      border-radius: 10px;
+      height: 50px;
+      font: normal normal normal 16px/25px $fonteBase;
+      letter-spacing: 0px;
+      color: #292929;
+      width: 100%;
+    }
+  }
+
+  // Frete - defina abaixo
+  .resumo-compra
+    table.table.tabela-carrinho
+    tbody
+    tr:nth-last-child(-n + 4)
+    .padding-preco
+    .frete-preco
+    small.muted {
+    font-size: 8px;
+  }
+
+  //
+
+  // Ícones dos Títulos
+  .caixa-sombreada.borda-principal.dados-cadastro i.icon-list::before {
+    content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-dados.svg");
+  }
+
+  #listaEndereco.lista-endereco.accordion i.icon-list-alt::before {
+    content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-meus-pedidos.svg");
+  }
+
+  .campos-pedido .caixa-sombreada i.icon-map-marker::before {
+    content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-entrega-desktop.svg");
+  }
+
+  .campos-pedido .caixa-sombreada i.icon-money::before {
+    content: url("https://cdn.awsli.com.br/2256/2256296/arquivos/icon-pagamento-desktop.svg");
+  }
+
+  //
+
+  // Temp - pra arrumar (daqui pra baixo tudo)
+
+  .caixa-sombreada.borda-principal.dados-cadastro {
+    border: none;
+    box-shadow: none;
+  }
+
+  .campos-pedido legend {
+    font: normal normal bold 22px/33px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+    opacity: 1;
+    border: none;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 580px) {
+      flex-direction: column;
+    }
+  }
+
+  .caixa-info {
+    box-shadow: none;
+    background: none;
+    border: 1px solid $borda;
+    border-radius: 10px;
+  }
+
+  .caixa-info li strong {
+    font: normal normal bold 14px/30px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+  }
+
+  .caixa-info li {
+    font: normal normal normal 14px/30px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+  }
+
+  .campos-pedido .caixa-sombreada {
+    box-shadow: none;
+    border: none;
+  }
+
+  #formas-pagamento-wrapper .selo-ssl {
+    display: none;
+  }
+
+  button#finalizarCompra {
+    width: 100%;
+    background: none;
+    border: none;
+    box-shadow: none;
+    text-shadow: none;
+    font: normal normal bold 16px/25px $fonteBase;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+    background: $corSecundaria 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  button#finalizarCompra i {
+    display: none;
+  }
+
+  .endereco.accordion-group .accordion-inner {
+    font: normal normal normal 14px/22px $fonteBase;
+    letter-spacing: 0px;
+    color: #292929;
+    opacity: 1;
+    border-top: 1px solid $corPrimaria;
+  }
+
+  .formas .accordion-heading .forma-conteiner {
+    line-height: 48px;
+    //text-indent: 20px;
+    margin-left: 53px;
+  }
+
+  .radio-conteiner input:checked::after {
+    content: "";
+    top: -3px;
+    left: -3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 6px solid $corPrimaria;
+  }
+
+  .radio-conteiner input {
+    position: relative;
+  }
+
+  .radio-conteiner input::after {
+    position: absolute;
+    content: "";
+    top: -4px;
+    left: -3px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 2px solid $corPrimaria;
+  }
+
+  .formas .accordion-heading .radio-conteiner {
+    background: none;
+    border-right: 1px solid $borda;
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formas .accordion-heading .forma-conteiner strong {
+    line-height: -12px;
+  }
+
+  .formas .accordion-group {
+    border: 1px solid $borda;
+  }
+
+  .formas .accordion-group:hover {
+    background: none;
+  }
+
+  .formas .accordion-group {
+    background: none;
+  }
+
+  .formas .accordion-heading .radio-conteiner {
+    &.m-checked + .forma-conteiner {
+      background: $preto;
+
+      strong {
+        color: white;
+      }
     }
 
+    input {
+      @include transition;
+    }
+
+    .forma-conteiner {
+      @include transition;
+    }
+  }
+
+  .campos-pedido input:not([type="radio"]),
+  .campos-pedido select {
+    border: 2px solid #d5d5db66 !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+    font-family: $fonteBase;
+    height: 50px;
+  }
+
+  .campos-pedido input#cartao_check_dados_titular,
+  .campos-pedido input#cartao_check_dados_fatura {
+    height: 13px;
+    min-width: 13px;
+  }
 }
 
 @media (max-width: 991px) {
-    .pagina-carrinho.carrinho-checkout .cabecalho-interno .titulo {
-        text-align: center;
-    }
+  .pagina-carrinho.carrinho-checkout .cabecalho-interno .titulo {
+    text-align: center;
+  }
 
-    .pagina-carrinho.carrinho-checkout .resumo-compra table.table.tabela-carrinho tr {
-        border: none;
-    }
+  .pagina-carrinho.carrinho-checkout
+    .resumo-compra
+    table.table.tabela-carrinho
+    tr {
+    border: none;
+  }
 
-    .pagina-carrinho.carrinho-checkout .resumo-compra table.table.tabela-carrinho tbody tr td[data-produto-id]+td+td {
-        display: none;
-    }
+  .pagina-carrinho.carrinho-checkout
+    .resumo-compra
+    table.table.tabela-carrinho
+    tbody
+    tr
+    td[data-produto-id]
+    + td
+    + td {
+    display: none;
+  }
 
-    .pagina-carrinho.carrinho-checkout .resumo-compra table.table.tabela-carrinho tbody tr td {
-        border: none;
-    }
+  .pagina-carrinho.carrinho-checkout
+    .resumo-compra
+    table.table.tabela-carrinho
+    tbody
+    tr
+    td {
+    border: none;
+  }
 
-    .pagina-carrinho.carrinho-checkout .resumo-compra table.table.tabela-carrinho tbody tr:last-child td:last-child {
-        display        : flex;
-        align-items    : center;
-        justify-content: flex-end;
-        padding        : 10px;
-    }
+  .pagina-carrinho.carrinho-checkout
+    .resumo-compra
+    table.table.tabela-carrinho
+    tbody
+    tr:last-child
+    td:last-child {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px;
+  }
 
-    .add-on {
-        display: none;
-    }
+  .add-on {
+    display: none;
+  }
 
-    tr.bg-dark.esconder-mobile.desconto-tr.hide {
-        display        : flex !important;
-        margin         : 0;
-        padding        : 0;
-        background     : $branco;
-        align-items    : center;
-        justify-content: flex-end;
-    }
+  tr.bg-dark.esconder-mobile.desconto-tr.hide {
+    display: flex !important;
+    margin: 0;
+    padding: 0;
+    background: $branco;
+    align-items: center;
+    justify-content: flex-end;
+  }
 
-    tr.bg-dark.esconder-mobile.desconto-tr.hide td {
-        padding-right: 10px;
-    }
+  tr.bg-dark.esconder-mobile.desconto-tr.hide td {
+    padding-right: 10px;
+  }
 
-    .pagina-carrinho.carrinho-checkout .campos-pedido legend {
-        font-size: 16px;
-    }
+  .pagina-carrinho.carrinho-checkout .campos-pedido legend {
+    font-size: 16px;
+  }
 
-    a.titulo.cor-secundaria.fazer-login-btn {
-        margin-left: 5px;
-    }
+  a.titulo.cor-secundaria.fazer-login-btn {
+    margin-left: 5px;
+  }
 
-    tr.bg-dark.esconder-mobile.desconto-tr.hide td {
-        background: none !important;
-    }
+  tr.bg-dark.esconder-mobile.desconto-tr.hide td {
+    background: none !important;
+  }
 }
 
-.tr-checkout-frete .text-right{
-    @media (max-width: 768px) {
-        padding-right: 10% !important;
-    }
+.tr-checkout-frete .text-right {
+  @media (max-width: 768px) {
+    padding-right: 10% !important;
+  }
 }
 
-.padding-preco{
-    @media (max-width: 768px) {
-        padding-right: 10% !important;
-    }
+.padding-preco {
+  @media (max-width: 768px) {
+    padding-right: 10% !important;
+  }
 }
 
-.tr-checkout-total > .padding-preco{
-    @media (max-width: 768px) {
-        padding-right: 10% !important;
-    }
+.tr-checkout-total > .padding-preco {
+  @media (max-width: 768px) {
+    padding-right: 10% !important;
+  }
 }

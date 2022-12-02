@@ -6,8 +6,7 @@
   padding: 10px;
   min-height: 385px !important;
 
-  
-  a{
+  a {
     display: flex;
     flex-direction: column;
   }
@@ -120,7 +119,7 @@
       line-height: 20px;
       text-align: left;
       font-family: $fonteBase;
-      color: #000;
+      color: $corPrimaria;
       font-weight: 700;
     }
 

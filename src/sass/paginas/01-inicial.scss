@@ -5,75 +5,7 @@
     div.midBanner-text {
       position: absolute;
       top: 35px;
-      left: 30px;
-
-      h4 {
-        color: $branco;
-        width: 100px;
-      }
-
-      a {
-        position: relative;
-        top: 20px;
-        color: $branco;
-        border: 1px solid $branco;
-        border-radius: 7px;
-        transition: 0.3s;
-        cursor: pointer;
-        padding: 10px 20px;
-
-        &:hover {
-          background-color: $branco;
-          color: #545454;
-          border: 1px solid $branco;
-          transition: 0.3s;
-        }
-      }
-    }
-  }
-
-  // animacao mini banner
-  .mini-banner .modulo .flexslider ul.slides li {
-    position: relative;
-
-    div.midBanner-text {
-      position: absolute;
-      top: 35px;
-      left: 30px;
-
-      h4 {
-        color: $branco;
-        width: 100px;
-      }
-
-      a {
-        position: relative;
-        top: 20px;
-        color: $branco;
-        border: 1px solid $branco;
-        border-radius: 7px;
-        transition: 0.3s;
-        cursor: pointer;
-        padding: 10px 20px;
-
-        &:hover {
-          background-color: $branco;
-          color: #545454;
-          border: 1px solid $branco;
-          transition: 0.3s;
-        }
-      }
-    }
-  }
-
-  // animacao mini banner
-  .mini-banner .modulo .flexslider ul.slides li {
-    position: relative;
-
-    div.midBanner-text {
-      position: absolute;
-      top: 35px;
-      left: 30px;
+      left: 10%;
 
       h4 {
         color: $branco;
@@ -695,11 +627,11 @@
     }
   }
 
-  @media (max-width: 425px) {
-    width: 80%;
+  @media (max-width: 580px) {
+    width: 90% !important;
   }
 }
-article .countdown{
+article .countdown {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -713,15 +645,15 @@ article .countdown{
   // bottom: 17px;
 
   p {
-      font-family: $fonteBase;
-      margin: 0 !important;
-      font-size: 14px;
-      
-      font-weight: 700;
-      color: black !important;
+    font-family: $fonteBase;
+    margin: 0 !important;
+    font-size: 14px;
+
+    font-weight: 700;
+    color: black !important;
   }
   img {
-      width: 123px;
-      margin-top: 3px;
+    width: 123px;
+    margin-top: 3px;
   }
 }

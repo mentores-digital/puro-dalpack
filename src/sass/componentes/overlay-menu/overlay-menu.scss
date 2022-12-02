@@ -1,264 +1,265 @@
 #overlay-menu {
+  display: none;
 
+  .minha-conta {
+    background: $corPrimaria;
+  }
 
+  // Remove borda
+  .borda-principal {
+    border-style: none;
+  }
 
+  // Reset classes padrão LI
+  li.minha-conta a,
+  .titulo {
+    font-family: $fonteBase;
+    font-weight: bold;
+    color: $extremelyDark;
+  }
+
+  .icon-chevron-down {
+    background-color: transparent;
+
+    &::before {
+      content: $setaCategorias;
+    }
+  }
+
+  .bg-menu {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  // UL
+  ul.nivel-um {
+    position: fixed;
+    background: white;
+    width: 80%;
+    left: 0px;
+    margin: 0px;
+    z-index: 2;
+    height: calc(100% - 148px);
+    top: 148px;
+    overflow: auto;
+  }
+
+  ul.nivel-um li {
+    line-height: 60px;
+    border-bottom: 1px solid $borda;
+    padding: 0px 15px;
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+
+      i {
+        position: absolute;
+        right: 21px;
+        z-index: 2;
+      }
+
+      strong {
+        width: 100%;
+        position: relative;
+        z-index: 99;
+        font-size: 14px;
+      }
+    }
+  }
+
+  // ULS DE ACESSO PARA NV 2
+  ul.nivel-um li ul {
     display: none;
-
-    .minha-conta {
-        background: $corPrimaria;
-    }
-
-    // Remove borda
-    .borda-principal {
-        border-style: none;
-    }
-
-    // Reset classes padrão LI
-    li.minha-conta a,
-    .titulo {
-        font-family: $fonteBase;
-        font-weight: bold;
-        color      : $extremelyDark;
-    }
-
-    .icon-chevron-down {
-        background-color: transparent;
-
-        &::before {
-            content: $setaCategorias;
-        }
-    }
-
-    .bg-menu {
-        width     : 100%;
-        height    : 100%;
-        background: rgba(0, 0, 0, 0.5);
-        position  : fixed;
-        right     : 0;
-        bottom    : 0;
-        z-index   : 1;
-    }
-
-    // UL 
-    ul.nivel-um {
-        position  : fixed;
-        background: white;
-        width     : 80%;
-        left      : 0px;
-        margin    : 0px;
-        z-index   : 2;
-        height    : 100%;
-    }
-
-    ul.nivel-um li {
-        line-height  : 60px;
-        border-bottom: 1px solid $borda;
-        padding      : 0px 15px;
-
-        a {
-            display        : flex;
-            align-items    : center;
-            justify-content: space-between;
-            width          : 100%;
-
-            i {
-                position: absolute;
-                right   : 21px;
-                z-index : 2;
-            }
-
-            strong {
-                width   : 100%;
-                position: relative;
-                z-index : 99;
-                font-size: 14px;
-            }
-        }
-    }
-
-    // ULS DE ACESSO PARA NV 2
-    ul.nivel-um li ul {
-        display: none;
-    }
+  }
 }
 
 #overlay-menu-dois {
+  display: none;
+
+  // Remove borda
+  .borda-principal {
+    border-style: none;
+  }
+
+  // Reset classes padrão LI
+  .titulo {
+    font-family: $fonteBase, serif;
+    font-weight: 400;
+  }
+
+  .icon-chevron-down {
     display: none;
+  }
 
-    // Remove borda
-    .borda-principal {
-        border-style: none;
+  .bg-menu-dois {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  // UL
+  ul.nivel-dois {
+    position: fixed;
+    background: white;
+    width: 80%;
+    left: 0px;
+    margin: 0px;
+    padding: 15px;
+    z-index: 10;
+    height: calc(100% - 148px);
+    top: 148px;
+    overflow: auto;
+
+    li {
+      position: relative;
     }
+  }
 
-    // Reset classes padrão LI
-    .titulo {
-        font-family: $fonteBase, serif;
-        font-weight: 400;
-    }
+  ul.nivel-dois li,
+  ul.nivel-dois > a {
+    line-height: 60px;
+    border-bottom: 1px solid $borda;
+  }
 
-    .icon-chevron-down {
-        display: none;
-    }
+  ul.nivel-dois li a,
+  ul.nivel-dois > a {
+    font-family: $fonteBase;
+    font-weight: bold;
+    color: $extremelyDark;
+    font-size: 14px;
+  }
 
-    .bg-menu-dois {
-        width     : 100%;
-        height    : 100%;
-        background: rgba(0, 0, 0, 0.1);
-        position  : fixed;
-        right     : 0;
-        bottom    : 0;
-        z-index   : 1;
-    }
+  // ul.nivel-dois li.com-filho a{
+  //     // display: flex;
+  //     // align-items: baseline;
+  //     // justify-content: space-between;
+  //     // flex-direction: row-reverse;
+  //     .icon-chevron-right {
+  //         display: none;
+  //     }
+  // }
 
-    // UL 
-    ul.nivel-dois {
-        position  : fixed;
-        background: white;
-        width     : 80%;
-        left      : 0px;
-        margin    : 0px;
-        padding   : 15px;
-        z-index   : 10;
-        height    : 100%;
-
-        li {
-            position: relative;
-        }
-    }
-
-    ul.nivel-dois li,
-    ul.nivel-dois>a {
-        line-height  : 60px;
-        border-bottom: 1px solid $borda;
-    }
-
-    ul.nivel-dois li a,
-    ul.nivel-dois>a {
-        font-family: $fonteBase;
-        font-weight: bold;
-        color      : $extremelyDark;
-        font-size: 14px;
-    }
-
-    // ul.nivel-dois li.com-filho a{
-    //     // display: flex;
-    //     // align-items: baseline;
-    //     // justify-content: space-between;
-    //     // flex-direction: row-reverse;
-    //     .icon-chevron-right {
-    //         display: none;
-    //     }
-    // }
-
-    // ULS DE ACESSO PARA NV 2
-    ul.nivel-dois li ul {
-        display: none;
-    }
+  // ULS DE ACESSO PARA NV 2
+  ul.nivel-dois li ul {
+    display: none;
+  }
 }
 
 // Links overlay menu
 #overlay-menu .nivel-um li,
 #overlay-menu-dois .nivel-dois a,
 #overlay-menu .nivel-um a {
-    display: block;
+  display: block;
 }
 
 #overlay-menu-tres {
+  display: none;
+
+  // Remove borda
+  .borda-principal {
+    border-style: none;
+  }
+
+  // Reset classes padrão LI
+  .titulo {
+    font-family: $fonteBase, serif;
+    font-weight: 400;
+  }
+
+  .icon-chevron-down {
     display: none;
+  }
 
-    // Remove borda
-    .borda-principal {
-        border-style: none;
+  .bg-menu-tres {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.1);
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+
+  // UL
+  ul.nivel-tres {
+    position: fixed;
+    background: white;
+    width: 80%;
+    left: 0px;
+    margin: 0px;
+    padding: 15px;
+    z-index: 10;
+    height: calc(100% - 148px);
+    top: 148px;
+    overflow: auto;
+
+    li {
+      font-weight: bold;
     }
+  }
 
-    // Reset classes padrão LI
-    .titulo {
-        font-family: $fonteBase, serif;
-        font-weight: 400;
-    }
+  ul.nivel-tres li,
+  ul.nivel-tres > a {
+    line-height: 60px;
+    border-bottom: 1px solid $borda;
+  }
 
-    .icon-chevron-down {
-        display: none;
-    }
+  ul.nivel-tres li a,
+  ul.nivel-tres > a {
+    font-family: $fonteBase;
+    font-weight: bold;
+    color: $extremelyDark;
+    font-size: 14px;
+  }
 
-    .bg-menu-tres {
-        width     : 100%;
-        height    : 100%;
-        background: rgba(0, 0, 0, 0.1);
-        position  : fixed;
-        right     : 0;
-        bottom    : 0;
-        z-index   : 1;
-    }
+  // ul.nivel-tres li.com-filho a {
 
-    // UL 
-    ul.nivel-tres {
-        position  : fixed;
-        background: white;
-        width     : 80%;
-        left      : 0px;
-        margin    : 0px;
-        padding   : 15px;
-        z-index   : 10;
-        height    : 100%;
+  //     // display: flex;
+  //     // align-items: baseline;
+  //     // justify-content: space-between;
+  //     // flex-direction: row-reverse;
+  //     .icon-chevron-right {
+  //         display: none;
+  //     }
+  // }
 
-        li {
-            font-weight: bold;
-        }
-        
-    }
-
-    ul.nivel-tres li,
-    ul.nivel-tres>a {
-        line-height  : 60px;
-        border-bottom: 1px solid $borda;
-    }
-
-    ul.nivel-tres li a,
-    ul.nivel-tres>a {
-        font-family: $fonteBase;
-        font-weight: bold;
-        color      : $extremelyDark;
-        font-size: 14px;
-    }
-
-    // ul.nivel-tres li.com-filho a {
-
-    //     // display: flex;
-    //     // align-items: baseline;
-    //     // justify-content: space-between;
-    //     // flex-direction: row-reverse;
-    //     .icon-chevron-right {
-    //         display: none;
-    //     }
-    // }
-
-    // ULS DE ACESSO PARA NV 2
-    ul.nivel-tres li ul {
-        display: none;
-    }
+  // ULS DE ACESSO PARA NV 2
+  ul.nivel-tres li ul {
+    display: none;
+  }
 }
 
 // Links overlay menu
 #overlay-menu-dois .nivel-um li,
 #overlay-menu-tres .nivel-tres a,
 #overlay-menu-dois .nivel-um a {
-    display: block;
+  display: block;
 }
 
 #overlay-menu-dois .nivel-dois li {
-    position: relative;
+  position: relative;
 
-    i.icon-chevron-right {
-        font-size: 10px;
-        color    : #e29600;
-        position : absolute;
-        right    : 25px;
-        top      : 25px;
+  i.icon-chevron-right {
+    font-size: 10px;
+    color: #e29600;
+    position: absolute;
+    right: 25px;
+    top: 25px;
 
-        &::before{
-            margin-right: -35px !important;
-        }
+    &::before {
+      margin-right: -35px !important;
     }
+  }
 }
-
