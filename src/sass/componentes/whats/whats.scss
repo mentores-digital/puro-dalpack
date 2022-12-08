@@ -3,12 +3,10 @@
   z-index: 9999;
   width: 165px;
   height: 115px;
-  bottom: 125px;
-  right: 125px;
+  bottom: 120px;
+  right: 59px;
   @media (max-width: 991px) {
     height: 90px;
-    bottom: 70px;
-    right: 80px;
   }
 
   .content-whats {
@@ -39,13 +37,14 @@
 a#whats {
   position: fixed;
   bottom: 70px;
-  right: 70px;
+  right: 20px;
   z-index: 10000;
-  width: 70px;
+  width: 55px;
   cursor: pointer;
+  &:hover{
+    filter: brightness(1.2);
+  }
   @media (max-width: 991px) {
-    width: 65px;
-    bottom: 25px;
-    right: 25px;
+    width: 45px;
   }
 }
