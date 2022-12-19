@@ -40,6 +40,22 @@ const criarBarraBuscaNavSuperior = (placeholder, urlIconeBarraBusca) => {
   inputBarraBusca.placeholder = placeholder;
   inputBarraBusca.autocomplete = "off";
 
+  // criar iframe
+  // const cab = document.querySelector("#cabecalho");
+  // const diviframe = document.createElement("div");
+  // diviframe.classList.add("div-iframe");
+
+  // const iframe = document.createElement("iframe");
+  // iframe.classList.add("aqui-link");
+  // diviframe.append(iframe);
+
+  // cab.append(diviframe);
+
+  // diviframe.style.position = "absolute";
+  // diviframe.style.top = "50px";
+  // diviframe.style.zIndex = "999999999999";
+  // diviframe.style.display = "none";
+
   // Criar botão
   const botaoBarraBusca = document.createElement("button");
   botaoBarraBusca.classList.add("botao-nav-superior-puro");
@@ -243,12 +259,31 @@ window.addEventListener("load", () => {
             </div>
             <div>
                 <strong class="strong-minha-conta rastreioheader">Rastrear pedido</strong><br>
-                <form action = "/" >
+                <form action = "#" class="track-form">
                     <input type="text" id="code" placeholder="Código">
+
+                    <button class="rastreiobutton">
+                    </button>
                 </form>
+                
             </div>`
       )
     );
+    
+
+    // $(".rastreiobutton").click(
+    //   function(){
+    //     var numerorastreio = document.getElementById("code").value;
+    //     // window.open("https://cnweb4.websiteseguro.com/logocn-integrada/correios.php?obj=" + numerorastreio);
+    //     var link = 'https://cnweb4.websiteseguro.com/logocn-integrada/correios.php?obj=';
+
+    //     const newfram = document.querySelector(".aqui-link")
+    //     newfram.setAttribute("src", link + numerorastreio);
+
+    //     $(".signature").remove;
+    //     diviframe.style.display = "block";
+    //   }
+    // )
   } catch (error) {
     console.log(`Erro encontrado no nav superior -> ${error}`);
   }
