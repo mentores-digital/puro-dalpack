@@ -14,7 +14,7 @@ window.addEventListener("load", () => {
               </a>
           </li>
           <li>
-              <a href="https://api.whatsapp.com/send?phone=5511933227590" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=5511916639586" target="_blank">
                 Comercial
               </a>
           </li>
@@ -31,7 +31,7 @@ window.addEventListener("load", () => {
     }
   });
 
-  // whats.href = "https://api.whatsapp.com/send?phone=5511951589745";
+  // whats.href = "https://api.whatsapp.com/send?phone=5511916639586";
   whats.id = "whats";
   whats.target = "_blank";
   footerZ.append(whats);

@@ -18,16 +18,16 @@
         text-decoration: none;
         list-style-type: none !important;
         height: 50%;
-        border-bottom: 1px solid;
         a {
           height: 100%;
-          background: #678e5f;
+          background: #3cb558;
           display: flex;
           align-items: center;
-          border-bottom: 1px solid #fff;
           justify-content: center;
+          border-radius: 20px;
+          margin: 10px 0 0px 0;
           &:hover {
-            filter: invert(1);
+            background: #52F378;
           }
         }
       }
