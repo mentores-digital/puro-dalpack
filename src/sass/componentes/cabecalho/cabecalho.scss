@@ -164,6 +164,12 @@
     // NAV SUPERIOR
     ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     .row-fluid {
+      .span3 {
+        @media (max-width: 1366px) {
+          width: 20%;
+        }
+      }
+
       .logo a {
         height: 58px;
         margin-top: 29px;
@@ -185,6 +191,11 @@
           left: 6px;
           input#auto-complete {
             @include inputBarraBuscaNavSuperior;
+
+            @media (max-width: 1366px) {
+              height: 50px;
+              width: 400px;
+            }
           }
 
           button {
@@ -192,6 +203,10 @@
             background-color: transparent;
             line-height: $alturaBarraBusca;
             padding-left: 19px;
+
+            @media (max-width: 1366px) {
+              line-height: 50px;
+            }
 
             img {
               width: 25px;
