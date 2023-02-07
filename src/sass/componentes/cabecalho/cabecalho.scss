@@ -10,6 +10,10 @@
       background-repeat: no-repeat;
       background-position-y: bottom;
       background-position-x: right;
+
+      @media (max-width: 1366px) {
+        min-width: 287px;
+      }
     }
   }
 
@@ -254,8 +258,10 @@
 
             @media (max-width: 1409px) {
               display: flex;
+              flex-direction: column;
               justify-content: center;
               align-items: center;
+              margin-left: 0;
             }
           }
         }

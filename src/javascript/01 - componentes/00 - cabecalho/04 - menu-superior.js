@@ -132,3 +132,25 @@ window.addEventListener("load", () => {
     console.log(`Erro encontrado -> ${error}`);
   }
 });
+
+window.addEventListener("load", () => {
+  "strict";
+  try {
+    if (window.matchMedia("(max-width: 1366px)").matches) {
+      const menu = document.querySelectorAll(".menu.superior > ul > li");
+
+      const metadeMenuLi = Math.ceil(menu.length / 2);
+
+      const menuNivelUm = document.createElement("ul");
+      menuNivelUm.setAttribute("class", "nivel-um");
+
+      for (let i = 0; i < metadeMenuLi; i++) {
+        menuNivelUm.appendChild(menu[i]);
+      }
+
+      document.querySelector(".menu.superior > ul").before(menuNivelUm);
+    }
+  } catch (error) {
+    console.log(`Erro encontrado -> ${error}`);
+  }
+});
