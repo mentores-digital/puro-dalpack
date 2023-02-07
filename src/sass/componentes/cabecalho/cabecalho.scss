@@ -226,6 +226,10 @@
           .item-nav {
             margin-left: 25px;
 
+            @media (max-width: 1366px) {
+              margin-left: 0;
+            }
+
             > span {
               color: $fonteCabecalho;
 
@@ -250,7 +254,6 @@
 
             @media (max-width: 1409px) {
               display: flex;
-              flex-direction: column;
               justify-content: center;
               align-items: center;
             }
