@@ -136,7 +136,7 @@ window.addEventListener("load", () => {
 window.addEventListener("load", () => {
   "strict";
   try {
-    if (window.matchMedia("(max-width: 1366px)").matches) {
+    if (window.screen.width <= 1366) {
       const menu = document.querySelectorAll(".menu.superior > ul > li");
 
       const metadeMenuLi = Math.ceil(menu.length / 2);
