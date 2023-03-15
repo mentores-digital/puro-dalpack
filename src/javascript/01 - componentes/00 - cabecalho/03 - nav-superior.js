@@ -238,7 +238,7 @@ window.addEventListener("load", () => {
         iconeCarrinho,
         // Atendimentos
         `<p class="small-menu-superior">Atendimentos e televendas</p>
-            <strong class="strong-menu-superior">(11) 91553-9586</strong><br>
+            <strong class="strong-menu-superior">(11) 4757-0111</strong><br>
             <p class="small-menu-superior">Ligações para fixos e celulares</p>`,
         // Fale consco
         `<p class="small-menu-superior">Fale conosco através do e-mail</p>
