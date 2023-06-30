@@ -9,12 +9,12 @@ window.addEventListener("load", () => {
   boxWhats.innerHTML = `<div class="content-whats">
       <ul>
           <li>
-              <a href="https://api.whatsapp.com/send?phone=5511933227590" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=551147570111" target="_blank">
                 SAC
               </a>
           </li>
           <li>
-              <a href="https://api.whatsapp.com/send?phone=5511915539586" target="_blank">
+              <a href="https://api.whatsapp.com/send?phone=5511917899204" target="_blank">
                 Comercial
               </a>
           </li>
