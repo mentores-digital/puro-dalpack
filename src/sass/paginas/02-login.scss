@@ -164,5 +164,8 @@
   #corpo > .conteiner,
   .conteiner-principal {
     background: linear-gradient(90deg, #fff 50%, #f2f2f2 50%);
+    @media (max-width: 768px) {
+      background: none;
+    }
   }
 }

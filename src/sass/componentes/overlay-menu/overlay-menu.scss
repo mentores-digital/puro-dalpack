@@ -16,6 +16,12 @@
     font-family: $fonteBase;
     font-weight: bold;
     color: $extremelyDark;
+    // &:first-child{
+    //   color: #fff;
+    // }
+  }
+  li.minha-conta > a {
+    color: #fff;
   }
 
   .icon-chevron-down {
