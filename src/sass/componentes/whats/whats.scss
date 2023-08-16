@@ -27,7 +27,7 @@
           border-radius: 20px;
           margin: 10px 0 0px 0;
           &:hover {
-            background: #52F378;
+            background: #52f378;
           }
         }
       }
@@ -35,13 +35,14 @@
   }
 }
 a#whats {
+  display: none;
   position: fixed;
   bottom: 70px;
   right: 20px;
   z-index: 10000;
   width: 55px;
   cursor: pointer;
-  &:hover{
+  &:hover {
     filter: brightness(1.2);
   }
   @media (max-width: 991px) {
