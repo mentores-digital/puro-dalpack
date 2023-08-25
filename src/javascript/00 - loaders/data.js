@@ -35,7 +35,7 @@ const linkClienteInstagram = "https://www.instagram.com/dalpackembalagens/";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Informações cliente
-const telefoneCliente = "(11) 4757-0111";
+const telefoneCliente = "(11) 91789-9515";
 const horarioFuncionamento = "Seg a Sex - das 7h às 17h";
 const razaoSocial = "Dalpack Comercio Eletronico LTDA";
 const cnpjEndereco =
