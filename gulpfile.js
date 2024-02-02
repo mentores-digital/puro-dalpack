@@ -20,7 +20,7 @@ const notify = require("gulp-notify");
 const plumber = require("gulp-plumber");
 const gulpif = require("gulp-if");
 
-const sass = require("gulp-sass");
+const sass = require("gulp-sass")(require("sass"));
 const cssnano = require("gulp-cssnano");
 const postcss = require("gulp-postcss");
 const sourcemaps = require("gulp-sourcemaps");
@@ -106,7 +106,7 @@ const css = () => {
     .src(origin.sass)
     .pipe(plumber(plumberErrorHandler))
     .pipe(concat("style.min.css"))
-    .pipe(sass.sync())
+    .pipe(sass.sync().on("error", sass.logError))
     .pipe(postcss([autoprefixer()]))
     .pipe(
       gulpif(

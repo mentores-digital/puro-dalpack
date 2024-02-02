@@ -19,7 +19,7 @@ const apiToken =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Logos
 const logoClienteNegativa =
-  "https://cdn.awsli.com.br/2256/2256296/arquivos/Dalpack Logo.png";
+  "https://cdn.awsli.com.br/2161/2161378/arquivos/logo.png";
 const logoLojaIntegrada =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/logo-footer-loja-integrada-desktop.svg";
 const logoMentores =
@@ -31,7 +31,9 @@ const logoCliente =
 // Links redes sociais
 const linkClienteFacebook = "https://www.facebook.com/dalpackembalagens/";
 const linkClienteInstagram = "https://www.instagram.com/dalpackembalagens/";
-// const linkClienteYoutube = "#";
+const linkClienteYoutube = "https://www.youtube.com/@DalpackEmbalagens";
+const linkClienteTikTok = "https://www.tiktok.com/@dalpackembalagem";
+
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Informações cliente
@@ -175,14 +177,14 @@ const imagemAvatar =
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Quem-somos
 const quemSomosBanner =
-  "https://cdn.awsli.com.br/2256/2256296/arquivos/banner-quem-somos-desktop.png";
+  "https://cdn.awsli.com.br/2161/2161378/arquivos/quem-somos.png";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Perguntas Frequentes
 const perguntasFrequentesBanner =
-  "https://cdn.awsli.com.br/1595/1595002/arquivos/banner-perguntasfrequentes.png";
+  "https://cdn.awsli.com.br/2161/2161378/arquivos/perguntas-frequentes.png";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Página Privacidade e Segurança
 const segurancaEPrivacidadeBanner =
-  "https://cdn.awsli.com.br/2256/2256296/arquivos/banner-seguranca-e-privacidade-desktop.png";
+  "https://cdn.awsli.com.br/2161/2161378/arquivos/seguranc-a-e-privacidade.png";

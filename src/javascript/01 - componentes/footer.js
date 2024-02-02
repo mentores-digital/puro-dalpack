@@ -1,7 +1,8 @@
 const criarFooter = (
   urlLogoFooter,
   urlFacebook,
-  // urlYoutube,
+  urlYoutube,
+  urlTikTok,
   urlInstagram,
   numContato,
   horarioAtendimento,
@@ -71,19 +72,33 @@ const criarFooter = (
   midiaFacebook.append(iconeFacebook);
   midiaFacebook.append(spanFacebook);
   // 6 linkMidias
-  // const midiaYoutube = document.createElement("a");
-  // midiaYoutube.href = urlYoutube;
-  // midiaYoutube.target = "_blank";
-  // midiaYoutube.classList.add("midias-item");
-  // // 7 icone facebook
-  // const iconeYoutube = document.createElement("i");
-  // iconeYoutube.classList.add("icon-youtube-play");
-  // // 7 criar span Youtube
-  // const spanYoutube = document.createElement("span");
-  // spanYoutube.textContent = "Youtube";
-  // // Appends 7->6
-  // midiaYoutube.append(iconeYoutube);
-  // midiaYoutube.append(spanYoutube);
+  const midiaYoutube = document.createElement("a");
+  midiaYoutube.href = urlYoutube;
+  midiaYoutube.target = "_blank";
+  midiaYoutube.classList.add("midias-item");
+  // 7 icone facebook
+  const iconeYoutube = document.createElement("i");
+  iconeYoutube.classList.add("icon-youtube-play");
+  // 7 criar span Youtube
+  const spanYoutube = document.createElement("span");
+  spanYoutube.textContent = "Youtube";
+  // Appends 7->6
+  midiaYoutube.append(iconeYoutube);
+  midiaYoutube.append(spanYoutube);
+  
+  const midiaTikTok = document.createElement("a");
+  midiaTikTok.href = urlTikTok;
+  midiaTikTok.target = "_blank";
+  midiaTikTok.classList.add("midias-item");
+  // 7 icone facebook
+  const iconeTikTok = document.createElement("i");
+  iconeTikTok.classList.add("icon-TikTok-play");
+  // 7 criar span TikTok
+  const spanTikTok = document.createElement("span");
+  spanTikTok.textContent = "TikTok";
+  // Appends 7->6
+  midiaTikTok.append(iconeTikTok);
+  midiaTikTok.append(spanTikTok);
   // 6 linkMidias
   const midiaInstagram = document.createElement("a");
   midiaInstagram.href = urlInstagram;
@@ -100,7 +115,8 @@ const criarFooter = (
   midiaInstagram.append(spanInstagram);
   // Appends 6->5
   divMidias.append(midiaFacebook);
-  // divMidias.append(midiaYoutube);
+  divMidias.append(midiaYoutube);
+  divMidias.append(midiaTikTok);
   divMidias.append(midiaInstagram);
   // Appends 5->4
   boxLogoMidia.append(linkLogoFooter);
@@ -453,7 +469,8 @@ footerLi.append(
     //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     logoClienteNegativa,
     linkClienteFacebook,
-    // linkClienteYoutube,
+    linkClienteYoutube,
+    linkClienteTikTok,
     linkClienteInstagram,
     telefoneCliente,
     horarioFuncionamento,
