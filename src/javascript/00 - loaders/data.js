@@ -75,11 +75,11 @@ const seloCompraSegura =
 const seloGoogle =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-google-safe-browsing.svg";
 const seloMercadolivre =
-  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-mercadolivre.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-mercadolivre-novo.png";
 const seloCorreios =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-correios.svg";
 const seloOpinioes =
-  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-opinioes.svg";
+  "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-opinioes-novo.png";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Selos header checkout
 const seloCompraSeguraCheckout =

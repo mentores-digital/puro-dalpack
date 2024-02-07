@@ -137,6 +137,7 @@
 
 .conteiner-principal .conteiner {
   padding: 10px 20px 0 20px !important;
+  box-shadow: none;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -289,7 +290,7 @@
     position: relative;
 
     &::before {
-      content: $iconClock;
+      // content: $iconClock;
       position: absolute;
       width: 15px;
       height: 15px;
