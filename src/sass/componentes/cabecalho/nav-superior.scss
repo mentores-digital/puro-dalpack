@@ -3,13 +3,13 @@
   .carrinho{
     border: 0;
     margin-left: 10px;
-    margin-bottom: 3px;
+    // margin-bottom: 3px;
 
     a {
 
       i {
         background: transparent;
-        line-height: 0;
+        // line-height: 0;
 
         &::before {
           content: $iconCarrinho;

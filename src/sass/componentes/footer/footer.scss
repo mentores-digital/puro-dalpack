@@ -54,6 +54,11 @@ div#logo-e-midia {
 }
 
 #footer #logo-e-midia .logo-e-midia-box > .midias .midias-item {
+  .icon-tiktok::before{
+    content: url('https://cdn.awsli.com.br/2256/2256296/arquivos/icons10-tiktok.svg');
+    height: 20px;
+    width: 20px;
+  }
   display: flex;
   flex-direction: row;
   align-items: center;

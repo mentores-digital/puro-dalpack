@@ -92,7 +92,7 @@ const criarFooter = (
   midiaTikTok.classList.add("midias-item");
   // 7 icone facebook
   const iconeTikTok = document.createElement("i");
-  iconeTikTok.classList.add("icon-TikTok-play");
+  iconeTikTok.classList.add("icon-tiktok");
   // 7 criar span TikTok
   const spanTikTok = document.createElement("span");
   spanTikTok.textContent = "TikTok";

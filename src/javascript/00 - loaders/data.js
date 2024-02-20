@@ -88,9 +88,9 @@ const seloGoogleCheckout =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/selo-google-safe-browsing-checkout.svg";
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // --Navbar e Ícones
-const iconeAtendimento = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-atendimento.svg`;
-const iconeFavoritos = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-favoritos.svg`;
-const iconeMinhaConta = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-minhaconta.svg`;
+const iconeAtendimento = `https://cdn.awsli.com.br/${numPainel}/arquivos/chat.svg`;
+const iconeFavoritos = `https://cdn.awsli.com.br/${numPainel}/arquivos/heart.svg`;
+const iconeMinhaConta = `https://cdn.awsli.com.br/${numPainel}/arquivos/user.svg`;
 const iconeCarrinho = `https://cdn.awsli.com.br/${numPainel}/arquivos/icon-carrinho.svg`;
 const iconeSanduiche =
   "https://cdn.awsli.com.br/2256/2256296/arquivos/button-menu.svg";
