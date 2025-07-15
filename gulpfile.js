@@ -106,7 +106,7 @@ const css = () => {
     .src(origin.sass)
     .pipe(plumber(plumberErrorHandler))
     .pipe(concat("style.min.css"))
-    .pipe(sass.sync().on("error", sass.logError))
+    .pipe(sass().on("error", sass.logError)) // Modificação aqui
     .pipe(postcss([autoprefixer()]))
     .pipe(
       gulpif(

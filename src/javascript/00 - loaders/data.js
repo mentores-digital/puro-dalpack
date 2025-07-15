@@ -34,18 +34,17 @@ const linkClienteInstagram = "https://www.instagram.com/dalpackembalagens/";
 const linkClienteYoutube = "https://www.youtube.com/@DalpackEmbalagens";
 const linkClienteTikTok = "https://www.tiktok.com/@dalpackembalagem";
 
-
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Informações cliente
 const telefoneCliente = "(11) 91789-9515";
 const horarioFuncionamento = "Seg a Sex - das 7h às 17h";
 const razaoSocial = "Dalpack Comercio Eletronico LTDA";
 const cnpjEndereco =
-  "CNPJ: 42.458.501/0001-66<br> Estrada Municipal Carlos Gibim, 2825,<br> Portaria 2 - Dalpack, Laranja Azeda <br> Bom Jesus dos Perdões, São Paulo";
+  "CNPJ: 42.458.501/0001-66<br> Estrada Murilo de Almeida Passos, 980 - Galpão 5<br> - E-commerce Dalpack, Vila Industrial, <br>Bom Jesus dos Perdões, SP - 12955-000";
 const descritivoNegocio =
   "A Dalpack é uma empresa que fabrica e vende embalagens. Em constante crescimento procura agora se alocar nos marketplaces e E-Commerce e vender ainda mais on-line!";
 const descritivoInferior =
-  "Dalpack Comercio Eletronico LTDA | CNPJ: 42.458.501/0001-66<br> Endereço: Estrada Municipal Carlos Gibim, 2825, Portaria 2 - Dalpack, Laranja Azeda <br>Bom Jesus dos Perdões, São Paulo";
+  "Dalpack Comercio Eletronico LTDA | CNPJ: 42.458.501/0001-66<br> Endereço: Estrada Murilo de Almeida Passos, 980 - Galpão 5 <br>E-commerce Dalpack, Vila Industrial, Bom Jesus dos Perdões, SP - 12955-000";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Bandeiras cartão
